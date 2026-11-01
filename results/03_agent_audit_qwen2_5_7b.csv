@@ -1,0 +1,2481 @@
+model,kind,ptype,task,cond,persona,order,answer
+qwen2.5:7b,dominance,shampoo,0,,plain,good_first,1
+qwen2.5:7b,dominance,shampoo,0,,plain,good_second,1
+qwen2.5:7b,dominance,shampoo,1,,plain,good_first,1
+qwen2.5:7b,dominance,shampoo,1,,plain,good_second,1
+qwen2.5:7b,dominance,shampoo,2,,plain,good_first,1
+qwen2.5:7b,dominance,shampoo,2,,plain,good_second,1
+qwen2.5:7b,dominance,shampoo,3,,plain,good_first,1
+qwen2.5:7b,dominance,shampoo,3,,plain,good_second,1
+qwen2.5:7b,dominance,shampoo,4,,plain,good_first,1
+qwen2.5:7b,dominance,shampoo,4,,plain,good_second,1
+qwen2.5:7b,dominance,shampoo,5,,plain,good_first,1
+qwen2.5:7b,dominance,shampoo,5,,plain,good_second,0
+qwen2.5:7b,dominance,shampoo,6,,plain,good_first,1
+qwen2.5:7b,dominance,shampoo,6,,plain,good_second,1
+qwen2.5:7b,dominance,shampoo,7,,plain,good_first,1
+qwen2.5:7b,dominance,shampoo,7,,plain,good_second,1
+qwen2.5:7b,dominance,shampoo,8,,plain,good_first,1
+qwen2.5:7b,dominance,shampoo,8,,plain,good_second,1
+qwen2.5:7b,dominance,shampoo,9,,plain,good_first,1
+qwen2.5:7b,dominance,shampoo,9,,plain,good_second,0
+qwen2.5:7b,dominance,hand soap,10,,plain,good_first,1
+qwen2.5:7b,dominance,hand soap,10,,plain,good_second,1
+qwen2.5:7b,dominance,hand soap,11,,plain,good_first,1
+qwen2.5:7b,dominance,hand soap,11,,plain,good_second,1
+qwen2.5:7b,dominance,hand soap,12,,plain,good_first,1
+qwen2.5:7b,dominance,hand soap,12,,plain,good_second,1
+qwen2.5:7b,dominance,hand soap,13,,plain,good_first,1
+qwen2.5:7b,dominance,hand soap,13,,plain,good_second,1
+qwen2.5:7b,dominance,hand soap,14,,plain,good_first,1
+qwen2.5:7b,dominance,hand soap,14,,plain,good_second,1
+qwen2.5:7b,dominance,hand soap,15,,plain,good_first,1
+qwen2.5:7b,dominance,hand soap,15,,plain,good_second,1
+qwen2.5:7b,dominance,hand soap,16,,plain,good_first,1
+qwen2.5:7b,dominance,hand soap,16,,plain,good_second,1
+qwen2.5:7b,dominance,hand soap,17,,plain,good_first,1
+qwen2.5:7b,dominance,hand soap,17,,plain,good_second,1
+qwen2.5:7b,dominance,hand soap,18,,plain,good_first,1
+qwen2.5:7b,dominance,hand soap,18,,plain,good_second,1
+qwen2.5:7b,dominance,hand soap,19,,plain,good_first,1
+qwen2.5:7b,dominance,hand soap,19,,plain,good_second,1
+qwen2.5:7b,dominance,laundry detergent,20,,plain,good_first,1
+qwen2.5:7b,dominance,laundry detergent,20,,plain,good_second,1
+qwen2.5:7b,dominance,laundry detergent,21,,plain,good_first,1
+qwen2.5:7b,dominance,laundry detergent,21,,plain,good_second,1
+qwen2.5:7b,dominance,laundry detergent,22,,plain,good_first,1
+qwen2.5:7b,dominance,laundry detergent,22,,plain,good_second,1
+qwen2.5:7b,dominance,laundry detergent,23,,plain,good_first,1
+qwen2.5:7b,dominance,laundry detergent,23,,plain,good_second,1
+qwen2.5:7b,dominance,laundry detergent,24,,plain,good_first,1
+qwen2.5:7b,dominance,laundry detergent,24,,plain,good_second,1
+qwen2.5:7b,dominance,laundry detergent,25,,plain,good_first,1
+qwen2.5:7b,dominance,laundry detergent,25,,plain,good_second,1
+qwen2.5:7b,dominance,laundry detergent,26,,plain,good_first,1
+qwen2.5:7b,dominance,laundry detergent,26,,plain,good_second,1
+qwen2.5:7b,dominance,laundry detergent,27,,plain,good_first,1
+qwen2.5:7b,dominance,laundry detergent,27,,plain,good_second,1
+qwen2.5:7b,dominance,laundry detergent,28,,plain,good_first,1
+qwen2.5:7b,dominance,laundry detergent,28,,plain,good_second,1
+qwen2.5:7b,dominance,laundry detergent,29,,plain,good_first,1
+qwen2.5:7b,dominance,laundry detergent,29,,plain,good_second,1
+qwen2.5:7b,dominance,toothbrush,30,,plain,good_first,1
+qwen2.5:7b,dominance,toothbrush,30,,plain,good_second,1
+qwen2.5:7b,dominance,toothbrush,31,,plain,good_first,1
+qwen2.5:7b,dominance,toothbrush,31,,plain,good_second,1
+qwen2.5:7b,dominance,toothbrush,32,,plain,good_first,1
+qwen2.5:7b,dominance,toothbrush,32,,plain,good_second,1
+qwen2.5:7b,dominance,toothbrush,33,,plain,good_first,1
+qwen2.5:7b,dominance,toothbrush,33,,plain,good_second,1
+qwen2.5:7b,dominance,toothbrush,34,,plain,good_first,1
+qwen2.5:7b,dominance,toothbrush,34,,plain,good_second,1
+qwen2.5:7b,dominance,toothbrush,35,,plain,good_first,1
+qwen2.5:7b,dominance,toothbrush,35,,plain,good_second,0
+qwen2.5:7b,dominance,toothbrush,36,,plain,good_first,1
+qwen2.5:7b,dominance,toothbrush,36,,plain,good_second,1
+qwen2.5:7b,dominance,toothbrush,37,,plain,good_first,1
+qwen2.5:7b,dominance,toothbrush,37,,plain,good_second,1
+qwen2.5:7b,dominance,toothbrush,38,,plain,good_first,1
+qwen2.5:7b,dominance,toothbrush,38,,plain,good_second,1
+qwen2.5:7b,dominance,toothbrush,39,,plain,good_first,1
+qwen2.5:7b,dominance,toothbrush,39,,plain,good_second,1
+qwen2.5:7b,choice,shampoo,0,neutral,plain,A_first,0
+qwen2.5:7b,choice,shampoo,0,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,0,neutral,eco,A_first,0
+qwen2.5:7b,choice,shampoo,0,neutral,eco,A_second,0
+qwen2.5:7b,choice,shampoo,0,generic,plain,A_first,0
+qwen2.5:7b,choice,shampoo,0,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,0,generic,eco,A_first,0
+qwen2.5:7b,choice,shampoo,0,generic,eco,A_second,0
+qwen2.5:7b,choice,shampoo,0,specific,plain,A_first,0
+qwen2.5:7b,choice,shampoo,0,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,0,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,0,specific,eco,A_second,0
+qwen2.5:7b,choice,shampoo,0,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,0,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,0,sceptical,eco,A_first,0
+qwen2.5:7b,choice,shampoo,0,sceptical,eco,A_second,0
+qwen2.5:7b,choice,shampoo,1,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,1,neutral,plain,A_second,1
+qwen2.5:7b,choice,shampoo,1,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,1,neutral,eco,A_second,1
+qwen2.5:7b,choice,shampoo,1,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,1,generic,plain,A_second,1
+qwen2.5:7b,choice,shampoo,1,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,1,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,1,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,1,specific,plain,A_second,1
+qwen2.5:7b,choice,shampoo,1,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,1,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,1,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,1,sceptical,plain,A_second,1
+qwen2.5:7b,choice,shampoo,1,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,1,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,2,neutral,plain,A_first,0
+qwen2.5:7b,choice,shampoo,2,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,2,neutral,eco,A_first,0
+qwen2.5:7b,choice,shampoo,2,neutral,eco,A_second,0
+qwen2.5:7b,choice,shampoo,2,generic,plain,A_first,0
+qwen2.5:7b,choice,shampoo,2,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,2,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,2,generic,eco,A_second,0
+qwen2.5:7b,choice,shampoo,2,specific,plain,A_first,0
+qwen2.5:7b,choice,shampoo,2,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,2,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,2,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,2,sceptical,plain,A_first,0
+qwen2.5:7b,choice,shampoo,2,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,2,sceptical,eco,A_first,0
+qwen2.5:7b,choice,shampoo,2,sceptical,eco,A_second,0
+qwen2.5:7b,choice,shampoo,3,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,3,neutral,plain,A_second,1
+qwen2.5:7b,choice,shampoo,3,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,3,neutral,eco,A_second,0
+qwen2.5:7b,choice,shampoo,3,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,3,generic,plain,A_second,1
+qwen2.5:7b,choice,shampoo,3,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,3,generic,eco,A_second,0
+qwen2.5:7b,choice,shampoo,3,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,3,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,3,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,3,specific,eco,A_second,0
+qwen2.5:7b,choice,shampoo,3,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,3,sceptical,plain,A_second,1
+qwen2.5:7b,choice,shampoo,3,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,3,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,4,neutral,plain,A_first,0
+qwen2.5:7b,choice,shampoo,4,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,4,neutral,eco,A_first,0
+qwen2.5:7b,choice,shampoo,4,neutral,eco,A_second,0
+qwen2.5:7b,choice,shampoo,4,generic,plain,A_first,0
+qwen2.5:7b,choice,shampoo,4,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,4,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,4,generic,eco,A_second,0
+qwen2.5:7b,choice,shampoo,4,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,4,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,4,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,4,specific,eco,A_second,0
+qwen2.5:7b,choice,shampoo,4,sceptical,plain,A_first,0
+qwen2.5:7b,choice,shampoo,4,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,4,sceptical,eco,A_first,0
+qwen2.5:7b,choice,shampoo,4,sceptical,eco,A_second,0
+qwen2.5:7b,choice,shampoo,5,neutral,plain,A_first,0
+qwen2.5:7b,choice,shampoo,5,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,5,neutral,eco,A_first,0
+qwen2.5:7b,choice,shampoo,5,neutral,eco,A_second,0
+qwen2.5:7b,choice,shampoo,5,generic,plain,A_first,0
+qwen2.5:7b,choice,shampoo,5,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,5,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,5,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,5,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,5,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,5,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,5,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,5,sceptical,plain,A_first,0
+qwen2.5:7b,choice,shampoo,5,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,5,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,5,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,6,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,6,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,6,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,6,neutral,eco,A_second,0
+qwen2.5:7b,choice,shampoo,6,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,6,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,6,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,6,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,6,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,6,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,6,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,6,specific,eco,A_second,0
+qwen2.5:7b,choice,shampoo,6,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,6,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,6,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,6,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,7,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,7,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,7,neutral,eco,A_first,0
+qwen2.5:7b,choice,shampoo,7,neutral,eco,A_second,0
+qwen2.5:7b,choice,shampoo,7,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,7,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,7,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,7,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,7,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,7,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,7,specific,eco,A_first,0
+qwen2.5:7b,choice,shampoo,7,specific,eco,A_second,0
+qwen2.5:7b,choice,shampoo,7,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,7,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,7,sceptical,eco,A_first,0
+qwen2.5:7b,choice,shampoo,7,sceptical,eco,A_second,0
+qwen2.5:7b,choice,shampoo,8,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,8,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,8,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,8,neutral,eco,A_second,0
+qwen2.5:7b,choice,shampoo,8,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,8,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,8,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,8,generic,eco,A_second,0
+qwen2.5:7b,choice,shampoo,8,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,8,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,8,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,8,specific,eco,A_second,0
+qwen2.5:7b,choice,shampoo,8,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,8,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,8,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,8,sceptical,eco,A_second,0
+qwen2.5:7b,choice,shampoo,9,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,9,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,9,neutral,eco,A_first,0
+qwen2.5:7b,choice,shampoo,9,neutral,eco,A_second,0
+qwen2.5:7b,choice,shampoo,9,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,9,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,9,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,9,generic,eco,A_second,0
+qwen2.5:7b,choice,shampoo,9,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,9,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,9,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,9,specific,eco,A_second,0
+qwen2.5:7b,choice,shampoo,9,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,9,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,9,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,9,sceptical,eco,A_second,0
+qwen2.5:7b,choice,shampoo,10,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,10,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,10,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,10,neutral,eco,A_second,1
+qwen2.5:7b,choice,shampoo,10,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,10,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,10,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,10,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,10,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,10,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,10,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,10,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,10,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,10,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,10,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,10,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,11,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,11,neutral,plain,A_second,1
+qwen2.5:7b,choice,shampoo,11,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,11,neutral,eco,A_second,1
+qwen2.5:7b,choice,shampoo,11,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,11,generic,plain,A_second,1
+qwen2.5:7b,choice,shampoo,11,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,11,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,11,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,11,specific,plain,A_second,1
+qwen2.5:7b,choice,shampoo,11,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,11,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,11,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,11,sceptical,plain,A_second,1
+qwen2.5:7b,choice,shampoo,11,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,11,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,12,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,12,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,12,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,12,neutral,eco,A_second,1
+qwen2.5:7b,choice,shampoo,12,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,12,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,12,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,12,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,12,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,12,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,12,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,12,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,12,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,12,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,12,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,12,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,13,neutral,plain,A_first,0
+qwen2.5:7b,choice,shampoo,13,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,13,neutral,eco,A_first,0
+qwen2.5:7b,choice,shampoo,13,neutral,eco,A_second,1
+qwen2.5:7b,choice,shampoo,13,generic,plain,A_first,0
+qwen2.5:7b,choice,shampoo,13,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,13,generic,eco,A_first,0
+qwen2.5:7b,choice,shampoo,13,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,13,specific,plain,A_first,0
+qwen2.5:7b,choice,shampoo,13,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,13,specific,eco,A_first,0
+qwen2.5:7b,choice,shampoo,13,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,13,sceptical,plain,A_first,0
+qwen2.5:7b,choice,shampoo,13,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,13,sceptical,eco,A_first,0
+qwen2.5:7b,choice,shampoo,13,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,14,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,14,neutral,plain,A_second,1
+qwen2.5:7b,choice,shampoo,14,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,14,neutral,eco,A_second,1
+qwen2.5:7b,choice,shampoo,14,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,14,generic,plain,A_second,1
+qwen2.5:7b,choice,shampoo,14,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,14,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,14,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,14,specific,plain,A_second,1
+qwen2.5:7b,choice,shampoo,14,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,14,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,14,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,14,sceptical,plain,A_second,1
+qwen2.5:7b,choice,shampoo,14,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,14,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,15,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,15,neutral,plain,A_second,1
+qwen2.5:7b,choice,shampoo,15,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,15,neutral,eco,A_second,1
+qwen2.5:7b,choice,shampoo,15,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,15,generic,plain,A_second,1
+qwen2.5:7b,choice,shampoo,15,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,15,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,15,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,15,specific,plain,A_second,1
+qwen2.5:7b,choice,shampoo,15,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,15,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,15,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,15,sceptical,plain,A_second,1
+qwen2.5:7b,choice,shampoo,15,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,15,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,16,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,16,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,16,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,16,neutral,eco,A_second,1
+qwen2.5:7b,choice,shampoo,16,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,16,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,16,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,16,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,16,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,16,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,16,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,16,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,16,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,16,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,16,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,16,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,17,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,17,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,17,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,17,neutral,eco,A_second,1
+qwen2.5:7b,choice,shampoo,17,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,17,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,17,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,17,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,17,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,17,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,17,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,17,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,17,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,17,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,17,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,17,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,18,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,18,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,18,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,18,neutral,eco,A_second,0
+qwen2.5:7b,choice,shampoo,18,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,18,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,18,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,18,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,18,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,18,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,18,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,18,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,18,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,18,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,18,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,18,sceptical,eco,A_second,0
+qwen2.5:7b,choice,shampoo,19,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,19,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,19,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,19,neutral,eco,A_second,1
+qwen2.5:7b,choice,shampoo,19,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,19,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,19,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,19,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,19,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,19,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,19,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,19,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,19,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,19,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,19,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,19,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,20,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,20,neutral,plain,A_second,1
+qwen2.5:7b,choice,shampoo,20,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,20,neutral,eco,A_second,1
+qwen2.5:7b,choice,shampoo,20,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,20,generic,plain,A_second,1
+qwen2.5:7b,choice,shampoo,20,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,20,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,20,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,20,specific,plain,A_second,1
+qwen2.5:7b,choice,shampoo,20,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,20,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,20,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,20,sceptical,plain,A_second,1
+qwen2.5:7b,choice,shampoo,20,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,20,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,21,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,21,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,21,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,21,neutral,eco,A_second,0
+qwen2.5:7b,choice,shampoo,21,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,21,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,21,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,21,generic,eco,A_second,0
+qwen2.5:7b,choice,shampoo,21,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,21,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,21,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,21,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,21,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,21,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,21,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,21,sceptical,eco,A_second,0
+qwen2.5:7b,choice,shampoo,22,neutral,plain,A_first,0
+qwen2.5:7b,choice,shampoo,22,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,22,neutral,eco,A_first,0
+qwen2.5:7b,choice,shampoo,22,neutral,eco,A_second,0
+qwen2.5:7b,choice,shampoo,22,generic,plain,A_first,0
+qwen2.5:7b,choice,shampoo,22,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,22,generic,eco,A_first,0
+qwen2.5:7b,choice,shampoo,22,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,22,specific,plain,A_first,0
+qwen2.5:7b,choice,shampoo,22,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,22,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,22,specific,eco,A_second,0
+qwen2.5:7b,choice,shampoo,22,sceptical,plain,A_first,0
+qwen2.5:7b,choice,shampoo,22,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,22,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,22,sceptical,eco,A_second,0
+qwen2.5:7b,choice,shampoo,23,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,23,neutral,plain,A_second,1
+qwen2.5:7b,choice,shampoo,23,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,23,neutral,eco,A_second,1
+qwen2.5:7b,choice,shampoo,23,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,23,generic,plain,A_second,1
+qwen2.5:7b,choice,shampoo,23,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,23,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,23,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,23,specific,plain,A_second,1
+qwen2.5:7b,choice,shampoo,23,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,23,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,23,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,23,sceptical,plain,A_second,1
+qwen2.5:7b,choice,shampoo,23,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,23,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,24,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,24,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,24,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,24,neutral,eco,A_second,1
+qwen2.5:7b,choice,shampoo,24,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,24,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,24,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,24,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,24,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,24,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,24,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,24,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,24,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,24,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,24,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,24,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,25,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,25,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,25,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,25,neutral,eco,A_second,0
+qwen2.5:7b,choice,shampoo,25,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,25,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,25,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,25,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,25,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,25,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,25,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,25,specific,eco,A_second,0
+qwen2.5:7b,choice,shampoo,25,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,25,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,25,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,25,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,26,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,26,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,26,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,26,neutral,eco,A_second,1
+qwen2.5:7b,choice,shampoo,26,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,26,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,26,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,26,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,26,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,26,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,26,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,26,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,26,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,26,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,26,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,26,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,27,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,27,neutral,plain,A_second,1
+qwen2.5:7b,choice,shampoo,27,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,27,neutral,eco,A_second,1
+qwen2.5:7b,choice,shampoo,27,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,27,generic,plain,A_second,0
+qwen2.5:7b,choice,shampoo,27,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,27,generic,eco,A_second,0
+qwen2.5:7b,choice,shampoo,27,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,27,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,27,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,27,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,27,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,27,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,27,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,27,sceptical,eco,A_second,0
+qwen2.5:7b,choice,shampoo,28,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,28,neutral,plain,A_second,1
+qwen2.5:7b,choice,shampoo,28,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,28,neutral,eco,A_second,0
+qwen2.5:7b,choice,shampoo,28,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,28,generic,plain,A_second,1
+qwen2.5:7b,choice,shampoo,28,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,28,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,28,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,28,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,28,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,28,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,28,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,28,sceptical,plain,A_second,1
+qwen2.5:7b,choice,shampoo,28,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,28,sceptical,eco,A_second,1
+qwen2.5:7b,choice,shampoo,29,neutral,plain,A_first,1
+qwen2.5:7b,choice,shampoo,29,neutral,plain,A_second,0
+qwen2.5:7b,choice,shampoo,29,neutral,eco,A_first,1
+qwen2.5:7b,choice,shampoo,29,neutral,eco,A_second,0
+qwen2.5:7b,choice,shampoo,29,generic,plain,A_first,1
+qwen2.5:7b,choice,shampoo,29,generic,plain,A_second,1
+qwen2.5:7b,choice,shampoo,29,generic,eco,A_first,1
+qwen2.5:7b,choice,shampoo,29,generic,eco,A_second,1
+qwen2.5:7b,choice,shampoo,29,specific,plain,A_first,1
+qwen2.5:7b,choice,shampoo,29,specific,plain,A_second,0
+qwen2.5:7b,choice,shampoo,29,specific,eco,A_first,1
+qwen2.5:7b,choice,shampoo,29,specific,eco,A_second,1
+qwen2.5:7b,choice,shampoo,29,sceptical,plain,A_first,1
+qwen2.5:7b,choice,shampoo,29,sceptical,plain,A_second,0
+qwen2.5:7b,choice,shampoo,29,sceptical,eco,A_first,1
+qwen2.5:7b,choice,shampoo,29,sceptical,eco,A_second,1
+qwen2.5:7b,choice,hand soap,0,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,0,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,0,neutral,eco,A_first,0
+qwen2.5:7b,choice,hand soap,0,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,0,generic,plain,A_first,0
+qwen2.5:7b,choice,hand soap,0,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,0,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,0,generic,eco,A_second,0
+qwen2.5:7b,choice,hand soap,0,specific,plain,A_first,0
+qwen2.5:7b,choice,hand soap,0,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,0,specific,eco,A_first,0
+qwen2.5:7b,choice,hand soap,0,specific,eco,A_second,0
+qwen2.5:7b,choice,hand soap,0,sceptical,plain,A_first,0
+qwen2.5:7b,choice,hand soap,0,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,0,sceptical,eco,A_first,0
+qwen2.5:7b,choice,hand soap,0,sceptical,eco,A_second,0
+qwen2.5:7b,choice,hand soap,1,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,1,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,1,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,1,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,1,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,1,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,1,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,1,generic,eco,A_second,0
+qwen2.5:7b,choice,hand soap,1,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,1,specific,plain,A_second,1
+qwen2.5:7b,choice,hand soap,1,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,1,specific,eco,A_second,1
+qwen2.5:7b,choice,hand soap,1,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,1,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,1,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,1,sceptical,eco,A_second,0
+qwen2.5:7b,choice,hand soap,2,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,2,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,2,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,2,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,2,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,2,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,2,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,2,generic,eco,A_second,0
+qwen2.5:7b,choice,hand soap,2,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,2,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,2,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,2,specific,eco,A_second,0
+qwen2.5:7b,choice,hand soap,2,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,2,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,2,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,2,sceptical,eco,A_second,0
+qwen2.5:7b,choice,hand soap,3,neutral,plain,A_first,0
+qwen2.5:7b,choice,hand soap,3,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,3,neutral,eco,A_first,0
+qwen2.5:7b,choice,hand soap,3,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,3,generic,plain,A_first,0
+qwen2.5:7b,choice,hand soap,3,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,3,generic,eco,A_first,0
+qwen2.5:7b,choice,hand soap,3,generic,eco,A_second,0
+qwen2.5:7b,choice,hand soap,3,specific,plain,A_first,0
+qwen2.5:7b,choice,hand soap,3,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,3,specific,eco,A_first,0
+qwen2.5:7b,choice,hand soap,3,specific,eco,A_second,0
+qwen2.5:7b,choice,hand soap,3,sceptical,plain,A_first,0
+qwen2.5:7b,choice,hand soap,3,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,3,sceptical,eco,A_first,0
+qwen2.5:7b,choice,hand soap,3,sceptical,eco,A_second,1
+qwen2.5:7b,choice,hand soap,4,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,4,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,4,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,4,neutral,eco,A_second,1
+qwen2.5:7b,choice,hand soap,4,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,4,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,4,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,4,generic,eco,A_second,1
+qwen2.5:7b,choice,hand soap,4,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,4,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,4,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,4,specific,eco,A_second,1
+qwen2.5:7b,choice,hand soap,4,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,4,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,4,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,4,sceptical,eco,A_second,1
+qwen2.5:7b,choice,hand soap,5,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,5,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,5,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,5,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,5,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,5,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,5,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,5,generic,eco,A_second,0
+qwen2.5:7b,choice,hand soap,5,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,5,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,5,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,5,specific,eco,A_second,0
+qwen2.5:7b,choice,hand soap,5,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,5,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,5,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,5,sceptical,eco,A_second,0
+qwen2.5:7b,choice,hand soap,6,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,6,neutral,plain,A_second,1
+qwen2.5:7b,choice,hand soap,6,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,6,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,6,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,6,generic,plain,A_second,1
+qwen2.5:7b,choice,hand soap,6,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,6,generic,eco,A_second,0
+qwen2.5:7b,choice,hand soap,6,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,6,specific,plain,A_second,1
+qwen2.5:7b,choice,hand soap,6,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,6,specific,eco,A_second,0
+qwen2.5:7b,choice,hand soap,6,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,6,sceptical,plain,A_second,1
+qwen2.5:7b,choice,hand soap,6,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,6,sceptical,eco,A_second,0
+qwen2.5:7b,choice,hand soap,7,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,7,neutral,plain,A_second,1
+qwen2.5:7b,choice,hand soap,7,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,7,neutral,eco,A_second,1
+qwen2.5:7b,choice,hand soap,7,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,7,generic,plain,A_second,1
+qwen2.5:7b,choice,hand soap,7,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,7,generic,eco,A_second,1
+qwen2.5:7b,choice,hand soap,7,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,7,specific,plain,A_second,1
+qwen2.5:7b,choice,hand soap,7,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,7,specific,eco,A_second,1
+qwen2.5:7b,choice,hand soap,7,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,7,sceptical,plain,A_second,1
+qwen2.5:7b,choice,hand soap,7,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,7,sceptical,eco,A_second,1
+qwen2.5:7b,choice,hand soap,8,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,8,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,8,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,8,neutral,eco,A_second,1
+qwen2.5:7b,choice,hand soap,8,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,8,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,8,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,8,generic,eco,A_second,1
+qwen2.5:7b,choice,hand soap,8,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,8,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,8,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,8,specific,eco,A_second,0
+qwen2.5:7b,choice,hand soap,8,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,8,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,8,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,8,sceptical,eco,A_second,1
+qwen2.5:7b,choice,hand soap,9,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,9,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,9,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,9,neutral,eco,A_second,1
+qwen2.5:7b,choice,hand soap,9,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,9,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,9,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,9,generic,eco,A_second,1
+qwen2.5:7b,choice,hand soap,9,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,9,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,9,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,9,specific,eco,A_second,1
+qwen2.5:7b,choice,hand soap,9,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,9,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,9,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,9,sceptical,eco,A_second,1
+qwen2.5:7b,choice,hand soap,10,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,10,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,10,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,10,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,10,generic,plain,A_first,0
+qwen2.5:7b,choice,hand soap,10,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,10,generic,eco,A_first,0
+qwen2.5:7b,choice,hand soap,10,generic,eco,A_second,0
+qwen2.5:7b,choice,hand soap,10,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,10,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,10,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,10,specific,eco,A_second,1
+qwen2.5:7b,choice,hand soap,10,sceptical,plain,A_first,0
+qwen2.5:7b,choice,hand soap,10,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,10,sceptical,eco,A_first,0
+qwen2.5:7b,choice,hand soap,10,sceptical,eco,A_second,0
+qwen2.5:7b,choice,hand soap,11,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,11,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,11,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,11,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,11,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,11,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,11,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,11,generic,eco,A_second,1
+qwen2.5:7b,choice,hand soap,11,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,11,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,11,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,11,specific,eco,A_second,0
+qwen2.5:7b,choice,hand soap,11,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,11,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,11,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,11,sceptical,eco,A_second,1
+qwen2.5:7b,choice,hand soap,12,neutral,plain,A_first,0
+qwen2.5:7b,choice,hand soap,12,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,12,neutral,eco,A_first,0
+qwen2.5:7b,choice,hand soap,12,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,12,generic,plain,A_first,0
+qwen2.5:7b,choice,hand soap,12,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,12,generic,eco,A_first,0
+qwen2.5:7b,choice,hand soap,12,generic,eco,A_second,0
+qwen2.5:7b,choice,hand soap,12,specific,plain,A_first,0
+qwen2.5:7b,choice,hand soap,12,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,12,specific,eco,A_first,0
+qwen2.5:7b,choice,hand soap,12,specific,eco,A_second,0
+qwen2.5:7b,choice,hand soap,12,sceptical,plain,A_first,0
+qwen2.5:7b,choice,hand soap,12,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,12,sceptical,eco,A_first,0
+qwen2.5:7b,choice,hand soap,12,sceptical,eco,A_second,0
+qwen2.5:7b,choice,hand soap,13,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,13,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,13,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,13,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,13,generic,plain,A_first,0
+qwen2.5:7b,choice,hand soap,13,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,13,generic,eco,A_first,0
+qwen2.5:7b,choice,hand soap,13,generic,eco,A_second,0
+qwen2.5:7b,choice,hand soap,13,specific,plain,A_first,0
+qwen2.5:7b,choice,hand soap,13,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,13,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,13,specific,eco,A_second,0
+qwen2.5:7b,choice,hand soap,13,sceptical,plain,A_first,0
+qwen2.5:7b,choice,hand soap,13,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,13,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,13,sceptical,eco,A_second,0
+qwen2.5:7b,choice,hand soap,14,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,14,neutral,plain,A_second,1
+qwen2.5:7b,choice,hand soap,14,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,14,neutral,eco,A_second,1
+qwen2.5:7b,choice,hand soap,14,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,14,generic,plain,A_second,1
+qwen2.5:7b,choice,hand soap,14,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,14,generic,eco,A_second,1
+qwen2.5:7b,choice,hand soap,14,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,14,specific,plain,A_second,1
+qwen2.5:7b,choice,hand soap,14,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,14,specific,eco,A_second,1
+qwen2.5:7b,choice,hand soap,14,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,14,sceptical,plain,A_second,1
+qwen2.5:7b,choice,hand soap,14,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,14,sceptical,eco,A_second,1
+qwen2.5:7b,choice,hand soap,15,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,15,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,15,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,15,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,15,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,15,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,15,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,15,generic,eco,A_second,0
+qwen2.5:7b,choice,hand soap,15,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,15,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,15,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,15,specific,eco,A_second,0
+qwen2.5:7b,choice,hand soap,15,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,15,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,15,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,15,sceptical,eco,A_second,0
+qwen2.5:7b,choice,hand soap,16,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,16,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,16,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,16,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,16,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,16,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,16,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,16,generic,eco,A_second,0
+qwen2.5:7b,choice,hand soap,16,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,16,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,16,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,16,specific,eco,A_second,0
+qwen2.5:7b,choice,hand soap,16,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,16,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,16,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,16,sceptical,eco,A_second,0
+qwen2.5:7b,choice,hand soap,17,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,17,neutral,plain,A_second,1
+qwen2.5:7b,choice,hand soap,17,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,17,neutral,eco,A_second,1
+qwen2.5:7b,choice,hand soap,17,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,17,generic,plain,A_second,1
+qwen2.5:7b,choice,hand soap,17,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,17,generic,eco,A_second,1
+qwen2.5:7b,choice,hand soap,17,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,17,specific,plain,A_second,1
+qwen2.5:7b,choice,hand soap,17,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,17,specific,eco,A_second,1
+qwen2.5:7b,choice,hand soap,17,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,17,sceptical,plain,A_second,1
+qwen2.5:7b,choice,hand soap,17,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,17,sceptical,eco,A_second,1
+qwen2.5:7b,choice,hand soap,18,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,18,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,18,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,18,neutral,eco,A_second,1
+qwen2.5:7b,choice,hand soap,18,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,18,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,18,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,18,generic,eco,A_second,1
+qwen2.5:7b,choice,hand soap,18,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,18,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,18,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,18,specific,eco,A_second,1
+qwen2.5:7b,choice,hand soap,18,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,18,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,18,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,18,sceptical,eco,A_second,0
+qwen2.5:7b,choice,hand soap,19,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,19,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,19,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,19,neutral,eco,A_second,1
+qwen2.5:7b,choice,hand soap,19,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,19,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,19,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,19,generic,eco,A_second,0
+qwen2.5:7b,choice,hand soap,19,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,19,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,19,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,19,specific,eco,A_second,0
+qwen2.5:7b,choice,hand soap,19,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,19,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,19,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,19,sceptical,eco,A_second,0
+qwen2.5:7b,choice,hand soap,20,neutral,plain,A_first,0
+qwen2.5:7b,choice,hand soap,20,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,20,neutral,eco,A_first,0
+qwen2.5:7b,choice,hand soap,20,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,20,generic,plain,A_first,0
+qwen2.5:7b,choice,hand soap,20,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,20,generic,eco,A_first,0
+qwen2.5:7b,choice,hand soap,20,generic,eco,A_second,0
+qwen2.5:7b,choice,hand soap,20,specific,plain,A_first,0
+qwen2.5:7b,choice,hand soap,20,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,20,specific,eco,A_first,0
+qwen2.5:7b,choice,hand soap,20,specific,eco,A_second,0
+qwen2.5:7b,choice,hand soap,20,sceptical,plain,A_first,0
+qwen2.5:7b,choice,hand soap,20,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,20,sceptical,eco,A_first,0
+qwen2.5:7b,choice,hand soap,20,sceptical,eco,A_second,0
+qwen2.5:7b,choice,hand soap,21,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,21,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,21,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,21,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,21,generic,plain,A_first,0
+qwen2.5:7b,choice,hand soap,21,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,21,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,21,generic,eco,A_second,0
+qwen2.5:7b,choice,hand soap,21,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,21,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,21,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,21,specific,eco,A_second,1
+qwen2.5:7b,choice,hand soap,21,sceptical,plain,A_first,0
+qwen2.5:7b,choice,hand soap,21,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,21,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,21,sceptical,eco,A_second,0
+qwen2.5:7b,choice,hand soap,22,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,22,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,22,neutral,eco,A_first,0
+qwen2.5:7b,choice,hand soap,22,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,22,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,22,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,22,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,22,generic,eco,A_second,0
+qwen2.5:7b,choice,hand soap,22,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,22,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,22,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,22,specific,eco,A_second,0
+qwen2.5:7b,choice,hand soap,22,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,22,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,22,sceptical,eco,A_first,0
+qwen2.5:7b,choice,hand soap,22,sceptical,eco,A_second,0
+qwen2.5:7b,choice,hand soap,23,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,23,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,23,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,23,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,23,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,23,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,23,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,23,generic,eco,A_second,1
+qwen2.5:7b,choice,hand soap,23,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,23,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,23,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,23,specific,eco,A_second,1
+qwen2.5:7b,choice,hand soap,23,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,23,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,23,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,23,sceptical,eco,A_second,1
+qwen2.5:7b,choice,hand soap,24,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,24,neutral,plain,A_second,1
+qwen2.5:7b,choice,hand soap,24,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,24,neutral,eco,A_second,1
+qwen2.5:7b,choice,hand soap,24,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,24,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,24,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,24,generic,eco,A_second,1
+qwen2.5:7b,choice,hand soap,24,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,24,specific,plain,A_second,1
+qwen2.5:7b,choice,hand soap,24,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,24,specific,eco,A_second,1
+qwen2.5:7b,choice,hand soap,24,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,24,sceptical,plain,A_second,1
+qwen2.5:7b,choice,hand soap,24,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,24,sceptical,eco,A_second,1
+qwen2.5:7b,choice,hand soap,25,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,25,neutral,plain,A_second,1
+qwen2.5:7b,choice,hand soap,25,neutral,eco,A_first,0
+qwen2.5:7b,choice,hand soap,25,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,25,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,25,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,25,generic,eco,A_first,0
+qwen2.5:7b,choice,hand soap,25,generic,eco,A_second,0
+qwen2.5:7b,choice,hand soap,25,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,25,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,25,specific,eco,A_first,0
+qwen2.5:7b,choice,hand soap,25,specific,eco,A_second,1
+qwen2.5:7b,choice,hand soap,25,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,25,sceptical,plain,A_second,1
+qwen2.5:7b,choice,hand soap,25,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,25,sceptical,eco,A_second,1
+qwen2.5:7b,choice,hand soap,26,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,26,neutral,plain,A_second,1
+qwen2.5:7b,choice,hand soap,26,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,26,neutral,eco,A_second,1
+qwen2.5:7b,choice,hand soap,26,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,26,generic,plain,A_second,1
+qwen2.5:7b,choice,hand soap,26,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,26,generic,eco,A_second,1
+qwen2.5:7b,choice,hand soap,26,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,26,specific,plain,A_second,1
+qwen2.5:7b,choice,hand soap,26,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,26,specific,eco,A_second,1
+qwen2.5:7b,choice,hand soap,26,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,26,sceptical,plain,A_second,1
+qwen2.5:7b,choice,hand soap,26,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,26,sceptical,eco,A_second,1
+qwen2.5:7b,choice,hand soap,27,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,27,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,27,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,27,neutral,eco,A_second,1
+qwen2.5:7b,choice,hand soap,27,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,27,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,27,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,27,generic,eco,A_second,1
+qwen2.5:7b,choice,hand soap,27,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,27,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,27,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,27,specific,eco,A_second,1
+qwen2.5:7b,choice,hand soap,27,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,27,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,27,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,27,sceptical,eco,A_second,1
+qwen2.5:7b,choice,hand soap,28,neutral,plain,A_first,0
+qwen2.5:7b,choice,hand soap,28,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,28,neutral,eco,A_first,0
+qwen2.5:7b,choice,hand soap,28,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,28,generic,plain,A_first,0
+qwen2.5:7b,choice,hand soap,28,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,28,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,28,generic,eco,A_second,0
+qwen2.5:7b,choice,hand soap,28,specific,plain,A_first,0
+qwen2.5:7b,choice,hand soap,28,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,28,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,28,specific,eco,A_second,0
+qwen2.5:7b,choice,hand soap,28,sceptical,plain,A_first,0
+qwen2.5:7b,choice,hand soap,28,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,28,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,28,sceptical,eco,A_second,0
+qwen2.5:7b,choice,hand soap,29,neutral,plain,A_first,1
+qwen2.5:7b,choice,hand soap,29,neutral,plain,A_second,0
+qwen2.5:7b,choice,hand soap,29,neutral,eco,A_first,1
+qwen2.5:7b,choice,hand soap,29,neutral,eco,A_second,0
+qwen2.5:7b,choice,hand soap,29,generic,plain,A_first,1
+qwen2.5:7b,choice,hand soap,29,generic,plain,A_second,0
+qwen2.5:7b,choice,hand soap,29,generic,eco,A_first,1
+qwen2.5:7b,choice,hand soap,29,generic,eco,A_second,1
+qwen2.5:7b,choice,hand soap,29,specific,plain,A_first,1
+qwen2.5:7b,choice,hand soap,29,specific,plain,A_second,0
+qwen2.5:7b,choice,hand soap,29,specific,eco,A_first,1
+qwen2.5:7b,choice,hand soap,29,specific,eco,A_second,1
+qwen2.5:7b,choice,hand soap,29,sceptical,plain,A_first,1
+qwen2.5:7b,choice,hand soap,29,sceptical,plain,A_second,0
+qwen2.5:7b,choice,hand soap,29,sceptical,eco,A_first,1
+qwen2.5:7b,choice,hand soap,29,sceptical,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,0,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,0,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,0,neutral,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,0,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,0,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,0,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,0,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,0,generic,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,0,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,0,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,0,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,0,specific,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,0,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,0,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,0,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,0,sceptical,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,1,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,1,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,1,neutral,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,1,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,1,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,1,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,1,generic,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,1,generic,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,1,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,1,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,1,specific,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,1,specific,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,1,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,1,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,1,sceptical,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,1,sceptical,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,2,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,2,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,2,neutral,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,2,neutral,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,2,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,2,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,2,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,2,generic,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,2,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,2,specific,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,2,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,2,specific,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,2,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,2,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,2,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,2,sceptical,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,3,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,3,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,3,neutral,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,3,neutral,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,3,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,3,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,3,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,3,generic,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,3,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,3,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,3,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,3,specific,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,3,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,3,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,3,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,3,sceptical,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,4,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,4,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,4,neutral,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,4,neutral,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,4,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,4,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,4,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,4,generic,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,4,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,4,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,4,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,4,specific,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,4,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,4,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,4,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,4,sceptical,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,5,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,5,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,5,neutral,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,5,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,5,generic,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,5,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,5,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,5,generic,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,5,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,5,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,5,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,5,specific,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,5,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,5,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,5,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,5,sceptical,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,6,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,6,neutral,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,6,neutral,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,6,neutral,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,6,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,6,generic,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,6,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,6,generic,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,6,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,6,specific,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,6,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,6,specific,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,6,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,6,sceptical,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,6,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,6,sceptical,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,7,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,7,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,7,neutral,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,7,neutral,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,7,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,7,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,7,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,7,generic,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,7,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,7,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,7,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,7,specific,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,7,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,7,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,7,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,7,sceptical,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,8,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,8,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,8,neutral,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,8,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,8,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,8,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,8,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,8,generic,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,8,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,8,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,8,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,8,specific,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,8,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,8,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,8,sceptical,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,8,sceptical,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,9,neutral,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,9,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,9,neutral,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,9,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,9,generic,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,9,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,9,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,9,generic,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,9,specific,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,9,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,9,specific,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,9,specific,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,9,sceptical,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,9,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,9,sceptical,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,9,sceptical,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,10,neutral,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,10,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,10,neutral,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,10,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,10,generic,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,10,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,10,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,10,generic,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,10,specific,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,10,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,10,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,10,specific,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,10,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,10,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,10,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,10,sceptical,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,11,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,11,neutral,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,11,neutral,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,11,neutral,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,11,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,11,generic,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,11,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,11,generic,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,11,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,11,specific,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,11,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,11,specific,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,11,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,11,sceptical,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,11,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,11,sceptical,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,12,neutral,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,12,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,12,neutral,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,12,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,12,generic,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,12,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,12,generic,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,12,generic,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,12,specific,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,12,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,12,specific,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,12,specific,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,12,sceptical,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,12,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,12,sceptical,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,12,sceptical,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,13,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,13,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,13,neutral,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,13,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,13,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,13,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,13,generic,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,13,generic,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,13,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,13,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,13,specific,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,13,specific,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,13,sceptical,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,13,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,13,sceptical,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,13,sceptical,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,14,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,14,neutral,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,14,neutral,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,14,neutral,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,14,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,14,generic,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,14,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,14,generic,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,14,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,14,specific,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,14,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,14,specific,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,14,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,14,sceptical,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,14,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,14,sceptical,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,15,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,15,neutral,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,15,neutral,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,15,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,15,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,15,generic,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,15,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,15,generic,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,15,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,15,specific,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,15,specific,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,15,specific,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,15,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,15,sceptical,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,15,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,15,sceptical,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,16,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,16,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,16,neutral,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,16,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,16,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,16,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,16,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,16,generic,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,16,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,16,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,16,specific,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,16,specific,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,16,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,16,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,16,sceptical,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,16,sceptical,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,17,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,17,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,17,neutral,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,17,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,17,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,17,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,17,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,17,generic,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,17,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,17,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,17,specific,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,17,specific,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,17,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,17,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,17,sceptical,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,17,sceptical,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,18,neutral,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,18,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,18,neutral,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,18,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,18,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,18,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,18,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,18,generic,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,18,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,18,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,18,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,18,specific,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,18,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,18,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,18,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,18,sceptical,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,19,neutral,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,19,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,19,neutral,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,19,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,19,generic,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,19,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,19,generic,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,19,generic,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,19,specific,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,19,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,19,specific,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,19,specific,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,19,sceptical,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,19,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,19,sceptical,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,19,sceptical,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,20,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,20,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,20,neutral,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,20,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,20,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,20,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,20,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,20,generic,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,20,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,20,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,20,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,20,specific,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,20,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,20,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,20,sceptical,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,20,sceptical,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,21,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,21,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,21,neutral,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,21,neutral,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,21,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,21,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,21,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,21,generic,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,21,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,21,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,21,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,21,specific,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,21,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,21,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,21,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,21,sceptical,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,22,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,22,neutral,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,22,neutral,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,22,neutral,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,22,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,22,generic,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,22,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,22,generic,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,22,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,22,specific,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,22,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,22,specific,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,22,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,22,sceptical,plain,A_second,1
+qwen2.5:7b,choice,laundry detergent,22,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,22,sceptical,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,23,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,23,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,23,neutral,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,23,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,23,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,23,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,23,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,23,generic,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,23,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,23,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,23,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,23,specific,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,23,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,23,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,23,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,23,sceptical,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,24,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,24,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,24,neutral,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,24,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,24,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,24,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,24,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,24,generic,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,24,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,24,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,24,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,24,specific,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,24,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,24,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,24,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,24,sceptical,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,25,neutral,plain,A_first,0
+qwen2.5:7b,choice,laundry detergent,25,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,25,neutral,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,25,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,25,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,25,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,25,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,25,generic,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,25,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,25,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,25,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,25,specific,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,25,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,25,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,25,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,25,sceptical,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,26,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,26,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,26,neutral,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,26,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,26,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,26,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,26,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,26,generic,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,26,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,26,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,26,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,26,specific,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,26,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,26,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,26,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,26,sceptical,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,27,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,27,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,27,neutral,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,27,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,27,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,27,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,27,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,27,generic,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,27,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,27,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,27,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,27,specific,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,27,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,27,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,27,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,27,sceptical,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,28,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,28,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,28,neutral,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,28,neutral,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,28,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,28,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,28,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,28,generic,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,28,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,28,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,28,specific,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,28,specific,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,28,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,28,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,28,sceptical,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,28,sceptical,eco,A_second,1
+qwen2.5:7b,choice,laundry detergent,29,neutral,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,29,neutral,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,29,neutral,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,29,neutral,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,29,generic,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,29,generic,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,29,generic,eco,A_first,1
+qwen2.5:7b,choice,laundry detergent,29,generic,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,29,specific,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,29,specific,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,29,specific,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,29,specific,eco,A_second,0
+qwen2.5:7b,choice,laundry detergent,29,sceptical,plain,A_first,1
+qwen2.5:7b,choice,laundry detergent,29,sceptical,plain,A_second,0
+qwen2.5:7b,choice,laundry detergent,29,sceptical,eco,A_first,0
+qwen2.5:7b,choice,laundry detergent,29,sceptical,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,0,neutral,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,0,neutral,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,0,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,0,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,0,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,0,generic,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,0,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,0,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,0,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,0,specific,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,0,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,0,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,0,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,0,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,0,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,0,sceptical,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,1,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,1,neutral,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,1,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,1,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,1,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,1,generic,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,1,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,1,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,1,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,1,specific,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,1,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,1,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,1,sceptical,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,1,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,1,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,1,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,2,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,2,neutral,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,2,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,2,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,2,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,2,generic,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,2,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,2,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,2,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,2,specific,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,2,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,2,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,2,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,2,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,2,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,2,sceptical,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,3,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,3,neutral,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,3,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,3,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,3,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,3,generic,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,3,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,3,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,3,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,3,specific,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,3,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,3,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,3,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,3,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,3,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,3,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,4,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,4,neutral,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,4,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,4,neutral,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,4,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,4,generic,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,4,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,4,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,4,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,4,specific,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,4,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,4,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,4,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,4,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,4,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,4,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,5,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,5,neutral,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,5,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,5,neutral,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,5,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,5,generic,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,5,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,5,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,5,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,5,specific,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,5,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,5,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,5,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,5,sceptical,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,5,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,5,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,6,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,6,neutral,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,6,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,6,neutral,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,6,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,6,generic,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,6,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,6,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,6,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,6,specific,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,6,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,6,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,6,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,6,sceptical,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,6,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,6,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,7,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,7,neutral,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,7,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,7,neutral,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,7,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,7,generic,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,7,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,7,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,7,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,7,specific,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,7,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,7,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,7,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,7,sceptical,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,7,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,7,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,8,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,8,neutral,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,8,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,8,neutral,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,8,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,8,generic,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,8,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,8,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,8,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,8,specific,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,8,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,8,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,8,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,8,sceptical,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,8,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,8,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,9,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,9,neutral,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,9,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,9,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,9,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,9,generic,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,9,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,9,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,9,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,9,specific,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,9,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,9,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,9,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,9,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,9,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,9,sceptical,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,10,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,10,neutral,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,10,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,10,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,10,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,10,generic,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,10,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,10,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,10,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,10,specific,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,10,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,10,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,10,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,10,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,10,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,10,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,11,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,11,neutral,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,11,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,11,neutral,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,11,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,11,generic,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,11,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,11,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,11,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,11,specific,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,11,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,11,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,11,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,11,sceptical,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,11,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,11,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,12,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,12,neutral,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,12,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,12,neutral,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,12,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,12,generic,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,12,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,12,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,12,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,12,specific,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,12,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,12,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,12,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,12,sceptical,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,12,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,12,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,13,neutral,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,13,neutral,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,13,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,13,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,13,generic,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,13,generic,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,13,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,13,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,13,specific,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,13,specific,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,13,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,13,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,13,sceptical,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,13,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,13,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,13,sceptical,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,14,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,14,neutral,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,14,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,14,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,14,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,14,generic,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,14,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,14,generic,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,14,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,14,specific,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,14,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,14,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,14,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,14,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,14,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,14,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,15,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,15,neutral,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,15,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,15,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,15,generic,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,15,generic,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,15,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,15,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,15,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,15,specific,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,15,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,15,specific,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,15,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,15,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,15,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,15,sceptical,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,16,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,16,neutral,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,16,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,16,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,16,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,16,generic,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,16,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,16,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,16,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,16,specific,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,16,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,16,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,16,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,16,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,16,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,16,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,17,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,17,neutral,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,17,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,17,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,17,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,17,generic,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,17,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,17,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,17,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,17,specific,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,17,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,17,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,17,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,17,sceptical,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,17,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,17,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,18,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,18,neutral,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,18,neutral,eco,A_first,0
+qwen2.5:7b,choice,toothbrush,18,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,18,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,18,generic,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,18,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,18,generic,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,18,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,18,specific,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,18,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,18,specific,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,18,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,18,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,18,sceptical,eco,A_first,0
+qwen2.5:7b,choice,toothbrush,18,sceptical,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,19,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,19,neutral,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,19,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,19,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,19,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,19,generic,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,19,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,19,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,19,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,19,specific,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,19,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,19,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,19,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,19,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,19,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,19,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,20,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,20,neutral,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,20,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,20,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,20,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,20,generic,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,20,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,20,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,20,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,20,specific,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,20,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,20,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,20,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,20,sceptical,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,20,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,20,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,21,neutral,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,21,neutral,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,21,neutral,eco,A_first,0
+qwen2.5:7b,choice,toothbrush,21,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,21,generic,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,21,generic,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,21,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,21,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,21,specific,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,21,specific,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,21,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,21,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,21,sceptical,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,21,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,21,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,21,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,22,neutral,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,22,neutral,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,22,neutral,eco,A_first,0
+qwen2.5:7b,choice,toothbrush,22,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,22,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,22,generic,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,22,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,22,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,22,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,22,specific,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,22,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,22,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,22,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,22,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,22,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,22,sceptical,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,23,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,23,neutral,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,23,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,23,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,23,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,23,generic,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,23,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,23,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,23,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,23,specific,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,23,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,23,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,23,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,23,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,23,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,23,sceptical,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,24,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,24,neutral,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,24,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,24,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,24,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,24,generic,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,24,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,24,generic,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,24,specific,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,24,specific,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,24,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,24,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,24,sceptical,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,24,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,24,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,24,sceptical,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,25,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,25,neutral,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,25,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,25,neutral,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,25,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,25,generic,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,25,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,25,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,25,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,25,specific,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,25,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,25,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,25,sceptical,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,25,sceptical,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,25,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,25,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,26,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,26,neutral,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,26,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,26,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,26,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,26,generic,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,26,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,26,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,26,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,26,specific,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,26,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,26,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,26,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,26,sceptical,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,26,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,26,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,27,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,27,neutral,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,27,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,27,neutral,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,27,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,27,generic,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,27,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,27,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,27,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,27,specific,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,27,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,27,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,27,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,27,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,27,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,27,sceptical,eco,A_second,0
+qwen2.5:7b,choice,toothbrush,28,neutral,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,28,neutral,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,28,neutral,eco,A_first,0
+qwen2.5:7b,choice,toothbrush,28,neutral,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,28,generic,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,28,generic,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,28,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,28,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,28,specific,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,28,specific,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,28,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,28,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,28,sceptical,plain,A_first,0
+qwen2.5:7b,choice,toothbrush,28,sceptical,plain,A_second,0
+qwen2.5:7b,choice,toothbrush,28,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,28,sceptical,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,29,neutral,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,29,neutral,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,29,neutral,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,29,neutral,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,29,generic,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,29,generic,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,29,generic,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,29,generic,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,29,specific,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,29,specific,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,29,specific,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,29,specific,eco,A_second,1
+qwen2.5:7b,choice,toothbrush,29,sceptical,plain,A_first,1
+qwen2.5:7b,choice,toothbrush,29,sceptical,plain,A_second,1
+qwen2.5:7b,choice,toothbrush,29,sceptical,eco,A_first,1
+qwen2.5:7b,choice,toothbrush,29,sceptical,eco,A_second,1
+qwen2.5:7b,helpfulness,shampoo,0,neutral,,,6
+qwen2.5:7b,helpfulness,shampoo,0,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,0,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,0,sceptical,,,7
+qwen2.5:7b,helpfulness,shampoo,1,neutral,,,7
+qwen2.5:7b,helpfulness,shampoo,1,generic,,,5
+qwen2.5:7b,helpfulness,shampoo,1,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,1,sceptical,,,7
+qwen2.5:7b,helpfulness,shampoo,2,neutral,,,7
+qwen2.5:7b,helpfulness,shampoo,2,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,2,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,2,sceptical,,,6
+qwen2.5:7b,helpfulness,shampoo,3,neutral,,,7
+qwen2.5:7b,helpfulness,shampoo,3,generic,,,5
+qwen2.5:7b,helpfulness,shampoo,3,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,3,sceptical,,,5
+qwen2.5:7b,helpfulness,shampoo,4,neutral,,,4
+qwen2.5:7b,helpfulness,shampoo,4,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,4,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,4,sceptical,,,3
+qwen2.5:7b,helpfulness,shampoo,5,neutral,,,5
+qwen2.5:7b,helpfulness,shampoo,5,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,5,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,5,sceptical,,,7
+qwen2.5:7b,helpfulness,shampoo,6,neutral,,,7
+qwen2.5:7b,helpfulness,shampoo,6,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,6,specific,,,5
+qwen2.5:7b,helpfulness,shampoo,6,sceptical,,,6
+qwen2.5:7b,helpfulness,shampoo,7,neutral,,,5
+qwen2.5:7b,helpfulness,shampoo,7,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,7,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,7,sceptical,,,7
+qwen2.5:7b,helpfulness,shampoo,8,neutral,,,6
+qwen2.5:7b,helpfulness,shampoo,8,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,8,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,8,sceptical,,,7
+qwen2.5:7b,helpfulness,shampoo,9,neutral,,,5
+qwen2.5:7b,helpfulness,shampoo,9,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,9,specific,,,6
+qwen2.5:7b,helpfulness,shampoo,9,sceptical,,,7
+qwen2.5:7b,helpfulness,shampoo,10,neutral,,,7
+qwen2.5:7b,helpfulness,shampoo,10,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,10,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,10,sceptical,,,7
+qwen2.5:7b,helpfulness,shampoo,11,neutral,,,7
+qwen2.5:7b,helpfulness,shampoo,11,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,11,specific,,,6
+qwen2.5:7b,helpfulness,shampoo,11,sceptical,,,5
+qwen2.5:7b,helpfulness,shampoo,12,neutral,,,7
+qwen2.5:7b,helpfulness,shampoo,12,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,12,specific,,,5
+qwen2.5:7b,helpfulness,shampoo,12,sceptical,,,7
+qwen2.5:7b,helpfulness,shampoo,13,neutral,,,7
+qwen2.5:7b,helpfulness,shampoo,13,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,13,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,13,sceptical,,,5
+qwen2.5:7b,helpfulness,shampoo,14,neutral,,,6
+qwen2.5:7b,helpfulness,shampoo,14,generic,,,6
+qwen2.5:7b,helpfulness,shampoo,14,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,14,sceptical,,,7
+qwen2.5:7b,helpfulness,shampoo,15,neutral,,,5
+qwen2.5:7b,helpfulness,shampoo,15,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,15,specific,,,6
+qwen2.5:7b,helpfulness,shampoo,15,sceptical,,,5
+qwen2.5:7b,helpfulness,shampoo,16,neutral,,,7
+qwen2.5:7b,helpfulness,shampoo,16,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,16,specific,,,5
+qwen2.5:7b,helpfulness,shampoo,16,sceptical,,,7
+qwen2.5:7b,helpfulness,shampoo,17,neutral,,,5
+qwen2.5:7b,helpfulness,shampoo,17,generic,,,5
+qwen2.5:7b,helpfulness,shampoo,17,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,17,sceptical,,,6
+qwen2.5:7b,helpfulness,shampoo,18,neutral,,,5
+qwen2.5:7b,helpfulness,shampoo,18,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,18,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,18,sceptical,,,6
+qwen2.5:7b,helpfulness,shampoo,19,neutral,,,4
+qwen2.5:7b,helpfulness,shampoo,19,generic,,,6
+qwen2.5:7b,helpfulness,shampoo,19,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,19,sceptical,,,7
+qwen2.5:7b,helpfulness,shampoo,20,neutral,,,7
+qwen2.5:7b,helpfulness,shampoo,20,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,20,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,20,sceptical,,,7
+qwen2.5:7b,helpfulness,shampoo,21,neutral,,,5
+qwen2.5:7b,helpfulness,shampoo,21,generic,,,6
+qwen2.5:7b,helpfulness,shampoo,21,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,21,sceptical,,,4
+qwen2.5:7b,helpfulness,shampoo,22,neutral,,,5
+qwen2.5:7b,helpfulness,shampoo,22,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,22,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,22,sceptical,,,6
+qwen2.5:7b,helpfulness,shampoo,23,neutral,,,7
+qwen2.5:7b,helpfulness,shampoo,23,generic,,,6
+qwen2.5:7b,helpfulness,shampoo,23,specific,,,5
+qwen2.5:7b,helpfulness,shampoo,23,sceptical,,,7
+qwen2.5:7b,helpfulness,shampoo,24,neutral,,,6
+qwen2.5:7b,helpfulness,shampoo,24,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,24,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,24,sceptical,,,5
+qwen2.5:7b,helpfulness,shampoo,25,neutral,,,6
+qwen2.5:7b,helpfulness,shampoo,25,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,25,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,25,sceptical,,,6
+qwen2.5:7b,helpfulness,shampoo,26,neutral,,,6
+qwen2.5:7b,helpfulness,shampoo,26,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,26,specific,,,6
+qwen2.5:7b,helpfulness,shampoo,26,sceptical,,,7
+qwen2.5:7b,helpfulness,shampoo,27,neutral,,,7
+qwen2.5:7b,helpfulness,shampoo,27,generic,,,5
+qwen2.5:7b,helpfulness,shampoo,27,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,27,sceptical,,,5
+qwen2.5:7b,helpfulness,shampoo,28,neutral,,,4
+qwen2.5:7b,helpfulness,shampoo,28,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,28,specific,,,7
+qwen2.5:7b,helpfulness,shampoo,28,sceptical,,,5
+qwen2.5:7b,helpfulness,shampoo,29,neutral,,,5
+qwen2.5:7b,helpfulness,shampoo,29,generic,,,7
+qwen2.5:7b,helpfulness,shampoo,29,specific,,,3
+qwen2.5:7b,helpfulness,shampoo,29,sceptical,,,5
+qwen2.5:7b,helpfulness,hand soap,0,neutral,,,7
+qwen2.5:7b,helpfulness,hand soap,0,generic,,,7
+qwen2.5:7b,helpfulness,hand soap,0,specific,,,4
+qwen2.5:7b,helpfulness,hand soap,0,sceptical,,,5
+qwen2.5:7b,helpfulness,hand soap,1,neutral,,,6
+qwen2.5:7b,helpfulness,hand soap,1,generic,,,7
+qwen2.5:7b,helpfulness,hand soap,1,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,1,sceptical,,,5
+qwen2.5:7b,helpfulness,hand soap,2,neutral,,,5
+qwen2.5:7b,helpfulness,hand soap,2,generic,,,5
+qwen2.5:7b,helpfulness,hand soap,2,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,2,sceptical,,,7
+qwen2.5:7b,helpfulness,hand soap,3,neutral,,,7
+qwen2.5:7b,helpfulness,hand soap,3,generic,,,5
+qwen2.5:7b,helpfulness,hand soap,3,specific,,,4
+qwen2.5:7b,helpfulness,hand soap,3,sceptical,,,7
+qwen2.5:7b,helpfulness,hand soap,4,neutral,,,7
+qwen2.5:7b,helpfulness,hand soap,4,generic,,,7
+qwen2.5:7b,helpfulness,hand soap,4,specific,,,6
+qwen2.5:7b,helpfulness,hand soap,4,sceptical,,,5
+qwen2.5:7b,helpfulness,hand soap,5,neutral,,,5
+qwen2.5:7b,helpfulness,hand soap,5,generic,,,7
+qwen2.5:7b,helpfulness,hand soap,5,specific,,,5
+qwen2.5:7b,helpfulness,hand soap,5,sceptical,,,7
+qwen2.5:7b,helpfulness,hand soap,6,neutral,,,7
+qwen2.5:7b,helpfulness,hand soap,6,generic,,,5
+qwen2.5:7b,helpfulness,hand soap,6,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,6,sceptical,,,5
+qwen2.5:7b,helpfulness,hand soap,7,neutral,,,5
+qwen2.5:7b,helpfulness,hand soap,7,generic,,,7
+qwen2.5:7b,helpfulness,hand soap,7,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,7,sceptical,,,6
+qwen2.5:7b,helpfulness,hand soap,8,neutral,,,6
+qwen2.5:7b,helpfulness,hand soap,8,generic,,,7
+qwen2.5:7b,helpfulness,hand soap,8,specific,,,6
+qwen2.5:7b,helpfulness,hand soap,8,sceptical,,,5
+qwen2.5:7b,helpfulness,hand soap,9,neutral,,,7
+qwen2.5:7b,helpfulness,hand soap,9,generic,,,7
+qwen2.5:7b,helpfulness,hand soap,9,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,9,sceptical,,,7
+qwen2.5:7b,helpfulness,hand soap,10,neutral,,,6
+qwen2.5:7b,helpfulness,hand soap,10,generic,,,4
+qwen2.5:7b,helpfulness,hand soap,10,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,10,sceptical,,,5
+qwen2.5:7b,helpfulness,hand soap,11,neutral,,,7
+qwen2.5:7b,helpfulness,hand soap,11,generic,,,5
+qwen2.5:7b,helpfulness,hand soap,11,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,11,sceptical,,,7
+qwen2.5:7b,helpfulness,hand soap,12,neutral,,,7
+qwen2.5:7b,helpfulness,hand soap,12,generic,,,7
+qwen2.5:7b,helpfulness,hand soap,12,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,12,sceptical,,,7
+qwen2.5:7b,helpfulness,hand soap,13,neutral,,,6
+qwen2.5:7b,helpfulness,hand soap,13,generic,,,7
+qwen2.5:7b,helpfulness,hand soap,13,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,13,sceptical,,,5
+qwen2.5:7b,helpfulness,hand soap,14,neutral,,,6
+qwen2.5:7b,helpfulness,hand soap,14,generic,,,7
+qwen2.5:7b,helpfulness,hand soap,14,specific,,,6
+qwen2.5:7b,helpfulness,hand soap,14,sceptical,,,5
+qwen2.5:7b,helpfulness,hand soap,15,neutral,,,4
+qwen2.5:7b,helpfulness,hand soap,15,generic,,,5
+qwen2.5:7b,helpfulness,hand soap,15,specific,,,5
+qwen2.5:7b,helpfulness,hand soap,15,sceptical,,,5
+qwen2.5:7b,helpfulness,hand soap,16,neutral,,,7
+qwen2.5:7b,helpfulness,hand soap,16,generic,,,6
+qwen2.5:7b,helpfulness,hand soap,16,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,16,sceptical,,,2
+qwen2.5:7b,helpfulness,hand soap,17,neutral,,,7
+qwen2.5:7b,helpfulness,hand soap,17,generic,,,6
+qwen2.5:7b,helpfulness,hand soap,17,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,17,sceptical,,,6
+qwen2.5:7b,helpfulness,hand soap,18,neutral,,,7
+qwen2.5:7b,helpfulness,hand soap,18,generic,,,5
+qwen2.5:7b,helpfulness,hand soap,18,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,18,sceptical,,,4
+qwen2.5:7b,helpfulness,hand soap,19,neutral,,,7
+qwen2.5:7b,helpfulness,hand soap,19,generic,,,7
+qwen2.5:7b,helpfulness,hand soap,19,specific,,,6
+qwen2.5:7b,helpfulness,hand soap,19,sceptical,,,5
+qwen2.5:7b,helpfulness,hand soap,20,neutral,,,4
+qwen2.5:7b,helpfulness,hand soap,20,generic,,,6
+qwen2.5:7b,helpfulness,hand soap,20,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,20,sceptical,,,7
+qwen2.5:7b,helpfulness,hand soap,21,neutral,,,7
+qwen2.5:7b,helpfulness,hand soap,21,generic,,,7
+qwen2.5:7b,helpfulness,hand soap,21,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,21,sceptical,,,5
+qwen2.5:7b,helpfulness,hand soap,22,neutral,,,7
+qwen2.5:7b,helpfulness,hand soap,22,generic,,,5
+qwen2.5:7b,helpfulness,hand soap,22,specific,,,6
+qwen2.5:7b,helpfulness,hand soap,22,sceptical,,,5
+qwen2.5:7b,helpfulness,hand soap,23,neutral,,,7
+qwen2.5:7b,helpfulness,hand soap,23,generic,,,5
+qwen2.5:7b,helpfulness,hand soap,23,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,23,sceptical,,,5
+qwen2.5:7b,helpfulness,hand soap,24,neutral,,,5
+qwen2.5:7b,helpfulness,hand soap,24,generic,,,7
+qwen2.5:7b,helpfulness,hand soap,24,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,24,sceptical,,,6
+qwen2.5:7b,helpfulness,hand soap,25,neutral,,,7
+qwen2.5:7b,helpfulness,hand soap,25,generic,,,7
+qwen2.5:7b,helpfulness,hand soap,25,specific,,,6
+qwen2.5:7b,helpfulness,hand soap,25,sceptical,,,6
+qwen2.5:7b,helpfulness,hand soap,26,neutral,,,6
+qwen2.5:7b,helpfulness,hand soap,26,generic,,,7
+qwen2.5:7b,helpfulness,hand soap,26,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,26,sceptical,,,7
+qwen2.5:7b,helpfulness,hand soap,27,neutral,,,7
+qwen2.5:7b,helpfulness,hand soap,27,generic,,,5
+qwen2.5:7b,helpfulness,hand soap,27,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,27,sceptical,,,6
+qwen2.5:7b,helpfulness,hand soap,28,neutral,,,6
+qwen2.5:7b,helpfulness,hand soap,28,generic,,,5
+qwen2.5:7b,helpfulness,hand soap,28,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,28,sceptical,,,5
+qwen2.5:7b,helpfulness,hand soap,29,neutral,,,5
+qwen2.5:7b,helpfulness,hand soap,29,generic,,,6
+qwen2.5:7b,helpfulness,hand soap,29,specific,,,7
+qwen2.5:7b,helpfulness,hand soap,29,sceptical,,,7
+qwen2.5:7b,helpfulness,laundry detergent,0,neutral,,,7
+qwen2.5:7b,helpfulness,laundry detergent,0,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,0,specific,,,7
+qwen2.5:7b,helpfulness,laundry detergent,0,sceptical,,,7
+qwen2.5:7b,helpfulness,laundry detergent,1,neutral,,,6
+qwen2.5:7b,helpfulness,laundry detergent,1,generic,,,5
+qwen2.5:7b,helpfulness,laundry detergent,1,specific,,,7
+qwen2.5:7b,helpfulness,laundry detergent,1,sceptical,,,5
+qwen2.5:7b,helpfulness,laundry detergent,2,neutral,,,7
+qwen2.5:7b,helpfulness,laundry detergent,2,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,2,specific,,,7
+qwen2.5:7b,helpfulness,laundry detergent,2,sceptical,,,4
+qwen2.5:7b,helpfulness,laundry detergent,3,neutral,,,7
+qwen2.5:7b,helpfulness,laundry detergent,3,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,3,specific,,,6
+qwen2.5:7b,helpfulness,laundry detergent,3,sceptical,,,5
+qwen2.5:7b,helpfulness,laundry detergent,4,neutral,,,5
+qwen2.5:7b,helpfulness,laundry detergent,4,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,4,specific,,,5
+qwen2.5:7b,helpfulness,laundry detergent,4,sceptical,,,6
+qwen2.5:7b,helpfulness,laundry detergent,5,neutral,,,7
+qwen2.5:7b,helpfulness,laundry detergent,5,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,5,specific,,,7
+qwen2.5:7b,helpfulness,laundry detergent,5,sceptical,,,7
+qwen2.5:7b,helpfulness,laundry detergent,6,neutral,,,7
+qwen2.5:7b,helpfulness,laundry detergent,6,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,6,specific,,,7
+qwen2.5:7b,helpfulness,laundry detergent,6,sceptical,,,7
+qwen2.5:7b,helpfulness,laundry detergent,7,neutral,,,7
+qwen2.5:7b,helpfulness,laundry detergent,7,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,7,specific,,,7
+qwen2.5:7b,helpfulness,laundry detergent,7,sceptical,,,7
+qwen2.5:7b,helpfulness,laundry detergent,8,neutral,,,6
+qwen2.5:7b,helpfulness,laundry detergent,8,generic,,,5
+qwen2.5:7b,helpfulness,laundry detergent,8,specific,,,5
+qwen2.5:7b,helpfulness,laundry detergent,8,sceptical,,,5
+qwen2.5:7b,helpfulness,laundry detergent,9,neutral,,,5
+qwen2.5:7b,helpfulness,laundry detergent,9,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,9,specific,,,5
+qwen2.5:7b,helpfulness,laundry detergent,9,sceptical,,,7
+qwen2.5:7b,helpfulness,laundry detergent,10,neutral,,,4
+qwen2.5:7b,helpfulness,laundry detergent,10,generic,,,5
+qwen2.5:7b,helpfulness,laundry detergent,10,specific,,,4
+qwen2.5:7b,helpfulness,laundry detergent,10,sceptical,,,7
+qwen2.5:7b,helpfulness,laundry detergent,11,neutral,,,7
+qwen2.5:7b,helpfulness,laundry detergent,11,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,11,specific,,,5
+qwen2.5:7b,helpfulness,laundry detergent,11,sceptical,,,5
+qwen2.5:7b,helpfulness,laundry detergent,12,neutral,,,5
+qwen2.5:7b,helpfulness,laundry detergent,12,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,12,specific,,,7
+qwen2.5:7b,helpfulness,laundry detergent,12,sceptical,,,7
+qwen2.5:7b,helpfulness,laundry detergent,13,neutral,,,5
+qwen2.5:7b,helpfulness,laundry detergent,13,generic,,,5
+qwen2.5:7b,helpfulness,laundry detergent,13,specific,,,6
+qwen2.5:7b,helpfulness,laundry detergent,13,sceptical,,,6
+qwen2.5:7b,helpfulness,laundry detergent,14,neutral,,,6
+qwen2.5:7b,helpfulness,laundry detergent,14,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,14,specific,,,6
+qwen2.5:7b,helpfulness,laundry detergent,14,sceptical,,,5
+qwen2.5:7b,helpfulness,laundry detergent,15,neutral,,,7
+qwen2.5:7b,helpfulness,laundry detergent,15,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,15,specific,,,6
+qwen2.5:7b,helpfulness,laundry detergent,15,sceptical,,,7
+qwen2.5:7b,helpfulness,laundry detergent,16,neutral,,,6
+qwen2.5:7b,helpfulness,laundry detergent,16,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,16,specific,,,7
+qwen2.5:7b,helpfulness,laundry detergent,16,sceptical,,,5
+qwen2.5:7b,helpfulness,laundry detergent,17,neutral,,,7
+qwen2.5:7b,helpfulness,laundry detergent,17,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,17,specific,,,7
+qwen2.5:7b,helpfulness,laundry detergent,17,sceptical,,,7
+qwen2.5:7b,helpfulness,laundry detergent,18,neutral,,,7
+qwen2.5:7b,helpfulness,laundry detergent,18,generic,,,4
+qwen2.5:7b,helpfulness,laundry detergent,18,specific,,,7
+qwen2.5:7b,helpfulness,laundry detergent,18,sceptical,,,5
+qwen2.5:7b,helpfulness,laundry detergent,19,neutral,,,5
+qwen2.5:7b,helpfulness,laundry detergent,19,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,19,specific,,,7
+qwen2.5:7b,helpfulness,laundry detergent,19,sceptical,,,6
+qwen2.5:7b,helpfulness,laundry detergent,20,neutral,,,5
+qwen2.5:7b,helpfulness,laundry detergent,20,generic,,,6
+qwen2.5:7b,helpfulness,laundry detergent,20,specific,,,7
+qwen2.5:7b,helpfulness,laundry detergent,20,sceptical,,,4
+qwen2.5:7b,helpfulness,laundry detergent,21,neutral,,,6
+qwen2.5:7b,helpfulness,laundry detergent,21,generic,,,6
+qwen2.5:7b,helpfulness,laundry detergent,21,specific,,,7
+qwen2.5:7b,helpfulness,laundry detergent,21,sceptical,,,6
+qwen2.5:7b,helpfulness,laundry detergent,22,neutral,,,7
+qwen2.5:7b,helpfulness,laundry detergent,22,generic,,,6
+qwen2.5:7b,helpfulness,laundry detergent,22,specific,,,6
+qwen2.5:7b,helpfulness,laundry detergent,22,sceptical,,,5
+qwen2.5:7b,helpfulness,laundry detergent,23,neutral,,,7
+qwen2.5:7b,helpfulness,laundry detergent,23,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,23,specific,,,5
+qwen2.5:7b,helpfulness,laundry detergent,23,sceptical,,,6
+qwen2.5:7b,helpfulness,laundry detergent,24,neutral,,,7
+qwen2.5:7b,helpfulness,laundry detergent,24,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,24,specific,,,6
+qwen2.5:7b,helpfulness,laundry detergent,24,sceptical,,,5
+qwen2.5:7b,helpfulness,laundry detergent,25,neutral,,,3
+qwen2.5:7b,helpfulness,laundry detergent,25,generic,,,5
+qwen2.5:7b,helpfulness,laundry detergent,25,specific,,,7
+qwen2.5:7b,helpfulness,laundry detergent,25,sceptical,,,7
+qwen2.5:7b,helpfulness,laundry detergent,26,neutral,,,7
+qwen2.5:7b,helpfulness,laundry detergent,26,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,26,specific,,,7
+qwen2.5:7b,helpfulness,laundry detergent,26,sceptical,,,7
+qwen2.5:7b,helpfulness,laundry detergent,27,neutral,,,5
+qwen2.5:7b,helpfulness,laundry detergent,27,generic,,,6
+qwen2.5:7b,helpfulness,laundry detergent,27,specific,,,7
+qwen2.5:7b,helpfulness,laundry detergent,27,sceptical,,,6
+qwen2.5:7b,helpfulness,laundry detergent,28,neutral,,,7
+qwen2.5:7b,helpfulness,laundry detergent,28,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,28,specific,,,7
+qwen2.5:7b,helpfulness,laundry detergent,28,sceptical,,,4
+qwen2.5:7b,helpfulness,laundry detergent,29,neutral,,,5
+qwen2.5:7b,helpfulness,laundry detergent,29,generic,,,7
+qwen2.5:7b,helpfulness,laundry detergent,29,specific,,,7
+qwen2.5:7b,helpfulness,laundry detergent,29,sceptical,,,7
+qwen2.5:7b,helpfulness,toothbrush,0,neutral,,,7
+qwen2.5:7b,helpfulness,toothbrush,0,generic,,,5
+qwen2.5:7b,helpfulness,toothbrush,0,specific,,,7
+qwen2.5:7b,helpfulness,toothbrush,0,sceptical,,,7
+qwen2.5:7b,helpfulness,toothbrush,1,neutral,,,5
+qwen2.5:7b,helpfulness,toothbrush,1,generic,,,7
+qwen2.5:7b,helpfulness,toothbrush,1,specific,,,5
+qwen2.5:7b,helpfulness,toothbrush,1,sceptical,,,5
+qwen2.5:7b,helpfulness,toothbrush,2,neutral,,,7
+qwen2.5:7b,helpfulness,toothbrush,2,generic,,,7
+qwen2.5:7b,helpfulness,toothbrush,2,specific,,,7
+qwen2.5:7b,helpfulness,toothbrush,2,sceptical,,,6
+qwen2.5:7b,helpfulness,toothbrush,3,neutral,,,7
+qwen2.5:7b,helpfulness,toothbrush,3,generic,,,7
+qwen2.5:7b,helpfulness,toothbrush,3,specific,,,7
+qwen2.5:7b,helpfulness,toothbrush,3,sceptical,,,7
+qwen2.5:7b,helpfulness,toothbrush,4,neutral,,,7
+qwen2.5:7b,helpfulness,toothbrush,4,generic,,,7
+qwen2.5:7b,helpfulness,toothbrush,4,specific,,,6
+qwen2.5:7b,helpfulness,toothbrush,4,sceptical,,,7
+qwen2.5:7b,helpfulness,toothbrush,5,neutral,,,6
+qwen2.5:7b,helpfulness,toothbrush,5,generic,,,6
+qwen2.5:7b,helpfulness,toothbrush,5,specific,,,7
+qwen2.5:7b,helpfulness,toothbrush,5,sceptical,,,5
+qwen2.5:7b,helpfulness,toothbrush,6,neutral,,,5
+qwen2.5:7b,helpfulness,toothbrush,6,generic,,,7
+qwen2.5:7b,helpfulness,toothbrush,6,specific,,,5
+qwen2.5:7b,helpfulness,toothbrush,6,sceptical,,,7
+qwen2.5:7b,helpfulness,toothbrush,7,neutral,,,7
+qwen2.5:7b,helpfulness,toothbrush,7,generic,,,5
+qwen2.5:7b,helpfulness,toothbrush,7,specific,,,6
+qwen2.5:7b,helpfulness,toothbrush,7,sceptical,,,5
+qwen2.5:7b,helpfulness,toothbrush,8,neutral,,,7
+qwen2.5:7b,helpfulness,toothbrush,8,generic,,,7
+qwen2.5:7b,helpfulness,toothbrush,8,specific,,,5
+qwen2.5:7b,helpfulness,toothbrush,8,sceptical,,,5
+qwen2.5:7b,helpfulness,toothbrush,9,neutral,,,7
+qwen2.5:7b,helpfulness,toothbrush,9,generic,,,6
+qwen2.5:7b,helpfulness,toothbrush,9,specific,,,5
+qwen2.5:7b,helpfulness,toothbrush,9,sceptical,,,5
+qwen2.5:7b,helpfulness,toothbrush,10,neutral,,,7
+qwen2.5:7b,helpfulness,toothbrush,10,generic,,,6
+qwen2.5:7b,helpfulness,toothbrush,10,specific,,,7
+qwen2.5:7b,helpfulness,toothbrush,10,sceptical,,,6
+qwen2.5:7b,helpfulness,toothbrush,11,neutral,,,5
+qwen2.5:7b,helpfulness,toothbrush,11,generic,,,7
+qwen2.5:7b,helpfulness,toothbrush,11,specific,,,7
+qwen2.5:7b,helpfulness,toothbrush,11,sceptical,,,6
+qwen2.5:7b,helpfulness,toothbrush,12,neutral,,,7
+qwen2.5:7b,helpfulness,toothbrush,12,generic,,,5
+qwen2.5:7b,helpfulness,toothbrush,12,specific,,,7
+qwen2.5:7b,helpfulness,toothbrush,12,sceptical,,,5
+qwen2.5:7b,helpfulness,toothbrush,13,neutral,,,6
+qwen2.5:7b,helpfulness,toothbrush,13,generic,,,7
+qwen2.5:7b,helpfulness,toothbrush,13,specific,,,5
+qwen2.5:7b,helpfulness,toothbrush,13,sceptical,,,7
+qwen2.5:7b,helpfulness,toothbrush,14,neutral,,,7
+qwen2.5:7b,helpfulness,toothbrush,14,generic,,,5
+qwen2.5:7b,helpfulness,toothbrush,14,specific,,,6
+qwen2.5:7b,helpfulness,toothbrush,14,sceptical,,,6
+qwen2.5:7b,helpfulness,toothbrush,15,neutral,,,7
+qwen2.5:7b,helpfulness,toothbrush,15,generic,,,7
+qwen2.5:7b,helpfulness,toothbrush,15,specific,,,7
+qwen2.5:7b,helpfulness,toothbrush,15,sceptical,,,5
+qwen2.5:7b,helpfulness,toothbrush,16,neutral,,,5
+qwen2.5:7b,helpfulness,toothbrush,16,generic,,,7
+qwen2.5:7b,helpfulness,toothbrush,16,specific,,,7
+qwen2.5:7b,helpfulness,toothbrush,16,sceptical,,,7
+qwen2.5:7b,helpfulness,toothbrush,17,neutral,,,5
+qwen2.5:7b,helpfulness,toothbrush,17,generic,,,7
+qwen2.5:7b,helpfulness,toothbrush,17,specific,,,5
+qwen2.5:7b,helpfulness,toothbrush,17,sceptical,,,7
+qwen2.5:7b,helpfulness,toothbrush,18,neutral,,,6
+qwen2.5:7b,helpfulness,toothbrush,18,generic,,,7
+qwen2.5:7b,helpfulness,toothbrush,18,specific,,,7
+qwen2.5:7b,helpfulness,toothbrush,18,sceptical,,,4
+qwen2.5:7b,helpfulness,toothbrush,19,neutral,,,6
+qwen2.5:7b,helpfulness,toothbrush,19,generic,,,4
+qwen2.5:7b,helpfulness,toothbrush,19,specific,,,6
+qwen2.5:7b,helpfulness,toothbrush,19,sceptical,,,5
+qwen2.5:7b,helpfulness,toothbrush,20,neutral,,,7
+qwen2.5:7b,helpfulness,toothbrush,20,generic,,,7
+qwen2.5:7b,helpfulness,toothbrush,20,specific,,,7
+qwen2.5:7b,helpfulness,toothbrush,20,sceptical,,,5
+qwen2.5:7b,helpfulness,toothbrush,21,neutral,,,4
+qwen2.5:7b,helpfulness,toothbrush,21,generic,,,5
+qwen2.5:7b,helpfulness,toothbrush,21,specific,,,7
+qwen2.5:7b,helpfulness,toothbrush,21,sceptical,,,7
+qwen2.5:7b,helpfulness,toothbrush,22,neutral,,,5
+qwen2.5:7b,helpfulness,toothbrush,22,generic,,,5
+qwen2.5:7b,helpfulness,toothbrush,22,specific,,,6
+qwen2.5:7b,helpfulness,toothbrush,22,sceptical,,,5
+qwen2.5:7b,helpfulness,toothbrush,23,neutral,,,4
+qwen2.5:7b,helpfulness,toothbrush,23,generic,,,6
+qwen2.5:7b,helpfulness,toothbrush,23,specific,,,7
+qwen2.5:7b,helpfulness,toothbrush,23,sceptical,,,5
+qwen2.5:7b,helpfulness,toothbrush,24,neutral,,,7
+qwen2.5:7b,helpfulness,toothbrush,24,generic,,,7
+qwen2.5:7b,helpfulness,toothbrush,24,specific,,,7
+qwen2.5:7b,helpfulness,toothbrush,24,sceptical,,,6
+qwen2.5:7b,helpfulness,toothbrush,25,neutral,,,7
+qwen2.5:7b,helpfulness,toothbrush,25,generic,,,7
+qwen2.5:7b,helpfulness,toothbrush,25,specific,,,7
+qwen2.5:7b,helpfulness,toothbrush,25,sceptical,,,5
+qwen2.5:7b,helpfulness,toothbrush,26,neutral,,,7
+qwen2.5:7b,helpfulness,toothbrush,26,generic,,,7
+qwen2.5:7b,helpfulness,toothbrush,26,specific,,,5
+qwen2.5:7b,helpfulness,toothbrush,26,sceptical,,,7
+qwen2.5:7b,helpfulness,toothbrush,27,neutral,,,6
+qwen2.5:7b,helpfulness,toothbrush,27,generic,,,7
+qwen2.5:7b,helpfulness,toothbrush,27,specific,,,7
+qwen2.5:7b,helpfulness,toothbrush,27,sceptical,,,5
+qwen2.5:7b,helpfulness,toothbrush,28,neutral,,,7
+qwen2.5:7b,helpfulness,toothbrush,28,generic,,,7
+qwen2.5:7b,helpfulness,toothbrush,28,specific,,,7
+qwen2.5:7b,helpfulness,toothbrush,28,sceptical,,,7
+qwen2.5:7b,helpfulness,toothbrush,29,neutral,,,6
+qwen2.5:7b,helpfulness,toothbrush,29,generic,,,5
+qwen2.5:7b,helpfulness,toothbrush,29,specific,,,7
+qwen2.5:7b,helpfulness,toothbrush,29,sceptical,,,7

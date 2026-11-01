@@ -1,0 +1,66 @@
+=== 1. Prevalence (full category files) ===
+
+Beauty_and_Personal_Care: 23,911,390 reviews; 26.5% have >=1 helpful vote
+  generic      19,852 (0.083%); 7,535 with >=1 vote (38.0%)
+  specific      9,683 (0.040%); 3,931 with >=1 vote (40.6%)
+  evidence     27,219 (0.114%); 11,604 with >=1 vote (42.6%)
+  scep          1,566 (0.007%); 686 with >=1 vote (43.8%)
+  any          54,898 (0.230%)
+
+Health_and_Household: 25,631,345 reviews; 26.7% have >=1 helpful vote
+  generic      62,436 (0.244%); 21,710 with >=1 vote (34.8%)
+  specific     40,134 (0.157%); 14,365 with >=1 vote (35.8%)
+  evidence     33,846 (0.132%); 15,220 with >=1 vote (45.0%)
+  scep          3,022 (0.012%); 1,310 with >=1 vote (43.3%)
+  any         129,362 (0.505%)
+
+=== 2. Mutually exclusive tiers among flagged reviews ===
+                                       n  any_vote  ...  med_words   scep
+cat                      tier                       ...                  
+Beauty_and_Personal_Care evidence  27219     0.426  ...       76.0  0.003
+                         generic   17574     0.371  ...       66.0  0.011
+                         none       1191     0.422  ...       61.0  1.000
+                         specific   8914     0.401  ...       78.0  0.011
+Health_and_Household     evidence  33846     0.450  ...       68.0  0.006
+                         generic   54920     0.339  ...       52.0  0.007
+                         none       2020     0.409  ...       54.0  1.000
+                         specific  38576     0.352  ...       55.0  0.011
+
+[8 rows x 5 columns]
+
+Products with both generic-only and specific/evidence reviews: 9,493
+Reviews in those products: 110,153; with >=1 vote: 37,941
+
+=== 3. Calibration (known effect): longer reviews get more votes, random 2% sample ===
+log_words    1.055
+log_age      0.293
+verified     0.720 
+p(log_words) = 0 N=987,316
+
+=== 4a. Pooled negative binomial, flagged reviews (base = generic-only) ===
+                                             coef     IRR       p
+C(tier, Treatment('generic'))[T.evidence]  0.1815  1.1990  0.0000
+C(tier, Treatment('generic'))[T.none]     -0.2739  0.7604  0.0001
+C(tier, Treatment('generic'))[T.specific]  0.0693  1.0717  0.0000
+scep                                       0.6123  1.8447  0.0000
+log_words                                  1.0995  3.0026  0.0000 
+N=184,260
+
+=== 4b. Within-product fixed effects (linear, log1p votes), products with both tiers ===
+
+DV=y:
+                 coef      se       p
+evid_or_spec  0.0167  0.0062  0.0072
+is_evidence  -0.0096  0.0098  0.3236
+scep          0.0574  0.0232  0.0131
+log_words     0.3842  0.0064  0.0000 
+N=110,153
+
+DV=any_vote:
+                 coef      se       p
+evid_or_spec  0.0098  0.0036  0.0067
+is_evidence  -0.0085  0.0050  0.0909
+scep          0.0134  0.0124  0.2790
+log_words     0.1969  0.0025  0.0000 
+N=110,153
+

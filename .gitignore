@@ -1,0 +1,5 @@
+data/
+bamboo/
+agent/
+*.csv.gz
+__pycache__/
