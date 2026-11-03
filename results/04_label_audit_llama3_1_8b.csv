@@ -1,0 +1,1025 @@
+model,kind,ptype,task,cond,order,answer,raw
+llama3.1:8b,dominance,shampoo,0,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,shampoo,0,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,shampoo,1,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,shampoo,1,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,shampoo,2,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,shampoo,2,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,shampoo,3,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,shampoo,3,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,shampoo,4,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,shampoo,4,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,shampoo,5,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,shampoo,5,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,shampoo,6,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,shampoo,6,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,shampoo,7,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,shampoo,7,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,shampoo,8,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,shampoo,8,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,shampoo,9,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,shampoo,9,,good_second,0,CHOICE: Product A
+llama3.1:8b,dominance,hand soap,10,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,hand soap,10,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,hand soap,11,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,hand soap,11,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,hand soap,12,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,hand soap,12,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,hand soap,13,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,hand soap,13,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,hand soap,14,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,hand soap,14,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,hand soap,15,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,hand soap,15,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,hand soap,16,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,hand soap,16,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,hand soap,17,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,hand soap,17,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,hand soap,18,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,hand soap,18,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,hand soap,19,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,hand soap,19,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,laundry detergent,20,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,laundry detergent,20,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,laundry detergent,21,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,laundry detergent,21,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,laundry detergent,22,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,laundry detergent,22,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,laundry detergent,23,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,laundry detergent,23,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,laundry detergent,24,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,laundry detergent,24,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,laundry detergent,25,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,laundry detergent,25,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,laundry detergent,26,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,laundry detergent,26,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,laundry detergent,27,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,laundry detergent,27,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,laundry detergent,28,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,laundry detergent,28,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,laundry detergent,29,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,laundry detergent,29,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,toothbrush,30,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,toothbrush,30,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,toothbrush,31,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,toothbrush,31,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,toothbrush,32,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,toothbrush,32,,good_second,0,CHOICE: Product A
+llama3.1:8b,dominance,toothbrush,33,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,toothbrush,33,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,toothbrush,34,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,toothbrush,34,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,toothbrush,35,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,toothbrush,35,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,toothbrush,36,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,toothbrush,36,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,toothbrush,37,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,toothbrush,37,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,toothbrush,38,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,toothbrush,38,,good_second,1,CHOICE: Product B
+llama3.1:8b,dominance,toothbrush,39,,good_first,1,CHOICE: Product A
+llama3.1:8b,dominance,toothbrush,39,,good_second,1,CHOICE: Product B
+llama3.1:8b,helpfulness,shampoo,0,none,,4,RATING: 4
+llama3.1:8b,choice,shampoo,0,none,A_first,1,
+llama3.1:8b,choice,shampoo,0,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,0,ai,,4,"RATING: 4 
+
+This review is somewhat helpful because it provides a balanced assessment of the product's pros and cons, but it's limited by the reviewer's personal preferences and doesn't provide specif"
+llama3.1:8b,choice,shampoo,0,ai,A_first,1,
+llama3.1:8b,choice,shampoo,0,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,0,effort,,5,RATING: 5
+llama3.1:8b,choice,shampoo,0,effort,A_first,1,
+llama3.1:8b,choice,shampoo,0,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,1,none,,6,RATING: 6
+llama3.1:8b,choice,shampoo,1,none,A_first,1,
+llama3.1:8b,choice,shampoo,1,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,1,ai,,6,RATING: 6
+llama3.1:8b,choice,shampoo,1,ai,A_first,1,
+llama3.1:8b,choice,shampoo,1,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,1,effort,,6,RATING: 6
+llama3.1:8b,choice,shampoo,1,effort,A_first,1,
+llama3.1:8b,choice,shampoo,1,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,2,none,,4,RATING: 4
+llama3.1:8b,choice,shampoo,2,none,A_first,1,
+llama3.1:8b,choice,shampoo,2,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,2,ai,,4,RATING: 4
+llama3.1:8b,choice,shampoo,2,ai,A_first,1,
+llama3.1:8b,choice,shampoo,2,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,2,effort,,4,RATING: 4
+llama3.1:8b,choice,shampoo,2,effort,A_first,1,
+llama3.1:8b,choice,shampoo,2,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,3,none,,4,RATING: 4
+llama3.1:8b,choice,shampoo,3,none,A_first,1,
+llama3.1:8b,choice,shampoo,3,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,3,ai,,4,RATING: 4
+llama3.1:8b,choice,shampoo,3,ai,A_first,1,
+llama3.1:8b,choice,shampoo,3,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,3,effort,,4,"RATING: 4, as the review provides some useful information about the product's performance, scent, and potential drawbacks, but is somewhat casual and lacks specific details about the product's effecti"
+llama3.1:8b,choice,shampoo,3,effort,A_first,1,
+llama3.1:8b,choice,shampoo,3,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,4,none,,4,RATING: 4
+llama3.1:8b,choice,shampoo,4,none,A_first,1,
+llama3.1:8b,choice,shampoo,4,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,4,ai,,4,RATING: 4
+llama3.1:8b,choice,shampoo,4,ai,A_first,1,
+llama3.1:8b,choice,shampoo,4,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,4,effort,,4,RATING: 4
+llama3.1:8b,choice,shampoo,4,effort,A_first,1,
+llama3.1:8b,choice,shampoo,4,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,5,none,,6,RATING: 6
+llama3.1:8b,choice,shampoo,5,none,A_first,1,
+llama3.1:8b,choice,shampoo,5,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,5,ai,,6,RATING: 6
+llama3.1:8b,choice,shampoo,5,ai,A_first,1,
+llama3.1:8b,choice,shampoo,5,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,5,effort,,6,RATING: 6
+llama3.1:8b,choice,shampoo,5,effort,A_first,1,
+llama3.1:8b,choice,shampoo,5,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,6,none,,6,RATING: 6
+llama3.1:8b,choice,shampoo,6,none,A_first,1,
+llama3.1:8b,choice,shampoo,6,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,6,ai,,6,RATING: 6
+llama3.1:8b,choice,shampoo,6,ai,A_first,1,
+llama3.1:8b,choice,shampoo,6,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,6,effort,,6,RATING: 6
+llama3.1:8b,choice,shampoo,6,effort,A_first,1,
+llama3.1:8b,choice,shampoo,6,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,7,none,,2,RATING: 2
+llama3.1:8b,choice,shampoo,7,none,A_first,1,
+llama3.1:8b,choice,shampoo,7,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,7,ai,,4,RATING: 4
+llama3.1:8b,choice,shampoo,7,ai,A_first,1,
+llama3.1:8b,choice,shampoo,7,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,7,effort,,4,RATING: 4
+llama3.1:8b,choice,shampoo,7,effort,A_first,1,
+llama3.1:8b,choice,shampoo,7,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,8,none,,2,"RATING: 2
+
+This review is somewhat helpful, but it doesn't provide any information about the shampoo's performance or effectiveness, which is likely the most important consideration for shoppers."
+llama3.1:8b,choice,shampoo,8,none,A_first,1,
+llama3.1:8b,choice,shampoo,8,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,8,ai,,2,"RATING: 2
+
+This review is not very helpful because it doesn't mention the shampoo's performance, effectiveness, or any notable features, and instead focuses on the packaging."
+llama3.1:8b,choice,shampoo,8,ai,A_first,1,
+llama3.1:8b,choice,shampoo,8,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,8,effort,,2,"RATING: 2
+
+This review is somewhat helpful, but it's unclear what the reviewer's expectations were for the product and it doesn't provide any information about the shampoo's performance or effectivene"
+llama3.1:8b,choice,shampoo,8,effort,A_first,1,
+llama3.1:8b,choice,shampoo,8,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,9,none,,4,RATING: 4
+llama3.1:8b,choice,shampoo,9,none,A_first,1,
+llama3.1:8b,choice,shampoo,9,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,9,ai,,4,RATING: 4
+llama3.1:8b,choice,shampoo,9,ai,A_first,1,
+llama3.1:8b,choice,shampoo,9,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,9,effort,,4,RATING: 4
+llama3.1:8b,choice,shampoo,9,effort,A_first,1,
+llama3.1:8b,choice,shampoo,9,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,10,none,,6,RATING: 6
+llama3.1:8b,choice,shampoo,10,none,A_first,1,
+llama3.1:8b,choice,shampoo,10,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,10,ai,,6,RATING: 6
+llama3.1:8b,choice,shampoo,10,ai,A_first,1,
+llama3.1:8b,choice,shampoo,10,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,10,effort,,6,RATING: 6
+llama3.1:8b,choice,shampoo,10,effort,A_first,1,
+llama3.1:8b,choice,shampoo,10,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,11,none,,4,RATING: 4
+llama3.1:8b,choice,shampoo,11,none,A_first,1,
+llama3.1:8b,choice,shampoo,11,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,11,ai,,4,RATING: 4
+llama3.1:8b,choice,shampoo,11,ai,A_first,1,
+llama3.1:8b,choice,shampoo,11,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,11,effort,,4,RATING: 4
+llama3.1:8b,choice,shampoo,11,effort,A_first,1,
+llama3.1:8b,choice,shampoo,11,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,12,none,,4,"RATING: 4, because the review mentions specific benefits of the product (hair growth and pain relief) and the reviewer's personal experience, but lacks specific details about the product's quality, ef"
+llama3.1:8b,choice,shampoo,12,none,A_first,1,
+llama3.1:8b,choice,shampoo,12,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,12,ai,,4,"RATING: 4, as the review mentions specific benefits and uses for the product, but lacks concrete evidence or comparisons to other products, and the reviewer's bias towards the brand is apparent."
+llama3.1:8b,choice,shampoo,12,ai,A_first,1,
+llama3.1:8b,choice,shampoo,12,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,12,effort,,4,"RATING: 4, as the review provides some specific benefits of the product (hair growth and pain relief) and mentions the reviewer's positive experience, but lacks specific details about the product's qu"
+llama3.1:8b,choice,shampoo,12,effort,A_first,1,
+llama3.1:8b,choice,shampoo,12,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,13,none,,6,RATING: 6
+llama3.1:8b,choice,shampoo,13,none,A_first,1,
+llama3.1:8b,choice,shampoo,13,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,13,ai,,6,RATING: 6
+llama3.1:8b,choice,shampoo,13,ai,A_first,1,
+llama3.1:8b,choice,shampoo,13,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,13,effort,,6,RATING: 6
+llama3.1:8b,choice,shampoo,13,effort,A_first,1,
+llama3.1:8b,choice,shampoo,13,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,14,none,,4,"RATING: 4, as the review provides a balanced assessment of the product's strengths and weaknesses, but lacks a clear recommendation and is somewhat ambiguous in its criticism."
+llama3.1:8b,choice,shampoo,14,none,A_first,1,
+llama3.1:8b,choice,shampoo,14,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,14,ai,,4,"RATING: 4, as the review provides a detailed description of the product's benefits and drawbacks, but the reviewer's hair type and desired outcome are specific, making it less universally applicable."
+llama3.1:8b,choice,shampoo,14,ai,A_first,1,
+llama3.1:8b,choice,shampoo,14,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,14,effort,,5,"RATING: 5, as the review provides a detailed description of the product's benefits and drawbacks, but also raises questions and uncertainties about its effectiveness for a specific hair type, making i"
+llama3.1:8b,choice,shampoo,14,effort,A_first,1,
+llama3.1:8b,choice,shampoo,14,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,15,none,,4,RATING: 4
+llama3.1:8b,choice,shampoo,15,none,A_first,1,
+llama3.1:8b,choice,shampoo,15,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,15,ai,,4,RATING: 4
+llama3.1:8b,choice,shampoo,15,ai,A_first,1,
+llama3.1:8b,choice,shampoo,15,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,15,effort,,6,RATING: 6
+llama3.1:8b,choice,shampoo,15,effort,A_first,1,
+llama3.1:8b,choice,shampoo,15,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,16,none,,6,RATING: 6
+llama3.1:8b,choice,shampoo,16,none,A_first,1,
+llama3.1:8b,choice,shampoo,16,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,16,ai,,6,RATING: 6
+llama3.1:8b,choice,shampoo,16,ai,A_first,1,
+llama3.1:8b,choice,shampoo,16,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,16,effort,,6,RATING: 6
+llama3.1:8b,choice,shampoo,16,effort,A_first,1,
+llama3.1:8b,choice,shampoo,16,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,17,none,,4,RATING: 4
+llama3.1:8b,choice,shampoo,17,none,A_first,1,
+llama3.1:8b,choice,shampoo,17,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,17,ai,,4,RATING: 4
+llama3.1:8b,choice,shampoo,17,ai,A_first,1,
+llama3.1:8b,choice,shampoo,17,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,17,effort,,4,RATING: 4
+llama3.1:8b,choice,shampoo,17,effort,A_first,1,
+llama3.1:8b,choice,shampoo,17,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,18,none,,6,RATING: 6
+llama3.1:8b,choice,shampoo,18,none,A_first,1,
+llama3.1:8b,choice,shampoo,18,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,18,ai,,6,RATING: 6
+llama3.1:8b,choice,shampoo,18,ai,A_first,1,
+llama3.1:8b,choice,shampoo,18,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,18,effort,,6,RATING: 6
+llama3.1:8b,choice,shampoo,18,effort,A_first,1,
+llama3.1:8b,choice,shampoo,18,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,19,none,,4,RATING: 4
+llama3.1:8b,choice,shampoo,19,none,A_first,1,
+llama3.1:8b,choice,shampoo,19,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,19,ai,,5,RATING: 5
+llama3.1:8b,choice,shampoo,19,ai,A_first,1,
+llama3.1:8b,choice,shampoo,19,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,19,effort,,6,RATING: 6
+llama3.1:8b,choice,shampoo,19,effort,A_first,1,
+llama3.1:8b,choice,shampoo,19,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,20,none,,4,RATING: 4
+llama3.1:8b,choice,shampoo,20,none,A_first,1,
+llama3.1:8b,choice,shampoo,20,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,20,ai,,4,"RATING: 4 
+
+This review is somewhat helpful because it provides specific information about the product's performance on the reviewer's hair type (blonde highlights) and compares it favorably to a simi"
+llama3.1:8b,choice,shampoo,20,ai,A_first,1,
+llama3.1:8b,choice,shampoo,20,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,20,effort,,6,RATING: 6
+llama3.1:8b,choice,shampoo,20,effort,A_first,1,
+llama3.1:8b,choice,shampoo,20,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,21,none,,6,RATING: 6
+llama3.1:8b,choice,shampoo,21,none,A_first,1,
+llama3.1:8b,choice,shampoo,21,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,21,ai,,6,RATING: 6
+llama3.1:8b,choice,shampoo,21,ai,A_first,1,
+llama3.1:8b,choice,shampoo,21,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,21,effort,,6,RATING: 6
+llama3.1:8b,choice,shampoo,21,effort,A_first,1,
+llama3.1:8b,choice,shampoo,21,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,22,none,,6,RATING: 6
+llama3.1:8b,choice,shampoo,22,none,A_first,1,
+llama3.1:8b,choice,shampoo,22,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,22,ai,,6,RATING: 6
+llama3.1:8b,choice,shampoo,22,ai,A_first,1,
+llama3.1:8b,choice,shampoo,22,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,22,effort,,6,RATING: 6
+llama3.1:8b,choice,shampoo,22,effort,A_first,1,
+llama3.1:8b,choice,shampoo,22,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,23,none,,4,RATING: 4
+llama3.1:8b,choice,shampoo,23,none,A_first,1,
+llama3.1:8b,choice,shampoo,23,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,23,ai,,4,RATING: 4
+llama3.1:8b,choice,shampoo,23,ai,A_first,1,
+llama3.1:8b,choice,shampoo,23,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,23,effort,,4,RATING: 4
+llama3.1:8b,choice,shampoo,23,effort,A_first,1,
+llama3.1:8b,choice,shampoo,23,effort,A_second,0,
+llama3.1:8b,helpfulness,shampoo,24,none,,4,RATING: 4
+llama3.1:8b,choice,shampoo,24,none,A_first,1,
+llama3.1:8b,choice,shampoo,24,none,A_second,0,
+llama3.1:8b,helpfulness,shampoo,24,ai,,5,RATING: 5
+llama3.1:8b,choice,shampoo,24,ai,A_first,1,
+llama3.1:8b,choice,shampoo,24,ai,A_second,0,
+llama3.1:8b,helpfulness,shampoo,24,effort,,6,RATING: 6
+llama3.1:8b,choice,shampoo,24,effort,A_first,1,
+llama3.1:8b,choice,shampoo,24,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,0,none,,5,RATING: 5
+llama3.1:8b,choice,hand soap,0,none,A_first,1,
+llama3.1:8b,choice,hand soap,0,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,0,ai,,5,RATING: 5
+llama3.1:8b,choice,hand soap,0,ai,A_first,1,
+llama3.1:8b,choice,hand soap,0,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,0,effort,,6,RATING: 6
+llama3.1:8b,choice,hand soap,0,effort,A_first,1,
+llama3.1:8b,choice,hand soap,0,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,1,none,,6,RATING: 6
+llama3.1:8b,choice,hand soap,1,none,A_first,1,
+llama3.1:8b,choice,hand soap,1,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,1,ai,,6,RATING: 6
+llama3.1:8b,choice,hand soap,1,ai,A_first,1,
+llama3.1:8b,choice,hand soap,1,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,1,effort,,6,RATING: 6
+llama3.1:8b,choice,hand soap,1,effort,A_first,1,
+llama3.1:8b,choice,hand soap,1,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,2,none,,2,"RATING: 2
+
+This review is not very helpful because it doesn't mention any specific pros or cons of the product, and only provides a vague statement about the product being popular."
+llama3.1:8b,choice,hand soap,2,none,A_first,1,
+llama3.1:8b,choice,hand soap,2,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,2,ai,,2,RATING: 2
+llama3.1:8b,choice,hand soap,2,ai,A_first,1,
+llama3.1:8b,choice,hand soap,2,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,2,effort,,2,RATING: 2
+llama3.1:8b,choice,hand soap,2,effort,A_first,1,
+llama3.1:8b,choice,hand soap,2,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,3,none,,4,RATING: 4
+llama3.1:8b,choice,hand soap,3,none,A_first,1,
+llama3.1:8b,choice,hand soap,3,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,3,ai,,5,RATING: 5
+llama3.1:8b,choice,hand soap,3,ai,A_first,1,
+llama3.1:8b,choice,hand soap,3,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,3,effort,,5,RATING: 5
+llama3.1:8b,choice,hand soap,3,effort,A_first,1,
+llama3.1:8b,choice,hand soap,3,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,4,none,,2,RATING: 2
+llama3.1:8b,choice,hand soap,4,none,A_first,1,
+llama3.1:8b,choice,hand soap,4,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,4,ai,,2,"RATING: 2
+
+This review is somewhat helpful, but it's unclear and contradictory, making it difficult for other shoppers to understand the reviewer's opinion and make an informed decision."
+llama3.1:8b,choice,hand soap,4,ai,A_first,1,
+llama3.1:8b,choice,hand soap,4,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,4,effort,,2,"RATING: 2, as the review is unclear and contradictory, making it difficult for other shoppers to understand the reviewer's opinions and experiences with the product."
+llama3.1:8b,choice,hand soap,4,effort,A_first,1,
+llama3.1:8b,choice,hand soap,4,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,5,none,,6,RATING: 6
+llama3.1:8b,choice,hand soap,5,none,A_first,1,
+llama3.1:8b,choice,hand soap,5,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,5,ai,,6,RATING: 6
+llama3.1:8b,choice,hand soap,5,ai,A_first,1,
+llama3.1:8b,choice,hand soap,5,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,5,effort,,6,RATING: 6
+llama3.1:8b,choice,hand soap,5,effort,A_first,1,
+llama3.1:8b,choice,hand soap,5,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,6,none,,6,RATING: 6
+llama3.1:8b,choice,hand soap,6,none,A_first,1,
+llama3.1:8b,choice,hand soap,6,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,6,ai,,6,RATING: 6
+llama3.1:8b,choice,hand soap,6,ai,A_first,1,
+llama3.1:8b,choice,hand soap,6,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,6,effort,,6,RATING: 6
+llama3.1:8b,choice,hand soap,6,effort,A_first,1,
+llama3.1:8b,choice,hand soap,6,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,7,none,,6,RATING: 6
+llama3.1:8b,choice,hand soap,7,none,A_first,1,
+llama3.1:8b,choice,hand soap,7,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,7,ai,,6,RATING: 6
+llama3.1:8b,choice,hand soap,7,ai,A_first,1,
+llama3.1:8b,choice,hand soap,7,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,7,effort,,6,RATING: 6
+llama3.1:8b,choice,hand soap,7,effort,A_first,1,
+llama3.1:8b,choice,hand soap,7,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,8,none,,2,"RATING: 2
+
+This review is not very helpful because it is about plastic bags, not hand soap, and the reviewer's experience with the product is unrelated to its intended use as a hand soap."
+llama3.1:8b,choice,hand soap,8,none,A_first,1,
+llama3.1:8b,choice,hand soap,8,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,8,ai,,2,"RATING: 2
+
+The reviewer is actually talking about plastic bags, not hand soap, making the review completely irrelevant to the product being sold."
+llama3.1:8b,choice,hand soap,8,ai,A_first,1,
+llama3.1:8b,choice,hand soap,8,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,8,effort,,2,"RATING: 2
+
+The reviewer's product is actually plastic bags, not hand soap, making this review not relevant to shoppers looking for a hand soap."
+llama3.1:8b,choice,hand soap,8,effort,A_first,1,
+llama3.1:8b,choice,hand soap,8,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,9,none,,4,RATING: 4
+llama3.1:8b,choice,hand soap,9,none,A_first,1,
+llama3.1:8b,choice,hand soap,9,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,9,ai,,6,RATING: 6
+llama3.1:8b,choice,hand soap,9,ai,A_first,1,
+llama3.1:8b,choice,hand soap,9,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,9,effort,,6,RATING: 6
+llama3.1:8b,choice,hand soap,9,effort,A_first,1,
+llama3.1:8b,choice,hand soap,9,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,10,none,,4,RATING: 4
+llama3.1:8b,choice,hand soap,10,none,A_first,1,
+llama3.1:8b,choice,hand soap,10,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,10,ai,,4,RATING: 4
+llama3.1:8b,choice,hand soap,10,ai,A_first,1,
+llama3.1:8b,choice,hand soap,10,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,10,effort,,6,RATING: 6
+llama3.1:8b,choice,hand soap,10,effort,A_first,1,
+llama3.1:8b,choice,hand soap,10,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,11,none,,6,RATING: 6
+llama3.1:8b,choice,hand soap,11,none,A_first,1,
+llama3.1:8b,choice,hand soap,11,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,11,ai,,6,RATING: 6
+llama3.1:8b,choice,hand soap,11,ai,A_first,1,
+llama3.1:8b,choice,hand soap,11,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,11,effort,,6,RATING: 6
+llama3.1:8b,choice,hand soap,11,effort,A_first,1,
+llama3.1:8b,choice,hand soap,11,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,12,none,,2,"RATING: 2
+
+This review is not very helpful because it is overly promotional and lacks specific details about the product's features, ingredients, or performance, making it difficult for other shoppers"
+llama3.1:8b,choice,hand soap,12,none,A_first,1,
+llama3.1:8b,choice,hand soap,12,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,12,ai,,2,"RATING: 2
+
+The review is brief and enthusiastic, but it lacks specific details about the product's performance, ingredients, or any potential drawbacks, making it somewhat unhelpful for shoppers decid"
+llama3.1:8b,choice,hand soap,12,ai,A_first,1,
+llama3.1:8b,choice,hand soap,12,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,12,effort,,2,"RATING: 2
+
+The review is somewhat helpful because it mentions the product's effectiveness and pleasant scent, but it's also somewhat vague and lacks specific details about the product's features, ingr"
+llama3.1:8b,choice,hand soap,12,effort,A_first,1,
+llama3.1:8b,choice,hand soap,12,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,13,none,,6,RATING: 6
+llama3.1:8b,choice,hand soap,13,none,A_first,1,
+llama3.1:8b,choice,hand soap,13,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,13,ai,,6,RATING: 6
+llama3.1:8b,choice,hand soap,13,ai,A_first,1,
+llama3.1:8b,choice,hand soap,13,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,13,effort,,6,"RATING: 6 
+
+This review is helpful because it provides specific details about the product's performance, its intended use, and its benefits for certain hair types, as well as a positive experience wit"
+llama3.1:8b,choice,hand soap,13,effort,A_first,1,
+llama3.1:8b,choice,hand soap,13,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,14,none,,4,RATING: 4
+llama3.1:8b,choice,hand soap,14,none,A_first,1,
+llama3.1:8b,choice,hand soap,14,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,14,ai,,4,RATING: 4
+llama3.1:8b,choice,hand soap,14,ai,A_first,1,
+llama3.1:8b,choice,hand soap,14,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,14,effort,,4,"RATING: 4, as the review mentions a specific price comparison and a similar product available at a significantly lower price, which could be useful for shoppers considering a purchase."
+llama3.1:8b,choice,hand soap,14,effort,A_first,1,
+llama3.1:8b,choice,hand soap,14,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,15,none,,4,RATING: 4
+llama3.1:8b,choice,hand soap,15,none,A_first,1,
+llama3.1:8b,choice,hand soap,15,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,15,ai,,4,RATING: 4
+llama3.1:8b,choice,hand soap,15,ai,A_first,1,
+llama3.1:8b,choice,hand soap,15,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,15,effort,,6,RATING: 6
+llama3.1:8b,choice,hand soap,15,effort,A_first,1,
+llama3.1:8b,choice,hand soap,15,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,16,none,,6,RATING: 6
+llama3.1:8b,choice,hand soap,16,none,A_first,1,
+llama3.1:8b,choice,hand soap,16,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,16,ai,,6,RATING: 6
+llama3.1:8b,choice,hand soap,16,ai,A_first,1,
+llama3.1:8b,choice,hand soap,16,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,16,effort,,6,RATING: 6
+llama3.1:8b,choice,hand soap,16,effort,A_first,1,
+llama3.1:8b,choice,hand soap,16,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,17,none,,6,RATING: 6
+llama3.1:8b,choice,hand soap,17,none,A_first,1,
+llama3.1:8b,choice,hand soap,17,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,17,ai,,6,RATING: 6
+llama3.1:8b,choice,hand soap,17,ai,A_first,1,
+llama3.1:8b,choice,hand soap,17,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,17,effort,,6,RATING: 6
+llama3.1:8b,choice,hand soap,17,effort,A_first,1,
+llama3.1:8b,choice,hand soap,17,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,18,none,,2,"RATING: 2
+
+The review is not very helpful because it is actually a review of a hand soap, not a deodorant, and the reviewer seems to be confusing the two products."
+llama3.1:8b,choice,hand soap,18,none,A_first,1,
+llama3.1:8b,choice,hand soap,18,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,18,ai,,4,"RATING: 4, because the reviewer is enthusiastic about the product, but their review is actually about a hand soap, not a deodorant, which makes it confusing and less helpful to shoppers."
+llama3.1:8b,choice,hand soap,18,ai,A_first,1,
+llama3.1:8b,choice,hand soap,18,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,18,effort,,4,"RATING: 4, because the reviewer is enthusiastic about the product, but their mistake in calling it a ""deodorant"" instead of a ""hand soap"" and their comparison to the brand's soaps rather than other ha"
+llama3.1:8b,choice,hand soap,18,effort,A_first,1,
+llama3.1:8b,choice,hand soap,18,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,19,none,,6,RATING: 6
+llama3.1:8b,choice,hand soap,19,none,A_first,1,
+llama3.1:8b,choice,hand soap,19,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,19,ai,,6,RATING: 6
+llama3.1:8b,choice,hand soap,19,ai,A_first,1,
+llama3.1:8b,choice,hand soap,19,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,19,effort,,6,RATING: 6
+llama3.1:8b,choice,hand soap,19,effort,A_first,1,
+llama3.1:8b,choice,hand soap,19,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,20,none,,4,RATING: 4
+llama3.1:8b,choice,hand soap,20,none,A_first,1,
+llama3.1:8b,choice,hand soap,20,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,20,ai,,4,RATING: 4
+llama3.1:8b,choice,hand soap,20,ai,A_first,1,
+llama3.1:8b,choice,hand soap,20,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,20,effort,,4,RATING: 4
+llama3.1:8b,choice,hand soap,20,effort,A_first,1,
+llama3.1:8b,choice,hand soap,20,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,21,none,,6,RATING: 6
+llama3.1:8b,choice,hand soap,21,none,A_first,1,
+llama3.1:8b,choice,hand soap,21,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,21,ai,,6,RATING: 6
+llama3.1:8b,choice,hand soap,21,ai,A_first,1,
+llama3.1:8b,choice,hand soap,21,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,21,effort,,6,RATING: 6
+llama3.1:8b,choice,hand soap,21,effort,A_first,1,
+llama3.1:8b,choice,hand soap,21,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,22,none,,4,RATING: 4
+llama3.1:8b,choice,hand soap,22,none,A_first,1,
+llama3.1:8b,choice,hand soap,22,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,22,ai,,4,RATING: 4
+llama3.1:8b,choice,hand soap,22,ai,A_first,1,
+llama3.1:8b,choice,hand soap,22,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,22,effort,,4,"RATING: 4, as the review provides specific details about the product's size and its limitations, but does not provide a subjective assessment of the product's quality or performance."
+llama3.1:8b,choice,hand soap,22,effort,A_first,1,
+llama3.1:8b,choice,hand soap,22,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,23,none,,4,"RATING: 4, as the review provides specific, positive feedback on the product's performance for a unique use case, but does not provide general information about the product's quality, durability, or c"
+llama3.1:8b,choice,hand soap,23,none,A_first,1,
+llama3.1:8b,choice,hand soap,23,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,23,ai,,4,"RATING: 4, as the review provides specific, positive feedback on the product's performance for a unique use case, but lacks general information about the product's quality, durability, or value."
+llama3.1:8b,choice,hand soap,23,ai,A_first,0,
+llama3.1:8b,choice,hand soap,23,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,23,effort,,6,"RATING: 6, because the review provides specific, positive feedback about the product's performance in a unique application (temporary tattoos) and mentions a potential drawback (difficulty removing th"
+llama3.1:8b,choice,hand soap,23,effort,A_first,1,
+llama3.1:8b,choice,hand soap,23,effort,A_second,0,
+llama3.1:8b,helpfulness,hand soap,24,none,,2,"RATING: 2
+
+This review is somewhat helpful because it mentions a specific use case for the product (applying lotion to hard-to-reach areas), but it doesn't provide any information about the product's "
+llama3.1:8b,choice,hand soap,24,none,A_first,1,
+llama3.1:8b,choice,hand soap,24,none,A_second,0,
+llama3.1:8b,helpfulness,hand soap,24,ai,,2,"RATING: 2
+
+This review is not very helpful because it doesn't mention the soap's actual cleaning or moisturizing properties, but rather its use as a lotion applicator, which may not be the intended pu"
+llama3.1:8b,choice,hand soap,24,ai,A_first,1,
+llama3.1:8b,choice,hand soap,24,ai,A_second,0,
+llama3.1:8b,helpfulness,hand soap,24,effort,,2,"RATING: 2
+
+This review is somewhat helpful because it mentions a specific use case for the product (applying lotion to hard-to-reach areas), but it doesn't provide any information about the product's "
+llama3.1:8b,choice,hand soap,24,effort,A_first,1,
+llama3.1:8b,choice,hand soap,24,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,0,none,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,0,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,0,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,0,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,0,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,0,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,0,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,0,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,0,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,1,none,,4,RATING: 4
+llama3.1:8b,choice,laundry detergent,1,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,1,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,1,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,1,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,1,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,1,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,1,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,1,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,2,none,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,2,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,2,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,2,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,2,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,2,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,2,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,2,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,2,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,3,none,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,3,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,3,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,3,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,3,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,3,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,3,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,3,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,3,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,4,none,,2,"RATING: 2
+
+This review is not helpful because it completely misrepresents the product's intended use and purpose, and does not provide any relevant information about its effectiveness as a laundry det"
+llama3.1:8b,choice,laundry detergent,4,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,4,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,4,ai,,1,RATING: 1
+llama3.1:8b,choice,laundry detergent,4,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,4,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,4,effort,,2,"RATING: 2
+
+This review is not helpful because it is unrelated to the product's intended use as a laundry detergent, and the reviewer's use of it as an ant killer is not a typical or recommended applic"
+llama3.1:8b,choice,laundry detergent,4,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,4,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,5,none,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,5,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,5,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,5,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,5,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,5,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,5,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,5,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,5,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,6,none,,4,RATING: 4
+llama3.1:8b,choice,laundry detergent,6,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,6,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,6,ai,,4,RATING: 4
+llama3.1:8b,choice,laundry detergent,6,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,6,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,6,effort,,4,RATING: 4
+llama3.1:8b,choice,laundry detergent,6,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,6,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,7,none,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,7,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,7,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,7,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,7,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,7,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,7,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,7,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,7,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,8,none,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,8,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,8,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,8,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,8,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,8,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,8,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,8,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,8,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,9,none,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,9,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,9,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,9,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,9,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,9,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,9,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,9,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,9,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,10,none,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,10,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,10,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,10,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,10,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,10,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,10,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,10,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,10,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,11,none,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,11,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,11,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,11,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,11,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,11,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,11,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,11,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,11,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,12,none,,4,RATING: 4
+llama3.1:8b,choice,laundry detergent,12,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,12,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,12,ai,,4,RATING: 4
+llama3.1:8b,choice,laundry detergent,12,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,12,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,12,effort,,4,"RATING: 4, as the review is enthusiastic but lacks specific details about the product's performance, such as its effectiveness at cleaning clothes or its price."
+llama3.1:8b,choice,laundry detergent,12,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,12,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,13,none,,4,"RATING: 4, as the review provides some specific pros (pleasant scent, works well in certain water conditions) and cons (does not remove tea stains, scent does not last), but is somewhat vague and subj"
+llama3.1:8b,choice,laundry detergent,13,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,13,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,13,ai,,5,RATING: 5
+llama3.1:8b,choice,laundry detergent,13,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,13,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,13,effort,,5,RATING: 5
+llama3.1:8b,choice,laundry detergent,13,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,13,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,14,none,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,14,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,14,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,14,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,14,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,14,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,14,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,14,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,14,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,15,none,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,15,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,15,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,15,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,15,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,15,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,15,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,15,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,15,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,16,none,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,16,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,16,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,16,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,16,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,16,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,16,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,16,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,16,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,17,none,,5,RATING: 5
+llama3.1:8b,choice,laundry detergent,17,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,17,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,17,ai,,5,RATING: 5
+llama3.1:8b,choice,laundry detergent,17,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,17,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,17,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,17,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,17,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,18,none,,4,RATING: 4
+llama3.1:8b,choice,laundry detergent,18,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,18,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,18,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,18,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,18,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,18,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,18,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,18,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,19,none,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,19,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,19,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,19,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,19,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,19,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,19,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,19,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,19,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,20,none,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,20,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,20,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,20,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,20,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,20,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,20,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,20,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,20,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,21,none,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,21,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,21,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,21,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,21,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,21,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,21,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,21,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,21,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,22,none,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,22,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,22,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,22,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,22,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,22,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,22,effort,,6,"RATING: 6, as the review provides specific details about the product's changes, its effectiveness, and the reviewer's concerns, which can help other shoppers make an informed decision."
+llama3.1:8b,choice,laundry detergent,22,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,22,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,23,none,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,23,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,23,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,23,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,23,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,23,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,23,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,23,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,23,effort,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,24,none,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,24,none,A_first,1,
+llama3.1:8b,choice,laundry detergent,24,none,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,24,ai,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,24,ai,A_first,1,
+llama3.1:8b,choice,laundry detergent,24,ai,A_second,0,
+llama3.1:8b,helpfulness,laundry detergent,24,effort,,6,RATING: 6
+llama3.1:8b,choice,laundry detergent,24,effort,A_first,1,
+llama3.1:8b,choice,laundry detergent,24,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,0,none,,2,"RATING: 2
+
+This review is not very helpful because it doesn't mention the specific features or quality of the toothbrush, but rather its ability to hold other personal care items, which may not be rel"
+llama3.1:8b,choice,toothbrush,0,none,A_first,1,
+llama3.1:8b,choice,toothbrush,0,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,0,ai,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,0,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,0,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,0,effort,,4,"RATING: 4, as the review is enthusiastic and mentions a specific benefit (organization), but lacks specific details about the product's quality, performance, or any potential drawbacks."
+llama3.1:8b,choice,toothbrush,0,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,0,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,1,none,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,1,none,A_first,1,
+llama3.1:8b,choice,toothbrush,1,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,1,ai,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,1,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,1,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,1,effort,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,1,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,1,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,2,none,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,2,none,A_first,1,
+llama3.1:8b,choice,toothbrush,2,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,2,ai,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,2,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,2,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,2,effort,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,2,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,2,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,3,none,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,3,none,A_first,1,
+llama3.1:8b,choice,toothbrush,3,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,3,ai,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,3,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,3,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,3,effort,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,3,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,3,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,4,none,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,4,none,A_first,1,
+llama3.1:8b,choice,toothbrush,4,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,4,ai,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,4,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,4,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,4,effort,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,4,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,4,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,5,none,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,5,none,A_first,1,
+llama3.1:8b,choice,toothbrush,5,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,5,ai,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,5,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,5,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,5,effort,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,5,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,5,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,6,none,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,6,none,A_first,1,
+llama3.1:8b,choice,toothbrush,6,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,6,ai,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,6,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,6,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,6,effort,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,6,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,6,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,7,none,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,7,none,A_first,1,
+llama3.1:8b,choice,toothbrush,7,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,7,ai,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,7,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,7,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,7,effort,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,7,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,7,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,8,none,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,8,none,A_first,1,
+llama3.1:8b,choice,toothbrush,8,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,8,ai,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,8,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,8,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,8,effort,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,8,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,8,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,9,none,,4,"RATING: 4, as the review provides specific, anecdotal evidence of the product's benefits, but lacks objective comparisons and lacks clarity on the product's features and performance."
+llama3.1:8b,choice,toothbrush,9,none,A_first,1,
+llama3.1:8b,choice,toothbrush,9,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,9,ai,,4,"RATING: 4, as the review provides specific, anecdotal evidence of the product's benefits, but lacks objective comparisons and lacks clarity on the reviewer's expertise or qualifications."
+llama3.1:8b,choice,toothbrush,9,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,9,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,9,effort,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,9,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,9,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,10,none,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,10,none,A_first,1,
+llama3.1:8b,choice,toothbrush,10,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,10,ai,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,10,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,10,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,10,effort,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,10,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,10,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,11,none,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,11,none,A_first,1,
+llama3.1:8b,choice,toothbrush,11,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,11,ai,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,11,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,11,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,11,effort,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,11,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,11,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,12,none,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,12,none,A_first,1,
+llama3.1:8b,choice,toothbrush,12,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,12,ai,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,12,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,12,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,12,effort,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,12,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,12,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,13,none,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,13,none,A_first,1,
+llama3.1:8b,choice,toothbrush,13,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,13,ai,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,13,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,13,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,13,effort,,5,RATING: 5
+llama3.1:8b,choice,toothbrush,13,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,13,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,14,none,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,14,none,A_first,1,
+llama3.1:8b,choice,toothbrush,14,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,14,ai,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,14,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,14,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,14,effort,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,14,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,14,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,15,none,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,15,none,A_first,1,
+llama3.1:8b,choice,toothbrush,15,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,15,ai,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,15,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,15,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,15,effort,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,15,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,15,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,16,none,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,16,none,A_first,1,
+llama3.1:8b,choice,toothbrush,16,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,16,ai,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,16,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,16,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,16,effort,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,16,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,16,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,17,none,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,17,none,A_first,1,
+llama3.1:8b,choice,toothbrush,17,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,17,ai,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,17,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,17,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,17,effort,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,17,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,17,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,18,none,,2,RATING: 2
+llama3.1:8b,choice,toothbrush,18,none,A_first,1,
+llama3.1:8b,choice,toothbrush,18,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,18,ai,,2,RATING: 2
+llama3.1:8b,choice,toothbrush,18,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,18,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,18,effort,,2,"RATING: 2 
+
+This review is not very helpful because it focuses on the reviewer's personal style and perceived attractiveness to others, rather than providing any information about the toothbrush's per"
+llama3.1:8b,choice,toothbrush,18,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,18,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,19,none,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,19,none,A_first,1,
+llama3.1:8b,choice,toothbrush,19,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,19,ai,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,19,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,19,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,19,effort,,4,"RATING: 4, as the review provides some useful information about the product's effectiveness and the reviewer's long-term experience with it, but lacks specific details about its performance and does n"
+llama3.1:8b,choice,toothbrush,19,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,19,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,20,none,,4,"RATING: 4, as the review provides a specific product experience and usage instructions, but lacks detailed information about the product's features, benefits, and any potential drawbacks."
+llama3.1:8b,choice,toothbrush,20,none,A_first,1,
+llama3.1:8b,choice,toothbrush,20,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,20,ai,,4,"RATING: 4, as the review provides a personal anecdote of success with the product, but lacks specific details about its features, benefits, and any potential drawbacks."
+llama3.1:8b,choice,toothbrush,20,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,20,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,20,effort,,4,"RATING: 4, as the review provides specific details about the product's usage and benefits, but lacks quantitative measures of effectiveness and does not address potential drawbacks or comparisons to o"
+llama3.1:8b,choice,toothbrush,20,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,20,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,21,none,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,21,none,A_first,1,
+llama3.1:8b,choice,toothbrush,21,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,21,ai,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,21,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,21,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,21,effort,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,21,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,21,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,22,none,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,22,none,A_first,1,
+llama3.1:8b,choice,toothbrush,22,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,22,ai,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,22,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,22,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,22,effort,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,22,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,22,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,23,none,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,23,none,A_first,1,
+llama3.1:8b,choice,toothbrush,23,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,23,ai,,4,RATING: 4
+llama3.1:8b,choice,toothbrush,23,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,23,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,23,effort,,5,RATING: 5
+llama3.1:8b,choice,toothbrush,23,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,23,effort,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,24,none,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,24,none,A_first,1,
+llama3.1:8b,choice,toothbrush,24,none,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,24,ai,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,24,ai,A_first,1,
+llama3.1:8b,choice,toothbrush,24,ai,A_second,0,
+llama3.1:8b,helpfulness,toothbrush,24,effort,,6,RATING: 6
+llama3.1:8b,choice,toothbrush,24,effort,A_first,1,
+llama3.1:8b,choice,toothbrush,24,effort,A_second,0,

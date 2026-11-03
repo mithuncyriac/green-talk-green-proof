@@ -3,3 +3,4 @@ bamboo/
 agent/
 *.csv.gz
 __pycache__/
+data_label/label_stimuli.json
