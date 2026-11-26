@@ -1,0 +1,401 @@
+model,validity,task,ptype,tagged,answer,ev_rating
+qwen2.5:7b,v0.9,0,shampoo,0,5,4.6267
+qwen2.5:7b,v0.9,0,shampoo,1,6,5.9246
+qwen2.5:7b,v0.9,1,shampoo,0,5,5.331
+qwen2.5:7b,v0.9,1,shampoo,1,7,6.9996
+qwen2.5:7b,v0.9,2,shampoo,0,5,4.843
+qwen2.5:7b,v0.9,2,shampoo,1,7,6.9991
+qwen2.5:7b,v0.9,3,shampoo,0,4,4.0821
+qwen2.5:7b,v0.9,3,shampoo,1,6,5.8727
+qwen2.5:7b,v0.9,4,shampoo,0,5,4.7681
+qwen2.5:7b,v0.9,4,shampoo,1,7,6.9755
+qwen2.5:7b,v0.9,5,shampoo,0,5,5.0373
+qwen2.5:7b,v0.9,5,shampoo,1,7,6.9995
+qwen2.5:7b,v0.9,6,shampoo,0,5,4.9316
+qwen2.5:7b,v0.9,6,shampoo,1,7,6.99
+qwen2.5:7b,v0.9,7,shampoo,0,3,3.1746
+qwen2.5:7b,v0.9,7,shampoo,1,6,5.9294
+qwen2.5:7b,v0.9,8,shampoo,0,4,3.7932
+qwen2.5:7b,v0.9,8,shampoo,1,5,5.4737
+qwen2.5:7b,v0.9,9,shampoo,0,3,3.3602
+qwen2.5:7b,v0.9,9,shampoo,1,5,5.0696
+qwen2.5:7b,v0.9,10,shampoo,0,4,4.0822
+qwen2.5:7b,v0.9,10,shampoo,1,7,6.534
+qwen2.5:7b,v0.9,11,shampoo,0,3,3.4608
+qwen2.5:7b,v0.9,11,shampoo,1,6,5.7246
+qwen2.5:7b,v0.9,12,shampoo,0,5,4.5376
+qwen2.5:7b,v0.9,12,shampoo,1,6,6.3162
+qwen2.5:7b,v0.9,13,shampoo,0,5,4.9653
+qwen2.5:7b,v0.9,13,shampoo,1,7,6.8856
+qwen2.5:7b,v0.9,14,shampoo,0,5,4.6374
+qwen2.5:7b,v0.9,14,shampoo,1,7,6.808
+qwen2.5:7b,v0.9,15,shampoo,0,4,4.35
+qwen2.5:7b,v0.9,15,shampoo,1,6,6.4218
+qwen2.5:7b,v0.9,16,shampoo,0,5,4.6899
+qwen2.5:7b,v0.9,16,shampoo,1,7,6.5143
+qwen2.5:7b,v0.9,17,shampoo,0,4,3.6909
+qwen2.5:7b,v0.9,17,shampoo,1,6,6.0751
+qwen2.5:7b,v0.9,18,shampoo,0,5,5.1178
+qwen2.5:7b,v0.9,18,shampoo,1,7,6.9954
+qwen2.5:7b,v0.9,19,shampoo,0,4,4.3729
+qwen2.5:7b,v0.9,19,shampoo,1,7,6.8446
+qwen2.5:7b,v0.9,20,shampoo,0,5,4.5047
+qwen2.5:7b,v0.9,20,shampoo,1,7,6.8198
+qwen2.5:7b,v0.9,21,shampoo,0,5,5.1484
+qwen2.5:7b,v0.9,21,shampoo,1,7,6.9995
+qwen2.5:7b,v0.9,22,shampoo,0,3,3.4654
+qwen2.5:7b,v0.9,22,shampoo,1,6,5.865
+qwen2.5:7b,v0.9,23,shampoo,0,4,4.0593
+qwen2.5:7b,v0.9,23,shampoo,1,7,6.9854
+qwen2.5:7b,v0.9,24,shampoo,0,4,3.8539
+qwen2.5:7b,v0.9,24,shampoo,1,7,6.7722
+qwen2.5:7b,v0.9,0,hand soap,0,3,3.3786
+qwen2.5:7b,v0.9,0,hand soap,1,5,5.301
+qwen2.5:7b,v0.9,1,hand soap,0,5,4.5182
+qwen2.5:7b,v0.9,1,hand soap,1,7,6.9725
+qwen2.5:7b,v0.9,2,hand soap,0,3,3.0482
+qwen2.5:7b,v0.9,2,hand soap,1,6,5.6025
+qwen2.5:7b,v0.9,3,hand soap,0,4,4.2366
+qwen2.5:7b,v0.9,3,hand soap,1,6,6.1116
+qwen2.5:7b,v0.9,4,hand soap,0,3,2.7231
+qwen2.5:7b,v0.9,4,hand soap,1,5,5.0614
+qwen2.5:7b,v0.9,5,hand soap,0,4,4.2202
+qwen2.5:7b,v0.9,5,hand soap,1,6,6.1105
+qwen2.5:7b,v0.9,6,hand soap,0,4,4.4616
+qwen2.5:7b,v0.9,6,hand soap,1,7,6.5839
+qwen2.5:7b,v0.9,7,hand soap,0,5,4.773
+qwen2.5:7b,v0.9,7,hand soap,1,7,6.9856
+qwen2.5:7b,v0.9,8,hand soap,0,5,4.6105
+qwen2.5:7b,v0.9,8,hand soap,1,7,6.9061
+qwen2.5:7b,v0.9,9,hand soap,0,4,4.1945
+qwen2.5:7b,v0.9,9,hand soap,1,7,6.9682
+qwen2.5:7b,v0.9,10,hand soap,0,4,4.0915
+qwen2.5:7b,v0.9,10,hand soap,1,7,6.8678
+qwen2.5:7b,v0.9,11,hand soap,0,5,4.8455
+qwen2.5:7b,v0.9,11,hand soap,1,7,6.9899
+qwen2.5:7b,v0.9,12,hand soap,0,3,2.8698
+qwen2.5:7b,v0.9,12,hand soap,1,5,5.3841
+qwen2.5:7b,v0.9,13,hand soap,0,5,5.0256
+qwen2.5:7b,v0.9,13,hand soap,1,7,6.993
+qwen2.5:7b,v0.9,14,hand soap,0,3,2.9284
+qwen2.5:7b,v0.9,14,hand soap,1,5,4.7626
+qwen2.5:7b,v0.9,15,hand soap,0,5,4.5632
+qwen2.5:7b,v0.9,15,hand soap,1,7,6.8638
+qwen2.5:7b,v0.9,16,hand soap,0,5,4.6007
+qwen2.5:7b,v0.9,16,hand soap,1,7,6.9883
+qwen2.5:7b,v0.9,17,hand soap,0,5,4.5223
+qwen2.5:7b,v0.9,17,hand soap,1,7,6.8021
+qwen2.5:7b,v0.9,18,hand soap,0,3,2.6362
+qwen2.5:7b,v0.9,18,hand soap,1,5,4.9881
+qwen2.5:7b,v0.9,19,hand soap,0,5,4.9541
+qwen2.5:7b,v0.9,19,hand soap,1,7,6.9961
+qwen2.5:7b,v0.9,20,hand soap,0,3,3.066
+qwen2.5:7b,v0.9,20,hand soap,1,6,6.1134
+qwen2.5:7b,v0.9,21,hand soap,0,5,4.7961
+qwen2.5:7b,v0.9,21,hand soap,1,7,6.9986
+qwen2.5:7b,v0.9,22,hand soap,0,4,3.7064
+qwen2.5:7b,v0.9,22,hand soap,1,5,5.147
+qwen2.5:7b,v0.9,23,hand soap,0,5,4.8612
+qwen2.5:7b,v0.9,23,hand soap,1,7,6.9937
+qwen2.5:7b,v0.9,24,hand soap,0,5,4.8355
+qwen2.5:7b,v0.9,24,hand soap,1,7,6.9886
+qwen2.5:7b,v0.5,0,shampoo,0,5,4.8902
+qwen2.5:7b,v0.5,0,shampoo,1,5,4.9908
+qwen2.5:7b,v0.5,1,shampoo,0,6,5.5327
+qwen2.5:7b,v0.5,1,shampoo,1,6,6.3189
+qwen2.5:7b,v0.5,2,shampoo,0,5,5.1497
+qwen2.5:7b,v0.5,2,shampoo,1,6,5.9651
+qwen2.5:7b,v0.5,3,shampoo,0,4,4.1337
+qwen2.5:7b,v0.5,3,shampoo,1,5,4.9581
+qwen2.5:7b,v0.5,4,shampoo,0,5,4.9272
+qwen2.5:7b,v0.5,4,shampoo,1,5,5.2694
+qwen2.5:7b,v0.5,5,shampoo,0,5,5.1542
+qwen2.5:7b,v0.5,5,shampoo,1,6,6.0775
+qwen2.5:7b,v0.5,6,shampoo,0,5,4.9754
+qwen2.5:7b,v0.5,6,shampoo,1,6,5.7596
+qwen2.5:7b,v0.5,7,shampoo,0,3,3.4572
+qwen2.5:7b,v0.5,7,shampoo,1,4,4.3755
+qwen2.5:7b,v0.5,8,shampoo,0,4,3.9848
+qwen2.5:7b,v0.5,8,shampoo,1,5,4.5347
+qwen2.5:7b,v0.5,9,shampoo,0,4,3.6122
+qwen2.5:7b,v0.5,9,shampoo,1,4,4.4851
+qwen2.5:7b,v0.5,10,shampoo,0,5,4.6772
+qwen2.5:7b,v0.5,10,shampoo,1,5,5.0656
+qwen2.5:7b,v0.5,11,shampoo,0,4,3.9519
+qwen2.5:7b,v0.5,11,shampoo,1,5,4.8093
+qwen2.5:7b,v0.5,12,shampoo,0,5,4.7984
+qwen2.5:7b,v0.5,12,shampoo,1,5,4.9979
+qwen2.5:7b,v0.5,13,shampoo,0,5,5.057
+qwen2.5:7b,v0.5,13,shampoo,1,6,5.5386
+qwen2.5:7b,v0.5,14,shampoo,0,5,4.8874
+qwen2.5:7b,v0.5,14,shampoo,1,5,5.3178
+qwen2.5:7b,v0.5,15,shampoo,0,5,4.9517
+qwen2.5:7b,v0.5,15,shampoo,1,5,5.0841
+qwen2.5:7b,v0.5,16,shampoo,0,5,4.8836
+qwen2.5:7b,v0.5,16,shampoo,1,5,5.1791
+qwen2.5:7b,v0.5,17,shampoo,0,4,4.0844
+qwen2.5:7b,v0.5,17,shampoo,1,5,4.9
+qwen2.5:7b,v0.5,18,shampoo,0,5,5.4076
+qwen2.5:7b,v0.5,18,shampoo,1,6,5.9311
+qwen2.5:7b,v0.5,19,shampoo,0,5,4.6864
+qwen2.5:7b,v0.5,19,shampoo,1,5,5.136
+qwen2.5:7b,v0.5,20,shampoo,0,5,4.9402
+qwen2.5:7b,v0.5,20,shampoo,1,5,5.2168
+qwen2.5:7b,v0.5,21,shampoo,0,5,5.2827
+qwen2.5:7b,v0.5,21,shampoo,1,6,5.9664
+qwen2.5:7b,v0.5,22,shampoo,0,5,4.5497
+qwen2.5:7b,v0.5,22,shampoo,1,5,5.0286
+qwen2.5:7b,v0.5,23,shampoo,0,4,4.4045
+qwen2.5:7b,v0.5,23,shampoo,1,5,5.1273
+qwen2.5:7b,v0.5,24,shampoo,0,4,4.1584
+qwen2.5:7b,v0.5,24,shampoo,1,5,4.96
+qwen2.5:7b,v0.5,0,hand soap,0,4,4.1002
+qwen2.5:7b,v0.5,0,hand soap,1,5,4.8621
+qwen2.5:7b,v0.5,1,hand soap,0,5,4.6393
+qwen2.5:7b,v0.5,1,hand soap,1,5,5.1388
+qwen2.5:7b,v0.5,2,hand soap,0,3,3.1154
+qwen2.5:7b,v0.5,2,hand soap,1,4,4.1696
+qwen2.5:7b,v0.5,3,hand soap,0,4,4.4493
+qwen2.5:7b,v0.5,3,hand soap,1,5,5.0122
+qwen2.5:7b,v0.5,4,hand soap,0,3,2.929
+qwen2.5:7b,v0.5,4,hand soap,1,4,4.0879
+qwen2.5:7b,v0.5,5,hand soap,0,5,4.8212
+qwen2.5:7b,v0.5,5,hand soap,1,5,5.0461
+qwen2.5:7b,v0.5,6,hand soap,0,5,4.8176
+qwen2.5:7b,v0.5,6,hand soap,1,5,5.1952
+qwen2.5:7b,v0.5,7,hand soap,0,5,4.9192
+qwen2.5:7b,v0.5,7,hand soap,1,5,5.398
+qwen2.5:7b,v0.5,8,hand soap,0,5,4.9227
+qwen2.5:7b,v0.5,8,hand soap,1,5,5.0725
+qwen2.5:7b,v0.5,9,hand soap,0,5,4.861
+qwen2.5:7b,v0.5,9,hand soap,1,6,5.5474
+qwen2.5:7b,v0.5,10,hand soap,0,5,4.7328
+qwen2.5:7b,v0.5,10,hand soap,1,5,5.1651
+qwen2.5:7b,v0.5,11,hand soap,0,5,5.0553
+qwen2.5:7b,v0.5,11,hand soap,1,6,5.8606
+qwen2.5:7b,v0.5,12,hand soap,0,3,2.8392
+qwen2.5:7b,v0.5,12,hand soap,1,4,3.8351
+qwen2.5:7b,v0.5,13,hand soap,0,5,5.185
+qwen2.5:7b,v0.5,13,hand soap,1,6,6.1409
+qwen2.5:7b,v0.5,14,hand soap,0,3,3.0257
+qwen2.5:7b,v0.5,14,hand soap,1,4,3.6133
+qwen2.5:7b,v0.5,15,hand soap,0,5,4.909
+qwen2.5:7b,v0.5,15,hand soap,1,5,5.1784
+qwen2.5:7b,v0.5,16,hand soap,0,5,4.9147
+qwen2.5:7b,v0.5,16,hand soap,1,6,5.8454
+qwen2.5:7b,v0.5,17,hand soap,0,5,4.773
+qwen2.5:7b,v0.5,17,hand soap,1,5,5.1539
+qwen2.5:7b,v0.5,18,hand soap,0,3,2.9152
+qwen2.5:7b,v0.5,18,hand soap,1,4,3.8344
+qwen2.5:7b,v0.5,19,hand soap,0,5,5.0504
+qwen2.5:7b,v0.5,19,hand soap,1,6,5.8041
+qwen2.5:7b,v0.5,20,hand soap,0,4,3.5742
+qwen2.5:7b,v0.5,20,hand soap,1,5,4.9061
+qwen2.5:7b,v0.5,21,hand soap,0,5,5.0146
+qwen2.5:7b,v0.5,21,hand soap,1,6,5.7997
+qwen2.5:7b,v0.5,22,hand soap,0,4,3.9048
+qwen2.5:7b,v0.5,22,hand soap,1,5,4.6446
+qwen2.5:7b,v0.5,23,hand soap,0,5,4.9551
+qwen2.5:7b,v0.5,23,hand soap,1,5,5.2792
+qwen2.5:7b,v0.5,24,hand soap,0,5,4.9535
+qwen2.5:7b,v0.5,24,hand soap,1,5,5.2334
+qwen2.5:7b,v0.0,0,shampoo,0,5,4.5097
+qwen2.5:7b,v0.0,0,shampoo,1,5,4.5887
+qwen2.5:7b,v0.0,1,shampoo,0,5,4.9938
+qwen2.5:7b,v0.0,1,shampoo,1,5,4.7624
+qwen2.5:7b,v0.0,2,shampoo,0,5,4.8856
+qwen2.5:7b,v0.0,2,shampoo,1,5,4.478
+qwen2.5:7b,v0.0,3,shampoo,0,4,3.9556
+qwen2.5:7b,v0.0,3,shampoo,1,5,4.6803
+qwen2.5:7b,v0.0,4,shampoo,0,5,4.7013
+qwen2.5:7b,v0.0,4,shampoo,1,4,4.3193
+qwen2.5:7b,v0.0,5,shampoo,0,5,4.928
+qwen2.5:7b,v0.0,5,shampoo,1,5,4.9717
+qwen2.5:7b,v0.0,6,shampoo,0,5,4.7316
+qwen2.5:7b,v0.0,6,shampoo,1,5,4.9638
+qwen2.5:7b,v0.0,7,shampoo,0,3,3.0926
+qwen2.5:7b,v0.0,7,shampoo,1,3,3.2693
+qwen2.5:7b,v0.0,8,shampoo,0,4,3.9549
+qwen2.5:7b,v0.0,8,shampoo,1,4,3.8269
+qwen2.5:7b,v0.0,9,shampoo,0,3,3.3621
+qwen2.5:7b,v0.0,9,shampoo,1,4,4.1734
+qwen2.5:7b,v0.0,10,shampoo,0,4,4.3489
+qwen2.5:7b,v0.0,10,shampoo,1,4,4.3483
+qwen2.5:7b,v0.0,11,shampoo,0,3,3.4208
+qwen2.5:7b,v0.0,11,shampoo,1,4,3.9851
+qwen2.5:7b,v0.0,12,shampoo,0,4,4.0175
+qwen2.5:7b,v0.0,12,shampoo,1,4,4.0679
+qwen2.5:7b,v0.0,13,shampoo,0,5,4.962
+qwen2.5:7b,v0.0,13,shampoo,1,5,4.9386
+qwen2.5:7b,v0.0,14,shampoo,0,5,4.6091
+qwen2.5:7b,v0.0,14,shampoo,1,5,4.9698
+qwen2.5:7b,v0.0,15,shampoo,0,5,4.6498
+qwen2.5:7b,v0.0,15,shampoo,1,5,4.8497
+qwen2.5:7b,v0.0,16,shampoo,0,5,4.8219
+qwen2.5:7b,v0.0,16,shampoo,1,5,4.4655
+qwen2.5:7b,v0.0,17,shampoo,0,4,4.1866
+qwen2.5:7b,v0.0,17,shampoo,1,4,4.2696
+qwen2.5:7b,v0.0,18,shampoo,0,5,4.9331
+qwen2.5:7b,v0.0,18,shampoo,1,5,4.8616
+qwen2.5:7b,v0.0,19,shampoo,0,4,4.3511
+qwen2.5:7b,v0.0,19,shampoo,1,5,4.4853
+qwen2.5:7b,v0.0,20,shampoo,0,5,4.8049
+qwen2.5:7b,v0.0,20,shampoo,1,5,4.643
+qwen2.5:7b,v0.0,21,shampoo,0,5,4.9584
+qwen2.5:7b,v0.0,21,shampoo,1,5,4.8347
+qwen2.5:7b,v0.0,22,shampoo,0,3,3.3781
+qwen2.5:7b,v0.0,22,shampoo,1,4,4.1042
+qwen2.5:7b,v0.0,23,shampoo,0,4,4.205
+qwen2.5:7b,v0.0,23,shampoo,1,4,4.0251
+qwen2.5:7b,v0.0,24,shampoo,0,4,4.0081
+qwen2.5:7b,v0.0,24,shampoo,1,4,4.0093
+qwen2.5:7b,v0.0,0,hand soap,0,4,3.9257
+qwen2.5:7b,v0.0,0,hand soap,1,5,4.6359
+qwen2.5:7b,v0.0,1,hand soap,0,5,4.5858
+qwen2.5:7b,v0.0,1,hand soap,1,4,4.3391
+qwen2.5:7b,v0.0,2,hand soap,0,3,2.8775
+qwen2.5:7b,v0.0,2,hand soap,1,3,3.4334
+qwen2.5:7b,v0.0,3,hand soap,0,4,4.4351
+qwen2.5:7b,v0.0,3,hand soap,1,4,4.4403
+qwen2.5:7b,v0.0,4,hand soap,0,3,2.8041
+qwen2.5:7b,v0.0,4,hand soap,1,3,3.0116
+qwen2.5:7b,v0.0,5,hand soap,0,5,4.6499
+qwen2.5:7b,v0.0,5,hand soap,1,5,4.8702
+qwen2.5:7b,v0.0,6,hand soap,0,4,4.3108
+qwen2.5:7b,v0.0,6,hand soap,1,5,4.8636
+qwen2.5:7b,v0.0,7,hand soap,0,5,4.7937
+qwen2.5:7b,v0.0,7,hand soap,1,5,4.8761
+qwen2.5:7b,v0.0,8,hand soap,0,5,4.6724
+qwen2.5:7b,v0.0,8,hand soap,1,5,4.606
+qwen2.5:7b,v0.0,9,hand soap,0,5,4.7476
+qwen2.5:7b,v0.0,9,hand soap,1,5,4.8517
+qwen2.5:7b,v0.0,10,hand soap,0,5,4.5138
+qwen2.5:7b,v0.0,10,hand soap,1,5,4.741
+qwen2.5:7b,v0.0,11,hand soap,0,5,4.9832
+qwen2.5:7b,v0.0,11,hand soap,1,5,4.7731
+qwen2.5:7b,v0.0,12,hand soap,0,3,2.7736
+qwen2.5:7b,v0.0,12,hand soap,1,3,2.9075
+qwen2.5:7b,v0.0,13,hand soap,0,5,4.9719
+qwen2.5:7b,v0.0,13,hand soap,1,5,5.0618
+qwen2.5:7b,v0.0,14,hand soap,0,3,3.097
+qwen2.5:7b,v0.0,14,hand soap,1,3,2.9498
+qwen2.5:7b,v0.0,15,hand soap,0,5,4.7876
+qwen2.5:7b,v0.0,15,hand soap,1,4,4.2066
+qwen2.5:7b,v0.0,16,hand soap,0,5,4.5832
+qwen2.5:7b,v0.0,16,hand soap,1,5,4.6414
+qwen2.5:7b,v0.0,17,hand soap,0,5,4.6506
+qwen2.5:7b,v0.0,17,hand soap,1,5,4.6943
+qwen2.5:7b,v0.0,18,hand soap,0,3,3.1448
+qwen2.5:7b,v0.0,18,hand soap,1,3,3.3611
+qwen2.5:7b,v0.0,19,hand soap,0,5,4.92
+qwen2.5:7b,v0.0,19,hand soap,1,5,4.7899
+qwen2.5:7b,v0.0,20,hand soap,0,3,3.1943
+qwen2.5:7b,v0.0,20,hand soap,1,4,3.5859
+qwen2.5:7b,v0.0,21,hand soap,0,5,4.9362
+qwen2.5:7b,v0.0,21,hand soap,1,5,4.9568
+qwen2.5:7b,v0.0,22,hand soap,0,4,3.7766
+qwen2.5:7b,v0.0,22,hand soap,1,4,4.0561
+qwen2.5:7b,v0.0,23,hand soap,0,5,4.704
+qwen2.5:7b,v0.0,23,hand soap,1,5,4.7022
+qwen2.5:7b,v0.0,24,hand soap,0,5,4.7812
+qwen2.5:7b,v0.0,24,hand soap,1,5,4.6187
+qwen2.5:7b,rev,0,shampoo,0,5,4.7289
+qwen2.5:7b,rev,0,shampoo,1,5,4.9438
+qwen2.5:7b,rev,1,shampoo,0,5,4.8763
+qwen2.5:7b,rev,1,shampoo,1,6,5.9643
+qwen2.5:7b,rev,2,shampoo,0,5,4.7089
+qwen2.5:7b,rev,2,shampoo,1,5,5.414
+qwen2.5:7b,rev,3,shampoo,0,4,4.2288
+qwen2.5:7b,rev,3,shampoo,1,5,4.9201
+qwen2.5:7b,rev,4,shampoo,0,4,4.2073
+qwen2.5:7b,rev,4,shampoo,1,5,4.7943
+qwen2.5:7b,rev,5,shampoo,0,5,4.8916
+qwen2.5:7b,rev,5,shampoo,1,6,5.8328
+qwen2.5:7b,rev,6,shampoo,0,5,4.7207
+qwen2.5:7b,rev,6,shampoo,1,6,5.6767
+qwen2.5:7b,rev,7,shampoo,0,3,3.0977
+qwen2.5:7b,rev,7,shampoo,1,4,4.1937
+qwen2.5:7b,rev,8,shampoo,0,4,3.9628
+qwen2.5:7b,rev,8,shampoo,1,5,4.6881
+qwen2.5:7b,rev,9,shampoo,0,4,3.5544
+qwen2.5:7b,rev,9,shampoo,1,4,4.105
+qwen2.5:7b,rev,10,shampoo,0,4,4.1975
+qwen2.5:7b,rev,10,shampoo,1,5,4.8072
+qwen2.5:7b,rev,11,shampoo,0,4,3.6944
+qwen2.5:7b,rev,11,shampoo,1,5,4.7013
+qwen2.5:7b,rev,12,shampoo,0,4,4.0236
+qwen2.5:7b,rev,12,shampoo,1,5,4.8624
+qwen2.5:7b,rev,13,shampoo,0,5,4.952
+qwen2.5:7b,rev,13,shampoo,1,5,5.0604
+qwen2.5:7b,rev,14,shampoo,0,4,4.327
+qwen2.5:7b,rev,14,shampoo,1,5,4.959
+qwen2.5:7b,rev,15,shampoo,0,4,4.3141
+qwen2.5:7b,rev,15,shampoo,1,5,4.892
+qwen2.5:7b,rev,16,shampoo,0,5,4.599
+qwen2.5:7b,rev,16,shampoo,1,5,4.9492
+qwen2.5:7b,rev,17,shampoo,0,5,4.5994
+qwen2.5:7b,rev,17,shampoo,1,5,4.7478
+qwen2.5:7b,rev,18,shampoo,0,5,4.9084
+qwen2.5:7b,rev,18,shampoo,1,5,5.0342
+qwen2.5:7b,rev,19,shampoo,0,4,4.1845
+qwen2.5:7b,rev,19,shampoo,1,5,4.9448
+qwen2.5:7b,rev,20,shampoo,0,5,4.9268
+qwen2.5:7b,rev,20,shampoo,1,5,4.9851
+qwen2.5:7b,rev,21,shampoo,0,5,4.9746
+qwen2.5:7b,rev,21,shampoo,1,6,5.7159
+qwen2.5:7b,rev,22,shampoo,0,3,3.2759
+qwen2.5:7b,rev,22,shampoo,1,5,4.8374
+qwen2.5:7b,rev,23,shampoo,0,5,4.7533
+qwen2.5:7b,rev,23,shampoo,1,5,5.0032
+qwen2.5:7b,rev,24,shampoo,0,4,4.0131
+qwen2.5:7b,rev,24,shampoo,1,5,4.9647
+qwen2.5:7b,rev,0,hand soap,0,4,3.936
+qwen2.5:7b,rev,0,hand soap,1,5,4.8243
+qwen2.5:7b,rev,1,hand soap,0,4,4.3073
+qwen2.5:7b,rev,1,hand soap,1,5,4.9017
+qwen2.5:7b,rev,2,hand soap,0,3,3.1553
+qwen2.5:7b,rev,2,hand soap,1,4,4.1057
+qwen2.5:7b,rev,3,hand soap,0,4,4.1785
+qwen2.5:7b,rev,3,hand soap,1,5,4.6659
+qwen2.5:7b,rev,4,hand soap,0,3,3.2268
+qwen2.5:7b,rev,4,hand soap,1,5,4.7124
+qwen2.5:7b,rev,5,hand soap,0,4,4.2841
+qwen2.5:7b,rev,5,hand soap,1,5,4.7125
+qwen2.5:7b,rev,6,hand soap,0,5,4.4824
+qwen2.5:7b,rev,6,hand soap,1,5,4.9888
+qwen2.5:7b,rev,7,hand soap,0,4,3.7462
+qwen2.5:7b,rev,7,hand soap,1,5,4.8936
+qwen2.5:7b,rev,8,hand soap,0,5,4.7004
+qwen2.5:7b,rev,8,hand soap,1,5,4.9841
+qwen2.5:7b,rev,9,hand soap,0,5,4.8615
+qwen2.5:7b,rev,9,hand soap,1,5,5.4004
+qwen2.5:7b,rev,10,hand soap,0,5,4.7834
+qwen2.5:7b,rev,10,hand soap,1,5,5.0752
+qwen2.5:7b,rev,11,hand soap,0,5,4.9606
+qwen2.5:7b,rev,11,hand soap,1,6,5.5947
+qwen2.5:7b,rev,12,hand soap,0,3,3.4817
+qwen2.5:7b,rev,12,hand soap,1,4,3.8507
+qwen2.5:7b,rev,13,hand soap,0,5,4.8332
+qwen2.5:7b,rev,13,hand soap,1,5,4.9789
+qwen2.5:7b,rev,14,hand soap,0,3,3.2117
+qwen2.5:7b,rev,14,hand soap,1,4,3.7068
+qwen2.5:7b,rev,15,hand soap,0,4,4.3316
+qwen2.5:7b,rev,15,hand soap,1,5,4.7486
+qwen2.5:7b,rev,16,hand soap,0,4,3.6974
+qwen2.5:7b,rev,16,hand soap,1,5,4.6086
+qwen2.5:7b,rev,17,hand soap,0,4,4.2903
+qwen2.5:7b,rev,17,hand soap,1,5,4.5327
+qwen2.5:7b,rev,18,hand soap,0,5,4.4363
+qwen2.5:7b,rev,18,hand soap,1,5,4.935
+qwen2.5:7b,rev,19,hand soap,0,5,4.8796
+qwen2.5:7b,rev,19,hand soap,1,6,5.646
+qwen2.5:7b,rev,20,hand soap,0,4,3.6728
+qwen2.5:7b,rev,20,hand soap,1,5,4.4774
+qwen2.5:7b,rev,21,hand soap,0,5,4.8806
+qwen2.5:7b,rev,21,hand soap,1,5,5.2649
+qwen2.5:7b,rev,22,hand soap,0,4,3.7679
+qwen2.5:7b,rev,22,hand soap,1,4,4.3226
+qwen2.5:7b,rev,23,hand soap,0,5,4.6541
+qwen2.5:7b,rev,23,hand soap,1,5,4.9556
+qwen2.5:7b,rev,24,hand soap,0,5,4.8644
+qwen2.5:7b,rev,24,hand soap,1,5,5.2013
