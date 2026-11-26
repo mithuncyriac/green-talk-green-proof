@@ -1,0 +1,12 @@
+=== diagnosticity pilot started 2026-11-26T18:09:36+04:00 ===
+  qwen2.5:7b v0.9 done (15s)
+  qwen2.5:7b v0.5 done (30s)
+  qwen2.5:7b v0.0 done (45s)
+  qwen2.5:7b rev done (59s)
+done qwen2.5:7b in 1.0 min -> results/diagnosticity-2026-11-26\diagnosticity_qwen2_5_7b.csv
+  llama3.1:8b v0.9 done (31s)
+  llama3.1:8b v0.5 done (47s)
+  llama3.1:8b v0.0 done (63s)
+  llama3.1:8b rev done (80s)
+done llama3.1:8b in 1.3 min -> results/diagnosticity-2026-11-26\diagnosticity_llama3_1_8b.csv
+=== finished 2026-11-26T18:11:56+04:00 ===

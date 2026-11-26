@@ -1,0 +1,4 @@
+54d7234b4b1d2e6c25b509c72efd8047d66596db61fe856fe043f75c3fa42b51 *scripts/diagnosticity.py
+2026-11-26T18:09:23+0400
+H8 diagnostic use: slope of tag effect on validity is clearly positive.
+H9 prior-driven use: slope is flat, CI includes zero.
