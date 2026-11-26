@@ -1,0 +1,87 @@
+AI-LABEL AUDIT - ORIGINAL RUN, 2 Nov 2026
+==========================================
+
+
+=== qwen2.5:7b ===
+calibration: 96.2% correct of 80 -> PASS
+unparseable: 0
+helpfulness means: {'ai': 5.85, 'effort': 6.1, 'none': 5.99}
+position bias: first-shown product picked 75.5%
+choice means: {'ai': 0.585, 'effort': 0.605, 'none': 0.575}
+  H1 ai - none      b=-0.140 se=0.049 p=0.0046 holm=0.0139
+  H2 effort - ai    b=+0.250 se=0.059 p=0.0000 holm=0.0001
+  H3 ai - none      b=+0.010 se=0.016 p=0.5206 holm=0.5206
+  H4 effort - ai    b=+0.020 se=0.015 p=0.1954 holm=0.3908
+
+=== llama3.1:8b ===
+calibration: 97.5% correct of 80 -> PASS
+unparseable: 0
+helpfulness means: {'ai': 4.97, 'effort': 5.22, 'none': 4.78}
+position bias: first-shown product picked 99.8%
+choice means: {'ai': 0.495, 'effort': 0.5, 'none': 0.5}
+  H1 ai - none      b=+0.190 se=0.071 p=0.0078 holm=0.0233
+  H2 effort - ai    b=+0.250 se=0.073 p=0.0006 holm=0.0024
+  H3 ai - none      b=-0.005 se=0.005 p=0.3624 holm=0.7247
+  H4 effort - ai    b=+0.005 se=0.005 p=0.3624 holm=0.7247
+
+figure: results/04_label_audit.png
+
+CROSS-MODEL TEST (added 25 Nov 2026)
+-----------------------------------
+=== what is being tested ===
+helpfulness ratings: 600 (0 unparseable dropped)
+models: ['llama', 'qwen'] | items: 100 | conditions: ['ai', 'effort', 'none']
+display orders present in the helpfulness task: [''] <- no two-product layout, so order cannot contaminate H1
+
+=== rating distribution: do the two models even use the same scale? ===
+                n  mean     sd  lowest  highest
+model cond                                     
+llama ai      100  4.97  1.291     1.0      6.0
+      effort  100  5.22  1.244     2.0      6.0
+      none    100  4.78  1.353     2.0      6.0
+qwen  ai      100  5.85  1.209     1.0      7.0
+      effort  100  6.10  1.124     1.0      7.0
+      none    100  5.99  1.227     1.0      7.0
+
+full histogram of every rating emitted (counts out of 100 per cell):
+y             1.0  2.0  3.0  4.0  5.0  6.0  7.0
+llama none      0   11    0   38    2   49    0
+      ai        1    7    0   32    6   54    0
+      effort    0    8    0   20    6   66    0
+qwen  none      1    1    1    5   29   13   50
+      ai        1    0    2    8   30   17   42
+      effort    1    0    2    1   28   17   51
+
+A scale point a model never emits is a point it cannot move to. Check the
+headroom each model actually has above its own modal answer before reading
+the sign of its effect as a preference.
+
+=== 1. pooled interaction, raw 1-7 points ===
+y ~ cond * model + item FE, SEs clustered by item
+  ai                           b=-0.140  se=0.044  p=0.0016
+  effort                       b=+0.110  se=0.041  p=0.0074
+  ai x llama                   b=+0.330  se=0.077  p=0.0000
+  effort x llama               b=+0.330  se=0.090  p=0.0002
+
+  INTERACTION (ai x llama) = the sign flip itself: b=+0.330, p=1.683e-05
+  95% CI [+0.180, +0.480]
+
+=== 2. same test on ratings standardised within model ===
+  INTERACTION (ai x llama), in SDs: b=+0.264, se=0.061, p=1.414e-05
+  95% CI [+0.145, +0.383]
+
+=== 3. item-cluster bootstrap, 2000 resamples of the 100 items ===
+  effect                  point     95% percentile CI      share of draws crossing 0
+  Qwen:  ai - none       -0.140   [-0.220, -0.070]   0.000
+  Llama: ai - none       +0.190   [+0.090, +0.310]   0.000
+  Qwen:  effort - ai     +0.250   [+0.160, +0.340]   0.000
+  Llama: effort - ai     +0.250   [+0.140, +0.370]   0.000
+  GAP:   llama - qwen    +0.330   [+0.200, +0.470]   0.000
+
+  draws in which Qwen is negative AND Llama is positive: 1.000
+
+=== choice task: can the instrument see a choice effect at all? ===
+  llama  picks the first-shown product 99.8% of the time; P(choose A) range across conditions 0.495-0.500
+  qwen   picks the first-shown product 75.5% of the time; P(choose A) range across conditions 0.575-0.605
+  A model that almost always picks the first product has almost no variance
+  left for a label to move. Its null is uninformative, not evidence of no effect.

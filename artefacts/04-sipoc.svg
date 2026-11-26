@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="412" viewBox="0 0 1180 412" font-family="Calibri,Segoe UI,sans-serif">
+<rect width="1180" height="412" fill="#fcfcfb"/>
+<text x="40" y="36" font-size="21" font-weight="bold" fill="#1F3B57">SIPOC - the audit, treated as a process</text>
+<text x="40" y="58" font-size="13" fill="#52514e">Not the shopping process. The process that tests whether an agent can be trusted with it.</text>
+<rect x="40.0" y="88" width="212.0" height="34" fill="#1F3B57"/>
+<text x="146.0" y="110.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">SUPPLIERS</text>
+<rect x="40.0" y="122" width="212.0" height="186" fill="#ffffff" stroke="#e3e2dd"/>
+<text x="50.0" y="142.0" font-size="11.5" fill="#52514e" text-anchor="start"> Amazon Reviews 2023 (McAuley Lab)</text>
+<text x="50.0" y="164.0" font-size="11.5" fill="#52514e" text-anchor="start"> Model publishers (Qwen, Meta)</text>
+<text x="50.0" y="186.0" font-size="11.5" fill="#52514e" text-anchor="start"> Ollama local runtime</text>
+<text x="50.0" y="208.0" font-size="11.5" fill="#52514e" text-anchor="start"> Published human benchmark (JCR 2026)</text>
+<text x="50.0" y="230.0" font-size="11.5" fill="#52514e" text-anchor="start"> The analyst (hypotheses)</text>
+<rect x="260.0" y="88" width="212.0" height="34" fill="#1F3B57"/>
+<text x="366.0" y="110.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">INPUTS</text>
+<rect x="260.0" y="122" width="212.0" height="186" fill="#ffffff" stroke="#e3e2dd"/>
+<text x="270.0" y="142.0" font-size="11.5" fill="#52514e" text-anchor="start"> 100 real reviews, 4-5 star</text>
+<text x="270.0" y="164.0" font-size="11.5" fill="#52514e" text-anchor="start"> 3 label conditions per review</text>
+<text x="270.0" y="186.0" font-size="11.5" fill="#52514e" text-anchor="start"> 2 shopper personas</text>
+<text x="270.0" y="208.0" font-size="11.5" fill="#52514e" text-anchor="start"> Both display orders</text>
+<text x="270.0" y="230.0" font-size="11.5" fill="#52514e" text-anchor="start"> Hashed hypotheses + decision rule</text>
+<text x="270.0" y="252.0" font-size="11.5" fill="#52514e" text-anchor="start"> Fixed seeds, temperature 0</text>
+<rect x="480.0" y="88" width="212.0" height="34" fill="#1F3B57"/>
+<text x="586.0" y="110.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">PROCESS</text>
+<rect x="480.0" y="122" width="212.0" height="186" fill="#ffffff" stroke="#e3e2dd"/>
+<text x="490.0" y="142.0" font-size="11.5" fill="#0b0b0b" text-anchor="start"> 1 Write and hash hypotheses</text>
+<text x="490.0" y="164.0" font-size="11.5" fill="#0b0b0b" text-anchor="start"> 2 Build stimuli from the corpus</text>
+<text x="490.0" y="186.0" font-size="11.5" fill="#0b0b0b" text-anchor="start"> 3 Calibrate each model</text>
+<text x="490.0" y="208.0" font-size="11.5" fill="#0b0b0b" text-anchor="start"> 4 Run every condition</text>
+<text x="490.0" y="230.0" font-size="11.5" fill="#0b0b0b" text-anchor="start"> 5 Parse and count failures</text>
+<text x="490.0" y="252.0" font-size="11.5" fill="#0b0b0b" text-anchor="start"> 6 Fit per model</text>
+<text x="490.0" y="274.0" font-size="11.5" fill="#0b0b0b" text-anchor="start"> 7 Test the models against each other</text>
+<text x="490.0" y="296.0" font-size="11.5" fill="#0b0b0b" text-anchor="start"> 8 Apply the robustness gate</text>
+<rect x="700.0" y="88" width="212.0" height="34" fill="#1F3B57"/>
+<text x="806.0" y="110.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">OUTPUTS</text>
+<rect x="700.0" y="122" width="212.0" height="186" fill="#ffffff" stroke="#e3e2dd"/>
+<text x="710.0" y="142.0" font-size="11.5" fill="#52514e" text-anchor="start"> Pass / fail per hypothesis</text>
+<text x="710.0" y="164.0" font-size="11.5" fill="#52514e" text-anchor="start"> A cross-model gap with an interval</text>
+<text x="710.0" y="186.0" font-size="11.5" fill="#52514e" text-anchor="start"> Calibration and parse rates</text>
+<text x="710.0" y="208.0" font-size="11.5" fill="#52514e" text-anchor="start"> Position-bias diagnostics</text>
+<text x="710.0" y="230.0" font-size="11.5" fill="#52514e" text-anchor="start"> A reproduction delta</text>
+<text x="710.0" y="252.0" font-size="11.5" fill="#52514e" text-anchor="start"> A written limitation list</text>
+<rect x="920.0" y="88" width="212.0" height="34" fill="#1F3B57"/>
+<text x="1026.0" y="110.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">CUSTOMERS</text>
+<rect x="920.0" y="122" width="212.0" height="186" fill="#ffffff" stroke="#e3e2dd"/>
+<text x="930.0" y="142.0" font-size="11.5" fill="#52514e" text-anchor="start"> Whoever chooses the model</text>
+<text x="930.0" y="164.0" font-size="11.5" fill="#52514e" text-anchor="start"> Product owner of a recommender</text>
+<text x="930.0" y="186.0" font-size="11.5" fill="#52514e" text-anchor="start"> Risk, audit and compliance</text>
+<text x="930.0" y="208.0" font-size="11.5" fill="#52514e" text-anchor="start"> Regulators reading disclosure rules</text>
+<text x="930.0" y="230.0" font-size="11.5" fill="#52514e" text-anchor="start"> The next researcher (the repo)</text>
+<text x="40" y="368" font-size="11" fill="#8a8984">6,920 prompts across both studies, every one logged with its condition, persona and display order.</text>
+<text x="40" y="383" font-size="11" fill="#8a8984">The customers column is the reason this is an operations artefact and not a paper: steps 3, 5 and 8 are quality</text>
+<text x="40" y="398" font-size="11" fill="#8a8984">gates with numeric thresholds, and step 8 is the one that failed, which is what the output is for.</text>
+</svg>

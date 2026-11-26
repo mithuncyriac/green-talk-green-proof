@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="560" viewBox="0 0 1300 560" font-family="Calibri,Segoe UI,sans-serif">
+<rect width="1300" height="560" fill="#fcfcfb"/>
+<text x="40" y="36" font-size="21" font-weight="bold" fill="#1F3B57">Value stream map - what the audit actually costs</text>
+<text x="40" y="58" font-size="13" fill="#52514e">Dashed red = not measured. Solid = read from the run log or the script.</text>
+<defs><marker id="ar2" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#1F3B57"/></marker></defs>
+<rect x="40" y="110" width="118" height="78" rx="5" fill="#FBEFEF" stroke="#e34948" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="99.0" y="140.0" font-size="11.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">Write hypotheses</text>
+<text x="99.0" y="155.0" font-size="11.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">and the gate</text>
+<text x="99.0" y="180.0" font-size="9.5" fill="#8a8984" text-anchor="middle">human</text>
+<rect x="40" y="250" width="118" height="40" fill="#e34948" opacity="0.14"/>
+<text x="99.0" y="268.0" font-size="11" fill="#e34948" text-anchor="middle" font-weight="bold">not instrumented</text>
+<path d="M 158 149 L 173 149" stroke="#1F3B57" stroke-width="1.6" marker-end="url(#ar2)"/>
+<rect x="176" y="110" width="118" height="78" rx="5" fill="#ffffff" stroke="#1F3B57" stroke-width="1.6"/>
+<text x="235.0" y="140.0" font-size="11.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">Hash the file</text>
+<text x="235.0" y="180.0" font-size="9.5" fill="#8a8984" text-anchor="middle">file timestamps</text>
+<rect x="176" y="250" width="118" height="40" fill="#2a78d6" opacity="0.14"/>
+<text x="235.0" y="268.0" font-size="11" fill="#0b0b0b" text-anchor="middle">40 s before</text>
+<text x="235.0" y="282.0" font-size="11" fill="#0b0b0b" text-anchor="middle">the run began</text>
+<path d="M 294 149 L 309 149" stroke="#1F3B57" stroke-width="1.6" marker-end="url(#ar2)"/>
+<rect x="312" y="110" width="118" height="78" rx="5" fill="#FBEFEF" stroke="#e34948" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="371.0" y="140.0" font-size="11.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">Build stimuli</text>
+<text x="371.0" y="180.0" font-size="9.5" fill="#8a8984" text-anchor="middle">no log kept</text>
+<rect x="312" y="250" width="118" height="40" fill="#e34948" opacity="0.14"/>
+<text x="371.0" y="268.0" font-size="11" fill="#e34948" text-anchor="middle" font-weight="bold">not timed</text>
+<text x="371.0" y="282.0" font-size="11" fill="#e34948" text-anchor="middle" font-weight="bold">(ran once, 2 Nov)</text>
+<path d="M 430 149 L 445 149" stroke="#1F3B57" stroke-width="1.6" marker-end="url(#ar2)"/>
+<rect x="448" y="110" width="118" height="78" rx="5" fill="#ffffff" stroke="#1F3B57" stroke-width="1.6"/>
+<text x="507.0" y="140.0" font-size="11.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">Calibrate</text>
+<text x="507.0" y="155.0" font-size="11.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">both models</text>
+<text x="507.0" y="180.0" font-size="9.5" fill="#8a8984" text-anchor="middle">run log</text>
+<rect x="448" y="250" width="118" height="40" fill="#2a78d6" opacity="0.14"/>
+<text x="507.0" y="268.0" font-size="11" fill="#0b0b0b" text-anchor="middle">160 prompts,</text>
+<text x="507.0" y="282.0" font-size="11" fill="#0b0b0b" text-anchor="middle">inside the run</text>
+<path d="M 566 149 L 581 149" stroke="#1F3B57" stroke-width="1.6" marker-end="url(#ar2)"/>
+<rect x="584" y="110" width="118" height="78" rx="5" fill="#ffffff" stroke="#1F3B57" stroke-width="1.6"/>
+<text x="643.0" y="140.0" font-size="11.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">Run every</text>
+<text x="643.0" y="155.0" font-size="11.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">condition</text>
+<text x="643.0" y="180.0" font-size="9.5" fill="#8a8984" text-anchor="middle">wall clock</text>
+<rect x="584" y="250" width="118" height="40" fill="#2a78d6" opacity="0.14"/>
+<text x="643.0" y="268.0" font-size="11" fill="#0b0b0b" text-anchor="middle">6.9-9.3 min</text>
+<text x="643.0" y="282.0" font-size="11" fill="#0b0b0b" text-anchor="middle">per model</text>
+<path d="M 702 149 L 717 149" stroke="#1F3B57" stroke-width="1.6" marker-end="url(#ar2)"/>
+<rect x="720" y="110" width="118" height="78" rx="5" fill="#ffffff" stroke="#1F3B57" stroke-width="1.6"/>
+<text x="779.0" y="140.0" font-size="11.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">Parse and</text>
+<text x="779.0" y="155.0" font-size="11.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">count failures</text>
+<text x="779.0" y="180.0" font-size="9.5" fill="#8a8984" text-anchor="middle">run log</text>
+<rect x="720" y="250" width="118" height="40" fill="#2a78d6" opacity="0.14"/>
+<text x="779.0" y="268.0" font-size="11" fill="#0b0b0b" text-anchor="middle">inside the run</text>
+<path d="M 838 149 L 853 149" stroke="#1F3B57" stroke-width="1.6" marker-end="url(#ar2)"/>
+<rect x="856" y="110" width="118" height="78" rx="5" fill="#ffffff" stroke="#1F3B57" stroke-width="1.6"/>
+<text x="915.0" y="140.0" font-size="11.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">Fit per model</text>
+<text x="915.0" y="180.0" font-size="9.5" fill="#8a8984" text-anchor="middle">timed run</text>
+<rect x="856" y="250" width="118" height="40" fill="#2a78d6" opacity="0.14"/>
+<text x="915.0" y="268.0" font-size="11" fill="#0b0b0b" text-anchor="middle">6 s</text>
+<path d="M 974 149 L 989 149" stroke="#1F3B57" stroke-width="1.6" marker-end="url(#ar2)"/>
+<rect x="992" y="110" width="118" height="78" rx="5" fill="#ffffff" stroke="#1F3B57" stroke-width="1.6"/>
+<text x="1051.0" y="140.0" font-size="11.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">Cross-model test</text>
+<text x="1051.0" y="155.0" font-size="11.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">+ bootstrap</text>
+<text x="1051.0" y="180.0" font-size="9.5" fill="#8a8984" text-anchor="middle">timed run</text>
+<rect x="992" y="250" width="118" height="40" fill="#2a78d6" opacity="0.14"/>
+<text x="1051.0" y="268.0" font-size="11" fill="#0b0b0b" text-anchor="middle">64 s</text>
+<text x="1051.0" y="282.0" font-size="11" fill="#0b0b0b" text-anchor="middle">2000 resamples</text>
+<path d="M 1110 149 L 1125 149" stroke="#1F3B57" stroke-width="1.6" marker-end="url(#ar2)"/>
+<rect x="1128" y="110" width="118" height="78" rx="5" fill="#FBEFEF" stroke="#e34948" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="1187.0" y="140.0" font-size="11.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">Apply the gate,</text>
+<text x="1187.0" y="155.0" font-size="11.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">write it up</text>
+<text x="1187.0" y="180.0" font-size="9.5" fill="#8a8984" text-anchor="middle">human</text>
+<rect x="1128" y="250" width="118" height="40" fill="#e34948" opacity="0.14"/>
+<text x="1187.0" y="268.0" font-size="11" fill="#e34948" text-anchor="middle" font-weight="bold">not instrumented</text>
+<text x="40.0" y="240.0" font-size="11" fill="#52514e" text-anchor="start" font-weight="bold">CYCLE TIME</text>
+<text x="40.0" y="104.0" font-size="11" fill="#52514e" text-anchor="start" font-weight="bold">PROCESS STEP</text>
+<rect x="40" y="328" width="1220" height="108" rx="6" fill="#FEF9E7" stroke="#B7950B" stroke-width="1.5"/>
+<text x="54.0" y="352.0" font-size="14" fill="#7D6608" text-anchor="start" font-weight="bold">6 of 9 steps carry a measured number. The other 3 do not, and say so.</text>
+<text x="54.0" y="372.0" font-size="11.5" fill="#7D6608" text-anchor="start">The useful number is not how long I took. It is that the machine half of a two-model pre-deployment check costs about 20 minutes</text>
+<text x="54.0" y="389.0" font-size="11.5" fill="#7D6608" text-anchor="start">on one desktop GPU (qwen 6.9 min, llama 9.3 min, plus 203 s of analysis) for 1960 prompts, with nothing sent to a vendor.</text>
+<text x="54.0" y="406.0" font-size="11.5" fill="#7D6608" text-anchor="start">That is the entire cost of putting a gate in front of a model choice. It is too small to lose a budget argument over.</text>
+<text x="54.0" y="423.0" font-size="11.5" fill="#7D6608" text-anchor="start">The boxes marked not timed are not timed. Guessed cycle times make a map look finished and make it wrong.</text>
+<text x="40" y="546" font-size="11" fill="#8a8984">If the run time box says "not timed", results/findings.json has no measured_run_time yet: run the audit again and rebuild.</text>
+</svg>

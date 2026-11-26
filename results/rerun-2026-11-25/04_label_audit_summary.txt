@@ -1,0 +1,87 @@
+AI-LABEL AUDIT - RERUN, 25 Nov 2026 (same stimuli file, temperature 0, seed 1)
+==============================================================================
+
+
+=== qwen2.5:7b ===
+calibration: 97.5% correct of 80 -> PASS
+unparseable: 0
+helpfulness means: {'ai': 5.84, 'effort': 6.08, 'none': 5.99}
+position bias: first-shown product picked 75.7%
+choice means: {'ai': 0.58, 'effort': 0.605, 'none': 0.575}
+  H1 ai - none      b=-0.150 se=0.051 p=0.0030 holm=0.0090
+  H2 effort - ai    b=+0.240 se=0.053 p=0.0000 holm=0.0000
+  H3 ai - none      b=+0.005 se=0.017 p=0.7624 holm=0.7624
+  H4 effort - ai    b=+0.025 se=0.016 p=0.1255 holm=0.2511
+
+=== llama3.1:8b ===
+calibration: 97.5% correct of 80 -> PASS
+unparseable: 0
+helpfulness means: {'ai': 5.0, 'effort': 5.26, 'none': 4.8}
+position bias: first-shown product picked 99.8%
+choice means: {'ai': 0.495, 'effort': 0.5, 'none': 0.5}
+  H1 ai - none      b=+0.200 se=0.068 p=0.0031 holm=0.0093
+  H2 effort - ai    b=+0.260 se=0.075 p=0.0006 holm=0.0022
+  H3 ai - none      b=-0.005 se=0.005 p=0.3624 holm=0.7247
+  H4 effort - ai    b=+0.005 se=0.005 p=0.3624 holm=0.7247
+
+figure: results/04_label_audit.png
+
+CROSS-MODEL TEST
+----------------
+=== what is being tested ===
+helpfulness ratings: 600 (0 unparseable dropped)
+models: ['llama', 'qwen'] | items: 100 | conditions: ['ai', 'effort', 'none']
+display orders present in the helpfulness task: [''] <- no two-product layout, so order cannot contaminate H1
+
+=== rating distribution: do the two models even use the same scale? ===
+                n  mean     sd  lowest  highest
+model cond                                     
+llama ai      100  5.00  1.255     2.0      6.0
+      effort  100  5.26  1.220     2.0      7.0
+      none    100  4.80  1.356     2.0      6.0
+qwen  ai      100  5.84  1.204     1.0      7.0
+      effort  100  6.08  1.125     1.0      7.0
+      none    100  5.99  1.227     1.0      7.0
+
+full histogram of every rating emitted (counts out of 100 per cell):
+y             1.0  2.0  3.0  4.0  5.0  6.0  7.0
+llama none      0   11    0   37    2   50    0
+      ai        0    8    0   30    8   54    0
+      effort    0    7    0   21    5   66    1
+qwen  none      1    1    1    5   29   13   50
+      ai        1    0    2    8   30   18   41
+      effort    1    0    2    1   29   17   50
+
+A scale point a model never emits is a point it cannot move to. Check the
+headroom each model actually has above its own modal answer before reading
+the sign of its effect as a preference.
+
+=== 1. pooled interaction, raw 1-7 points ===
+y ~ cond * model + item FE, SEs clustered by item
+  ai                           b=-0.150  se=0.045  p=0.0009
+  effort                       b=+0.090  se=0.039  p=0.0197
+  ai x llama                   b=+0.350  se=0.071  p=0.0000
+  effort x llama               b=+0.370  se=0.092  p=0.0001
+
+  INTERACTION (ai x llama) = the sign flip itself: b=+0.350, p=7.079e-07
+  95% CI [+0.212, +0.488]
+
+=== 2. same test on ratings standardised within model ===
+  INTERACTION (ai x llama), in SDs: b=+0.282, se=0.057, p=5.986e-07
+  95% CI [+0.171, +0.393]
+
+=== 3. item-cluster bootstrap, 2000 resamples of the 100 items ===
+  effect                  point     95% percentile CI      share of draws crossing 0
+  Qwen:  ai - none       -0.150   [-0.230, -0.080]   0.000
+  Llama: ai - none       +0.200   [+0.100, +0.310]   0.000
+  Qwen:  effort - ai     +0.240   [+0.160, +0.320]   0.000
+  Llama: effort - ai     +0.260   [+0.150, +0.390]   0.000
+  GAP:   llama - qwen    +0.350   [+0.230, +0.480]   0.000
+
+  draws in which Qwen is negative AND Llama is positive: 1.000
+
+=== choice task: can the instrument see a choice effect at all? ===
+  llama  picks the first-shown product 99.8% of the time; P(choose A) range across conditions 0.495-0.500
+  qwen   picks the first-shown product 75.7% of the time; P(choose A) range across conditions 0.575-0.605
+  A model that almost always picks the first product has almost no variance
+  left for a label to move. Its null is uninformative, not evidence of no effect.

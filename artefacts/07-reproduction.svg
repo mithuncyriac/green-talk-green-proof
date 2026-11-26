@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="470" viewBox="0 0 1040 470" font-family="Calibri,Segoe UI,sans-serif">
+<rect width="1040" height="470" fill="#fcfcfb"/>
+<text x="40" y="36" font-size="21" font-weight="bold" fill="#1F3B57">The same audit, run again 23 days later</text>
+<text x="40" y="58" font-size="13" fill="#52514e">Same stimuli file (hash checked), same models, same prompts, temperature 0, seed 1</text>
+<text x="40.0" y="104.0" font-size="14" fill="#1F3B57" text-anchor="start" font-weight="bold">Did the same prompt get the same answer?</text>
+<text x="40.0" y="122.0" font-size="11" fill="#52514e" text-anchor="start">every prompt matched on model, task, condition and display order</text>
+<text x="40.0" y="154.0" font-size="12" fill="#52514e" text-anchor="start">calibration tasks  (n=160)</text>
+<rect x="40" y="160" width="380" height="30" fill="#1baf7a" opacity="0.15"/>
+<rect x="40" y="160" width="377.6" height="30" fill="#1baf7a"/>
+<text x="409.6" y="181.0" font-size="12.5" fill="#ffffff" text-anchor="end" font-weight="bold">99.4% identical</text>
+<text x="430.0" y="181.0" font-size="12" fill="#e34948" text-anchor="start" font-weight="bold">0.6% changed</text>
+<text x="40.0" y="220.0" font-size="12" fill="#52514e" text-anchor="start">product choices  (n=1200)</text>
+<rect x="40" y="226" width="380" height="30" fill="#1baf7a" opacity="0.15"/>
+<rect x="40" y="226" width="375.2" height="30" fill="#1baf7a"/>
+<text x="407.2" y="247.0" font-size="12.5" fill="#ffffff" text-anchor="end" font-weight="bold">98.8% identical</text>
+<text x="430.0" y="247.0" font-size="12" fill="#e34948" text-anchor="start" font-weight="bold">1.2% changed</text>
+<text x="40.0" y="286.0" font-size="12" fill="#52514e" text-anchor="start">helpfulness ratings  (n=600)</text>
+<rect x="40" y="292" width="380" height="30" fill="#1baf7a" opacity="0.15"/>
+<rect x="40" y="292" width="367.3" height="30" fill="#1baf7a"/>
+<text x="399.3" y="313.0" font-size="12.5" fill="#ffffff" text-anchor="end" font-weight="bold">96.7% identical</text>
+<text x="430.0" y="313.0" font-size="12" fill="#e34948" text-anchor="start" font-weight="bold">3.3% changed</text>
+<text x="530.0" y="104.0" font-size="14" fill="#1F3B57" text-anchor="start" font-weight="bold">Did the headline move?</text>
+<text x="530.0" y="122.0" font-size="11" fill="#52514e" text-anchor="start">the two effects the hypotheses named, in rating points</text>
+<text x="780.0" y="150.0" font-size="11.5" fill="#8a8984" text-anchor="middle" font-weight="bold">2 Nov</text>
+<text x="890.0" y="150.0" font-size="11.5" fill="#8a8984" text-anchor="middle" font-weight="bold">25 Nov</text>
+<text x="530.0" y="176.0" font-size="12.5" fill="#0b0b0b" text-anchor="start">Qwen, AI label</text>
+<text x="780.0" y="176.0" font-size="13" fill="#2a78d6" text-anchor="middle" font-weight="bold">-0.14</text>
+<text x="835.0" y="176.0" font-size="12" fill="#8a8984" text-anchor="middle">-&gt;</text>
+<text x="890.0" y="176.0" font-size="13" fill="#2a78d6" text-anchor="middle" font-weight="bold">-0.15</text>
+<line x1="530" y1="188" x2="930" y2="188" stroke="#e3e2dd"/>
+<text x="530.0" y="216.0" font-size="12.5" fill="#0b0b0b" text-anchor="start">Llama, AI label</text>
+<text x="780.0" y="216.0" font-size="13" fill="#eb6834" text-anchor="middle" font-weight="bold">+0.19</text>
+<text x="835.0" y="216.0" font-size="12" fill="#8a8984" text-anchor="middle">-&gt;</text>
+<text x="890.0" y="216.0" font-size="13" fill="#eb6834" text-anchor="middle" font-weight="bold">+0.20</text>
+<line x1="530" y1="228" x2="930" y2="228" stroke="#e3e2dd"/>
+<text x="530.0" y="256.0" font-size="12.5" fill="#0b0b0b" text-anchor="start">Qwen, effort label</text>
+<text x="780.0" y="256.0" font-size="13" fill="#2a78d6" text-anchor="middle" font-weight="bold">+0.25</text>
+<text x="835.0" y="256.0" font-size="12" fill="#8a8984" text-anchor="middle">-&gt;</text>
+<text x="890.0" y="256.0" font-size="13" fill="#2a78d6" text-anchor="middle" font-weight="bold">+0.24</text>
+<line x1="530" y1="268" x2="930" y2="268" stroke="#e3e2dd"/>
+<text x="530.0" y="296.0" font-size="12.5" fill="#0b0b0b" text-anchor="start">Llama, effort label</text>
+<text x="780.0" y="296.0" font-size="13" fill="#eb6834" text-anchor="middle" font-weight="bold">+0.25</text>
+<text x="835.0" y="296.0" font-size="12" fill="#8a8984" text-anchor="middle">-&gt;</text>
+<text x="890.0" y="296.0" font-size="13" fill="#eb6834" text-anchor="middle" font-weight="bold">+0.26</text>
+<line x1="530" y1="308" x2="930" y2="308" stroke="#e3e2dd"/>
+<rect x="40" y="388" width="960" height="50" rx="5" fill="#EAF7F1" stroke="#1baf7a"/>
+<text x="54.0" y="408.0" font-size="13" fill="#145A32" text-anchor="start" font-weight="bold">Temperature 0 is not the same thing as determinism.</text>
+<text x="54.0" y="426.0" font-size="11.5" fill="#145A32" text-anchor="start">A few per cent of answers changed with nothing changed in the inputs. The effects did not. Cost of the whole rerun: qwen 6.9 min + llama 9.3 min, 16 minutes of one desktop GPU in total.</text>
+<text x="40" y="456" font-size="11" fill="#8a8984">1,960 prompts were matched one to one between the two runs. This is the check that separates "I ran a study" from "I ran a study and it held".</text>
+</svg>

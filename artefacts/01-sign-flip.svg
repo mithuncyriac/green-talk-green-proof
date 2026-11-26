@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" font-family="Calibri,Segoe UI,sans-serif">
+<rect width="1000" height="520" fill="#fcfcfb"/>
+<text x="40" y="36" font-size="21" font-weight="bold" fill="#1F3B57">The same 100 reviews, the same label, opposite answers</text>
+<text x="40" y="58" font-size="13" fill="#52514e">Effect of adding "[Made with AI]" to a review, on how helpful the model says that review is</text>
+<line x1="374.1" y1="110" x2="374.1" y2="330" stroke="#e3e2dd"/>
+<text x="374.1" y="350.0" font-size="11" fill="#8a8984" text-anchor="middle">-0.2</text>
+<line x1="448.2" y1="110" x2="448.2" y2="330" stroke="#e3e2dd"/>
+<text x="448.2" y="350.0" font-size="11" fill="#8a8984" text-anchor="middle">-0.1</text>
+<line x1="522.4" y1="110" x2="522.4" y2="330" stroke="#e3e2dd"/>
+<text x="522.4" y="350.0" font-size="11" fill="#8a8984" text-anchor="middle">0</text>
+<line x1="596.5" y1="110" x2="596.5" y2="330" stroke="#e3e2dd"/>
+<text x="596.5" y="350.0" font-size="11" fill="#8a8984" text-anchor="middle">+0.1</text>
+<line x1="670.6" y1="110" x2="670.6" y2="330" stroke="#e3e2dd"/>
+<text x="670.6" y="350.0" font-size="11" fill="#8a8984" text-anchor="middle">+0.2</text>
+<line x1="744.7" y1="110" x2="744.7" y2="330" stroke="#e3e2dd"/>
+<text x="744.7" y="350.0" font-size="11" fill="#8a8984" text-anchor="middle">+0.3</text>
+<line x1="818.8" y1="110" x2="818.8" y2="330" stroke="#e3e2dd"/>
+<text x="818.8" y="350.0" font-size="11" fill="#8a8984" text-anchor="middle">+0.4</text>
+<line x1="892.9" y1="110" x2="892.9" y2="330" stroke="#e3e2dd"/>
+<text x="892.9" y="350.0" font-size="11" fill="#8a8984" text-anchor="middle">+0.5</text>
+<line x1="522.4" y1="104" x2="522.4" y2="336" stroke="#52514e" stroke-width="1.8" stroke-dasharray="4 3"/>
+<text x="522.4" y="98.0" font-size="11" fill="#52514e" text-anchor="middle">no effect</text>
+<text x="282.0" y="153.0" font-size="14" fill="#0b0b0b" text-anchor="end">Qwen 2.5 7B</text>
+<line x1="359.3" y1="148" x2="470.5" y2="148" stroke="#2a78d6" stroke-width="3"/>
+<line x1="359.3" y1="141" x2="359.3" y2="155" stroke="#2a78d6" stroke-width="3"/>
+<line x1="470.5" y1="141" x2="470.5" y2="155" stroke="#2a78d6" stroke-width="3"/>
+<circle cx="418.6" cy="148" r="7" fill="#2a78d6"/>
+<text x="418.6" y="132.0" font-size="13" fill="#2a78d6" text-anchor="middle" font-weight="bold">-0.14</text>
+<text x="282.0" y="215.0" font-size="14" fill="#0b0b0b" text-anchor="end">Llama 3.1 8B</text>
+<line x1="589.1" y1="210" x2="752.1" y2="210" stroke="#eb6834" stroke-width="3"/>
+<line x1="589.1" y1="203" x2="589.1" y2="217" stroke="#eb6834" stroke-width="3"/>
+<line x1="752.1" y1="203" x2="752.1" y2="217" stroke="#eb6834" stroke-width="3"/>
+<circle cx="663.2" cy="210" r="7" fill="#eb6834"/>
+<text x="663.2" y="194.0" font-size="13" fill="#eb6834" text-anchor="middle" font-weight="bold">+0.19</text>
+<text x="282.0" y="277.0" font-size="14" fill="#0b0b0b" text-anchor="end" font-weight="bold">the gap between them</text>
+<line x1="670.6" y1="272" x2="870.7" y2="272" stroke="#6250d6" stroke-width="3"/>
+<line x1="670.6" y1="265" x2="670.6" y2="279" stroke="#6250d6" stroke-width="3"/>
+<line x1="870.7" y1="265" x2="870.7" y2="279" stroke="#6250d6" stroke-width="3"/>
+<circle cx="766.9" cy="272" r="7" fill="#6250d6"/>
+<text x="766.9" y="256.0" font-size="13" fill="#6250d6" text-anchor="middle" font-weight="bold">+0.33</text>
+<text x="300.0" y="372.0" font-size="11.5" fill="#52514e" text-anchor="start">change in helpfulness rating, 1-7 scale  (dot = point estimate, bar = 95% bootstrap interval over 100 items)</text>
+<rect x="40" y="394" width="920" height="50" rx="5" fill="#EAF2FB" stroke="#2a78d6"/>
+<text x="54.0" y="416.0" font-size="12.5" fill="#1F3B57" text-anchor="start" font-weight="bold">The gap is tested, not eyeballed: condition x model interaction b=+0.33, p=1.7e-05, 95% CI [+0.18, +0.48].</text>
+<text x="54.0" y="436.0" font-size="11.5" fill="#1F3B57" text-anchor="start">Standardised within model, to rule out the two scales: +0.26 SD, p=1.4e-05. In 2000 of 2000 bootstrap draws Qwen stays negative and Llama stays positive.</text>
+<text x="40" y="491" font-size="11" fill="#8a8984">Each model rated all 100 reviews under all three labels, so the comparison is within review.</text>
+<text x="40" y="506" font-size="11" fill="#8a8984">The rating task shows one review on its own - there is no second product, so display order cannot reach this result.</text>
+</svg>

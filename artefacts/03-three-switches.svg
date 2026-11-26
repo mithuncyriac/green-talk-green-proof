@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="500" viewBox="0 0 1060 500" font-family="Calibri,Segoe UI,sans-serif">
+<rect width="1060" height="500" fill="#fcfcfb"/>
+<text x="40" y="36" font-size="21" font-weight="bold" fill="#1F3B57">Three switches, three different conclusions</text>
+<text x="40" y="58" font-size="13" fill="#52514e">Each panel holds the reviews fixed and changes one thing about the test setup</text>
+<text x="40.0" y="104.0" font-size="14" fill="#1F3B57" text-anchor="start" font-weight="bold">1. Switch the model</text>
+<text x="40.0" y="122.0" font-size="11" fill="#52514e" text-anchor="start">effect of the AI label on rating</text>
+<rect x="70.0" y="300.0" width="54" height="44.0" fill="#2a78d6"/>
+<text x="97.0" y="362.0" font-size="13" fill="#2a78d6" text-anchor="middle" font-weight="bold">-0.14</text>
+<text x="97.0" y="382.0" font-size="12" fill="#52514e" text-anchor="middle">Qwen</text>
+<rect x="160.0" y="240.3" width="54" height="59.7" fill="#eb6834"/>
+<text x="187.0" y="232.3" font-size="13" fill="#eb6834" text-anchor="middle" font-weight="bold">+0.19</text>
+<text x="187.0" y="320.0" font-size="12" fill="#52514e" text-anchor="middle">Llama</text>
+<line x1="50.0" y1="300" x2="323.3" y2="300" stroke="#52514e" stroke-width="1.6"/>
+<text x="40.0" y="400.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="bold">One goes down, one goes up.</text>
+<text x="40.0" y="418.0" font-size="12" fill="#52514e" text-anchor="start">Same reviews, same label.</text>
+<text x="383.3" y="104.0" font-size="14" fill="#1F3B57" text-anchor="start" font-weight="bold">2. Switch the shopper</text>
+<text x="383.3" y="122.0" font-size="11" fill="#52514e" text-anchor="start">chance of picking the product with the</text>
+<text x="383.3" y="137.0" font-size="11" fill="#52514e" text-anchor="start">extra green review, Qwen</text>
+<line x1="393.3" y1="310.0" x2="636.7" y2="310.0" stroke="#e3e2dd"/>
+<text x="389.3" y="314.0" font-size="10" fill="#8a8984" text-anchor="end">50%</text>
+<line x1="393.3" y1="270.0" x2="636.7" y2="270.0" stroke="#e3e2dd"/>
+<text x="389.3" y="274.0" font-size="10" fill="#8a8984" text-anchor="end">60%</text>
+<line x1="393.3" y1="230.0" x2="636.7" y2="230.0" stroke="#e3e2dd"/>
+<text x="389.3" y="234.0" font-size="10" fill="#8a8984" text-anchor="end">70%</text>
+<line x1="393.3" y1="190.0" x2="636.7" y2="190.0" stroke="#e3e2dd"/>
+<text x="389.3" y="194.0" font-size="10" fill="#8a8984" text-anchor="end">80%</text>
+<path d="M 413.3 285.0 L 487.8 203.3 L 562.2 201.7 L 636.7 238.3" fill="none" stroke="#1baf7a" stroke-width="2.6"/>
+<circle cx="413.3" cy="285.0" r="4.5" fill="#1baf7a"/>
+<circle cx="487.8" cy="203.3" r="4.5" fill="#1baf7a"/>
+<circle cx="562.2" cy="201.7" r="4.5" fill="#1baf7a"/>
+<circle cx="636.7" cy="238.3" r="4.5" fill="#1baf7a"/>
+<text x="525.0" y="187.7" font-size="11" fill="#1baf7a" text-anchor="middle" font-weight="bold">eco shopper</text>
+<path d="M 413.3 290.0 L 487.8 296.7 L 562.2 283.3 L 636.7 296.7" fill="none" stroke="#8a8984" stroke-width="2.6"/>
+<circle cx="413.3" cy="290.0" r="4.5" fill="#8a8984"/>
+<circle cx="487.8" cy="296.7" r="4.5" fill="#8a8984"/>
+<circle cx="562.2" cy="283.3" r="4.5" fill="#8a8984"/>
+<circle cx="636.7" cy="296.7" r="4.5" fill="#8a8984"/>
+<text x="525.0" y="305.3" font-size="11" fill="#8a8984" text-anchor="middle" font-weight="bold">plain shopper</text>
+<text x="413.3" y="352.0" font-size="10.5" fill="#8a8984" text-anchor="middle">none</text>
+<text x="487.8" y="352.0" font-size="10.5" fill="#8a8984" text-anchor="middle">vague</text>
+<text x="562.2" y="352.0" font-size="10.5" fill="#8a8984" text-anchor="middle">specific</text>
+<text x="636.7" y="352.0" font-size="10.5" fill="#8a8984" text-anchor="middle">sceptical</text>
+<text x="383.3" y="400.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="bold">Tell it the shopper cares and</text>
+<text x="383.3" y="418.0" font-size="12" fill="#52514e" text-anchor="start">claims move choice ~20 points. Tell</text>
+<text x="383.3" y="436.0" font-size="12" fill="#52514e" text-anchor="start">it nothing and they move nothing.</text>
+<text x="726.7" y="104.0" font-size="14" fill="#1F3B57" text-anchor="start" font-weight="bold">3. Switch the order</text>
+<text x="726.7" y="122.0" font-size="11" fill="#52514e" text-anchor="start">how often the model just picks</text>
+<text x="726.7" y="137.0" font-size="11" fill="#52514e" text-anchor="start">whichever product is shown first</text>
+<rect x="726.7" y="180" width="253.3" height="34" fill="#2a78d6" opacity="0.18"/>
+<rect x="726.7" y="180" width="178.8" height="34" fill="#2a78d6"/>
+<text x="726.7" y="173.0" font-size="12" fill="#52514e" text-anchor="start">Qwen</text>
+<text x="897.4" y="203.0" font-size="14" fill="#ffffff" text-anchor="end" font-weight="bold">71%</text>
+<rect x="726.7" y="252" width="253.3" height="34" fill="#eb6834" opacity="0.18"/>
+<rect x="726.7" y="252" width="238.2" height="34" fill="#eb6834"/>
+<text x="726.7" y="245.0" font-size="12" fill="#52514e" text-anchor="start">Llama</text>
+<text x="956.8" y="275.0" font-size="14" fill="#ffffff" text-anchor="end" font-weight="bold">94%</text>
+<line x1="853.3" y1="172" x2="853.3" y2="296" stroke="#0b0b0b" stroke-width="1.6" stroke-dasharray="4 3"/>
+<text x="853.3" y="312.0" font-size="10.5" fill="#0b0b0b" text-anchor="middle">50% = no order effect</text>
+<text x="726.7" y="400.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="bold">A model that nearly always takes</text>
+<text x="726.7" y="418.0" font-size="12" fill="#52514e" text-anchor="start">the first option has no room left</text>
+<text x="726.7" y="436.0" font-size="12" fill="#52514e" text-anchor="start">for a review to move it.</text>
+<text x="40" y="471" font-size="11" fill="#8a8984">This is the finding. Not what agents think of green claims, but that a single-model, single-persona,</text>
+<text x="40" y="486" font-size="11" fill="#8a8984">single-order audit would have produced a confident answer - and a different one each time.</text>
+</svg>
