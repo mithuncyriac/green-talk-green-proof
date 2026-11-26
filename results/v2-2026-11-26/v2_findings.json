@@ -1,0 +1,127 @@
+{
+ "models": [
+  "llama",
+  "qwen"
+ ],
+ "digit_mass_min": 0.9465,
+ "H7": {
+  "llama": {
+   "n": 400,
+   "integer_differed": 0.0025,
+   "distribution_differed": 1.0,
+   "max_abs_ev_shift": 0.0396,
+   "verdict": "HOLDS"
+  },
+  "qwen": {
+   "n": 400,
+   "integer_differed": 0.0075,
+   "distribution_differed": 0.8375,
+   "max_abs_ev_shift": 0.1042,
+   "verdict": "HOLDS"
+  }
+ },
+ "H5": {
+  "llama": {
+   "emitted": {
+    "ai": 0.2,
+    "effort": 0.46,
+    "placebo": 0.08,
+    "verdict": "HOLDS"
+   },
+   "expected": {
+    "ai": 0.1486,
+    "effort": 0.4158,
+    "placebo": 0.0452,
+    "verdict": "HOLDS"
+   }
+  },
+  "qwen": {
+   "emitted": {
+    "ai": -0.15,
+    "effort": 0.08,
+    "placebo": -0.05,
+    "verdict": "HOLDS"
+   },
+   "expected": {
+    "ai": -0.1161,
+    "effort": 0.1532,
+    "placebo": -0.0443,
+    "verdict": "HOLDS"
+   }
+  }
+ },
+ "H6": {
+  "emitted": {
+   "interaction": 0.35,
+   "p": 2.5179785793779366e-06,
+   "ci": [
+    0.2043,
+    0.4957
+   ],
+   "qwen_ai": -0.15,
+   "llama_ai": 0.2,
+   "verdict": "HOLDS"
+  },
+  "expected": {
+   "interaction": 0.2648,
+   "p": 8.950721468656229e-16,
+   "ci": [
+    0.2002,
+    0.3293
+   ],
+   "qwen_ai": -0.1161,
+   "llama_ai": 0.1486,
+   "verdict": "HOLDS"
+  }
+ },
+ "TOST": {
+  "llama": {
+   "ai": {
+    "mean_pp": -0.5,
+    "ci_pp": [
+     -1.48,
+     0.48
+    ],
+    "p_tost": 8.283888286811375e-15,
+    "verdict": "EQUIVALENT"
+   },
+   "effort": {
+    "mean_pp": 0.0,
+    "note": "zero variance"
+   },
+   "placebo": {
+    "mean_pp": 0.0,
+    "note": "zero variance"
+   }
+  },
+  "qwen": {
+   "ai": {
+    "mean_pp": 0.5,
+    "ci_pp": [
+     -2.45,
+     3.45
+    ],
+    "p_tost": 0.0017777157047054275,
+    "verdict": "EQUIVALENT"
+   },
+   "effort": {
+    "mean_pp": 3.0,
+    "ci_pp": [
+     0.28,
+     5.72
+    ],
+    "p_tost": 0.0765259022017638,
+    "verdict": "inconclusive"
+   },
+   "placebo": {
+    "mean_pp": 0.5,
+    "ci_pp": [
+     -2.1,
+     3.1
+    ],
+    "p_tost": 0.0005073653642989953,
+    "verdict": "EQUIVALENT"
+   }
+  }
+ }
+}

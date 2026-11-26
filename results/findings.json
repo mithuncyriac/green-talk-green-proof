@@ -523,5 +523,21 @@
    "seconds": 0.2,
    "exit": 0
   }
+ },
+ "determinism_within_binary": {
+  "source": "results/v2-2026-11-26, label_run2.py --repeat, two passes back to back, one binary",
+  "qwen": {
+   "integer": "0.75%",
+   "distribution": "83.8%",
+   "max_abs_shift": 0.1042
+  },
+  "llama": {
+   "integer": "0.25%",
+   "distribution": "100.0%",
+   "max_abs_shift": 0.0396
+  },
+  "integer": "0.25-0.75%",
+  "distribution": "83.8-100%",
+  "note": "separates nondeterminism from the Ollama upgrade sitting between the 2 Nov and 25 Nov runs; weights unchanged, binary replaced 9 Nov"
  }
 }

@@ -1,0 +1,27 @@
+{
+ "model_tag": "llama3.1:8b",
+ "finished": "2026-11-26T15:19:52+0400",
+ "wall_clock_min": 10.37,
+ "repeat_pass": true,
+ "n_tasks": 100,
+ "conditions": [
+  "none",
+  "ai",
+  "effort",
+  "placebo"
+ ],
+ "top_logprobs": 10,
+ "ollama_version": "0.40.16",
+ "model_details": {
+  "parent_model": "",
+  "format": "gguf",
+  "family": "llama",
+  "families": [
+   "llama"
+  ],
+  "parameter_size": "8.0B",
+  "quantization_level": "Q4_K_M"
+ },
+ "model_modified_at": "2026-11-01T17:20:06.8597548+04:00",
+ "stimuli_sha256": "5e159849e37330c6a9dd8171ace599b1211f25577aa3e85cc9fb1283f9fd980b"
+}

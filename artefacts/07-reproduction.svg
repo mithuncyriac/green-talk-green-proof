@@ -43,8 +43,9 @@
 <text x="835.0" y="296.0" font-size="12" fill="#8a8984" text-anchor="middle">-&gt;</text>
 <text x="890.0" y="296.0" font-size="13" fill="#eb6834" text-anchor="middle" font-weight="bold">+0.26</text>
 <line x1="530" y1="308" x2="930" y2="308" stroke="#e3e2dd"/>
-<rect x="40" y="388" width="960" height="50" rx="5" fill="#EAF7F1" stroke="#1baf7a"/>
-<text x="54.0" y="408.0" font-size="13" fill="#145A32" text-anchor="start" font-weight="bold">Temperature 0 is not the same thing as determinism.</text>
-<text x="54.0" y="426.0" font-size="11.5" fill="#145A32" text-anchor="start">A few per cent of answers changed with nothing changed in the inputs. The effects did not. Cost of the whole rerun: qwen 6.9 min + llama 9.3 min, 16 minutes of one desktop GPU in total.</text>
+<rect x="40" y="384" width="960" height="58" rx="5" fill="#FEF9E7" stroke="#B7950B"/>
+<text x="54.0" y="404.0" font-size="13" fill="#7D6608" text-anchor="start" font-weight="bold">Corrected: these two runs straddle an engine upgrade, so this is not a determinism result.</text>
+<text x="54.0" y="421.0" font-size="11.5" fill="#7D6608" text-anchor="start">ollama.exe was replaced 9 Nov, between the runs; the weights were not. Run back to back on one binary: 0.25-0.75% of emitted ratings differed,</text>
+<text x="54.0" y="436.0" font-size="11.5" fill="#7D6608" text-anchor="start">but 83.8-100% of the underlying probability distributions did. Rarely crosses a rounding boundary. Rerun cost: qwen 6.9 min + llama 9.3 min, 16 minutes of one desktop GPU in total.</text>
 <text x="40" y="456" font-size="11" fill="#8a8984">1,960 prompts were matched one to one between the two runs. This is the check that separates "I ran a study" from "I ran a study and it held".</text>
 </svg>

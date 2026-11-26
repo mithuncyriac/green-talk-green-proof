@@ -353,13 +353,27 @@ def chart_reproduction(f):
     cost = ("%s, %.0f minutes of one desktop GPU in total"
             % (" + ".join("%s %.1f min" % (k, v) for k, v in runs.items()),
                sum(runs.values()))) if runs else "run time not recorded"
-    o.append('<rect x="40" y="388" width="%d" height="50" rx="5" fill="#EAF7F1" '
-             'stroke="%s"/>' % (W - 80, C[2]))
-    o.append(txt(54, 408, "Temperature 0 is not the same thing as determinism.", 13, "#145A32",
-                 bold=True))
-    o.append(txt(54, 426, "A few per cent of answers changed with nothing changed in the inputs. "
-                          "The effects did not. Cost of the whole rerun: %s." % cost,
-                 11.5, "#145A32"))
+    # The first write-up called this "temperature 0 is not determinism". It is not
+    # safe to say that from these two runs, because the Ollama binary changed
+    # between them. The corrected reading is read from v2_findings.json when the
+    # back-to-back run exists, and the box says so either way.
+    det = (f.get("determinism_within_binary") or {})
+    o.append('<rect x="40" y="384" width="%d" height="58" rx="5" fill="#FEF9E7" '
+             'stroke="#B7950B"/>' % (W - 80))
+    o.append(txt(54, 404, "Corrected: these two runs straddle an engine upgrade, so this is "
+                          "not a determinism result.", 13, "#7D6608", bold=True))
+    if det:
+        o.append(txt(54, 421, "ollama.exe was replaced 9 Nov, between the runs; the weights were "
+                              "not. Run back to back on one binary: %s of emitted ratings "
+                              "differed," % det.get("integer", "?"), 11.5, "#7D6608"))
+        o.append(txt(54, 436, "but %s of the underlying probability distributions did. Rarely "
+                              "crosses a rounding boundary. Rerun cost: %s."
+                     % (det.get("distribution", "?"), cost), 11.5, "#7D6608"))
+    else:
+        o.append(txt(54, 421, "ollama.exe was replaced 9 Nov, between the runs; the weights were "
+                              "not. The 3.3% is an upper bound containing both", 11.5, "#7D6608"))
+        o.append(txt(54, 436, "nondeterminism and software drift. Run label_run2.py --repeat to "
+                              "separate them. Rerun cost: %s." % cost, 11.5, "#7D6608"))
 
     return svg(W, H, "\n".join(o),
                "The same audit, run again 23 days later",

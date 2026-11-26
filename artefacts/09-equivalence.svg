@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="596" viewBox="0 0 1180 596" font-family="Calibri,Segoe UI,sans-serif">
+<rect width="1180" height="596" fill="#fcfcfb"/>
+<text x="40.0" y="36.0" font-size="21" fill="#1F3B57" text-anchor="start" font-weight="bold">Can the agent tell a substantiated claim from an empty one?</text>
+<text x="40.0" y="58.0" font-size="13" fill="#52514e" text-anchor="start">Same product, same price, same star rating. Only the wording of one extra review changes.</text>
+<rect x="515.2" y="120" width="264.6" height="316" fill="#1baf7a" opacity="0.10"/>
+<line x1="515.2" y1="118" x2="515.2" y2="436" stroke="#1baf7a" stroke-width="1.6" stroke-dasharray="5 4"/>
+<line x1="779.8" y1="118" x2="779.8" y2="436" stroke="#1baf7a" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="647.5" y="112.0" font-size="11.5" fill="#145A32" text-anchor="middle" font-weight="bold">equivalence zone, +/- 5 percentage points</text>
+<line x1="647.5" y1="118" x2="647.5" y2="436" stroke="#52514e" stroke-width="1.4"/>
+<text x="310.0" y="154.0" font-size="13" fill="#2a78d6" text-anchor="end" font-weight="bold">Qwen 2.5 7B</text>
+<text x="310.0" y="171.0" font-size="10.5" fill="#8a8984" text-anchor="end">shopper described as eco-minded</text>
+<text x="310.0" y="187.0" font-size="10.5" fill="#52514e" text-anchor="end">vague 76.7%  vs  specific 77.1%</text>
+<line x1="523.0" y1="158" x2="794.0" y2="158" stroke="#2a78d6" stroke-width="3.2"/>
+<line x1="523.0" y1="151" x2="523.0" y2="165" stroke="#2a78d6" stroke-width="3.2"/>
+<line x1="794.0" y1="151" x2="794.0" y2="165" stroke="#2a78d6" stroke-width="3.2"/>
+<circle cx="658.5" cy="158" r="6.5" fill="#2a78d6"/>
+<text x="973.0" y="162.0" font-size="11.5" fill="#145A32" text-anchor="start" font-weight="bold">EQUIVALENT  p=0.041</text>
+<text x="310.0" y="228.0" font-size="13" fill="#eb6834" text-anchor="end" font-weight="bold">Llama 3.1 8B</text>
+<text x="310.0" y="245.0" font-size="10.5" fill="#8a8984" text-anchor="end">shopper described as eco-minded</text>
+<text x="310.0" y="261.0" font-size="10.5" fill="#52514e" text-anchor="end">vague 59.6%  vs  specific 60.8%</text>
+<line x1="576.7" y1="232" x2="784.5" y2="232" stroke="#eb6834" stroke-width="3.2"/>
+<line x1="576.7" y1="225" x2="576.7" y2="239" stroke="#eb6834" stroke-width="3.2"/>
+<line x1="784.5" y1="225" x2="784.5" y2="239" stroke="#eb6834" stroke-width="3.2"/>
+<circle cx="680.6" cy="232" r="6.5" fill="#eb6834"/>
+<text x="973.0" y="236.0" font-size="11.5" fill="#145A32" text-anchor="start" font-weight="bold">EQUIVALENT  p=0.032</text>
+<text x="310.0" y="302.0" font-size="13" fill="#2a78d6" text-anchor="end" font-weight="bold">Qwen 2.5 7B</text>
+<text x="310.0" y="319.0" font-size="10.5" fill="#8a8984" text-anchor="end">shopper described in plain terms</text>
+<text x="310.0" y="335.0" font-size="10.5" fill="#52514e" text-anchor="end">vague 53.3%  vs  specific 56.7%</text>
+<line x1="650.4" y1="306" x2="821.0" y2="306" stroke="#2a78d6" stroke-width="3.2"/>
+<line x1="650.4" y1="299" x2="650.4" y2="313" stroke="#2a78d6" stroke-width="3.2"/>
+<line x1="821.0" y1="299" x2="821.0" y2="313" stroke="#2a78d6" stroke-width="3.2"/>
+<circle cx="735.7" cy="306" r="6.5" fill="#2a78d6"/>
+<text x="973.0" y="310.0" font-size="11.5" fill="#e34948" text-anchor="start">inconclusive  p=0.157</text>
+<text x="310.0" y="376.0" font-size="13" fill="#eb6834" text-anchor="end" font-weight="bold">Llama 3.1 8B</text>
+<text x="310.0" y="393.0" font-size="10.5" fill="#8a8984" text-anchor="end">shopper described in plain terms</text>
+<text x="310.0" y="409.0" font-size="10.5" fill="#52514e" text-anchor="end">vague 50.4%  vs  specific 50.4%</text>
+<line x1="616.8" y1="380" x2="678.2" y2="380" stroke="#eb6834" stroke-width="3.2"/>
+<line x1="616.8" y1="373" x2="616.8" y2="387" stroke="#eb6834" stroke-width="3.2"/>
+<line x1="678.2" y1="373" x2="678.2" y2="387" stroke="#eb6834" stroke-width="3.2"/>
+<circle cx="647.5" cy="380" r="6.5" fill="#eb6834"/>
+<text x="973.0" y="384.0" font-size="11.5" fill="#145A32" text-anchor="start" font-weight="bold">EQUIVALENT  p=0.000</text>
+<text x="382.9" y="456.0" font-size="11" fill="#8a8984" text-anchor="middle">-10 pp</text>
+<text x="515.2" y="456.0" font-size="11" fill="#8a8984" text-anchor="middle">-5 pp</text>
+<text x="647.5" y="456.0" font-size="11" fill="#8a8984" text-anchor="middle">0</text>
+<text x="779.8" y="456.0" font-size="11" fill="#8a8984" text-anchor="middle">+5 pp</text>
+<text x="912.1" y="456.0" font-size="11" fill="#8a8984" text-anchor="middle">+10 pp</text>
+<text x="330.0" y="478.0" font-size="11.5" fill="#52514e" text-anchor="start">difference in the chance of choosing the product, specific claim minus vague claim</text>
+<text x="40.0" y="550.0" font-size="11.5" fill="#8a8984" text-anchor="start">A non-significant difference is not evidence of equivalence. This is the test that is: two one-sided tests against a bound fixed before looking.</text>
+<text x="40.0" y="566.0" font-size="11.5" fill="#8a8984" text-anchor="start">The bound matters. Five points is a quarter of the ~20-point lift the models show for having any green claim at all, so equivalence within 5 points means the substantiation is worth little next to the claim.</text>
+<text x="40.0" y="582.0" font-size="11.5" fill="#8a8984" text-anchor="start">Paired by task, both display orders. Generated from results/03_agent_audit_*.csv.</text>
+</svg>

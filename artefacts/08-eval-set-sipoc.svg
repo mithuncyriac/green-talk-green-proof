@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="570" viewBox="0 0 1180 570" font-family="Calibri,Segoe UI,sans-serif">
+<rect width="1180" height="570" fill="#fcfcfb"/>
+<text x="40.0" y="36.0" font-size="21" fill="#1F3B57" text-anchor="start" font-weight="bold">SIPOC - how the eval sets were made</text>
+<text x="40.0" y="58.0" font-size="13" fill="#52514e" text-anchor="start">The same process produced every labelled set behind every score in three projects</text>
+<rect x="40.0" y="88" width="212.0" height="34" fill="#e34948"/>
+<text x="146.0" y="110.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">SUPPLIERS</text>
+<rect x="40.0" y="122" width="212.0" height="164" fill="#ffffff" stroke="#e3e2dd"/>
+<text x="50.0" y="142.0" font-size="11.5" fill="#e34948" text-anchor="start" font-weight="bold"> THE AUTHOR (all four sets)</text>
+<text x="50.0" y="164.0" font-size="11.5" fill="#52514e" text-anchor="start"> Amazon Reviews 2023 corpus</text>
+<text x="50.0" y="186.0" font-size="11.5" fill="#52514e" text-anchor="start"> Apple + Google Play feeds</text>
+<text x="50.0" y="208.0" font-size="11.5" fill="#52514e" text-anchor="start"> Dubai Land Department</text>
+<text x="50.0" y="230.0" font-size="11.5" fill="#e34948" text-anchor="start"> -- no second coder --</text>
+<text x="50.0" y="252.0" font-size="11.5" fill="#e34948" text-anchor="start"> -- no agreement statistic --</text>
+<rect x="260.0" y="88" width="212.0" height="34" fill="#1F3B57"/>
+<text x="366.0" y="110.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">INPUTS</text>
+<rect x="260.0" y="122" width="212.0" height="164" fill="#ffffff" stroke="#e3e2dd"/>
+<text x="270.0" y="142.0" font-size="11.5" fill="#52514e" text-anchor="start"> Raw unlabelled items</text>
+<text x="270.0" y="164.0" font-size="11.5" fill="#52514e" text-anchor="start"> A written coding rule</text>
+<text x="270.0" y="186.0" font-size="11.5" fill="#52514e" text-anchor="start"> A sampling seed</text>
+<text x="270.0" y="208.0" font-size="11.5" fill="#52514e" text-anchor="start"> Time budget of one person</text>
+<text x="270.0" y="230.0" font-size="11.5" fill="#52514e" text-anchor="start"> Prior beliefs about the answer</text>
+<rect x="480.0" y="88" width="212.0" height="34" fill="#1F3B57"/>
+<text x="586.0" y="110.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">PROCESS</text>
+<rect x="480.0" y="122" width="212.0" height="164" fill="#ffffff" stroke="#e3e2dd"/>
+<text x="490.0" y="142.0" font-size="11.5" fill="#0b0b0b" text-anchor="start"> 1 Decide the construct</text>
+<text x="490.0" y="164.0" font-size="11.5" fill="#0b0b0b" text-anchor="start"> 2 Sample items</text>
+<text x="490.0" y="186.0" font-size="11.5" fill="#0b0b0b" text-anchor="start"> 3 Read and label each one</text>
+<text x="490.0" y="208.0" font-size="11.5" fill="#0b0b0b" text-anchor="start"> 4 Hold out a slice, untouched</text>
+<text x="490.0" y="230.0" font-size="11.5" fill="#0b0b0b" text-anchor="start"> 5 Write the system</text>
+<text x="490.0" y="252.0" font-size="11.5" fill="#0b0b0b" text-anchor="start"> 6 Score against the labels</text>
+<text x="490.0" y="274.0" font-size="11.5" fill="#0b0b0b" text-anchor="start"> 7 Re-check failures</text>
+<rect x="700.0" y="88" width="212.0" height="34" fill="#1F3B57"/>
+<text x="806.0" y="110.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">OUTPUTS</text>
+<rect x="700.0" y="122" width="212.0" height="164" fill="#ffffff" stroke="#e3e2dd"/>
+<text x="710.0" y="142.0" font-size="11.5" fill="#52514e" text-anchor="start"> Washmen tuning set, n=60</text>
+<text x="710.0" y="164.0" font-size="11.5" fill="#52514e" text-anchor="start"> Washmen holdout, n=33</text>
+<text x="710.0" y="186.0" font-size="11.5" fill="#52514e" text-anchor="start"> Green Talk stimuli, n=100</text>
+<text x="710.0" y="208.0" font-size="11.5" fill="#52514e" text-anchor="start"> Dubai blind set, n=90</text>
+<text x="710.0" y="230.0" font-size="11.5" fill="#52514e" text-anchor="start"> A score, and its error bars</text>
+<rect x="920.0" y="88" width="212.0" height="34" fill="#1F3B57"/>
+<text x="1026.0" y="110.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">CUSTOMERS</text>
+<rect x="920.0" y="122" width="212.0" height="164" fill="#ffffff" stroke="#e3e2dd"/>
+<text x="930.0" y="142.0" font-size="11.5" fill="#52514e" text-anchor="start"> Whoever reads the score</text>
+<text x="930.0" y="164.0" font-size="11.5" fill="#52514e" text-anchor="start"> Whoever ships on the score</text>
+<text x="930.0" y="186.0" font-size="11.5" fill="#52514e" text-anchor="start"> A hiring manager</text>
+<text x="930.0" y="208.0" font-size="11.5" fill="#52514e" text-anchor="start"> A reviewer or examiner</text>
+<text x="930.0" y="230.0" font-size="11.5" fill="#52514e" text-anchor="start"> The author, six months on</text>
+<text x="40.0" y="310.0" font-size="14" fill="#1F3B57" text-anchor="start" font-weight="bold">Where this process can inject an error, and what it costs</text>
+<rect x="40" y="318" width="62" height="24" rx="4" fill="#FBEFEF" stroke="#e34948"/>
+<text x="71.0" y="334.0" font-size="11" fill="#e34948" text-anchor="middle" font-weight="bold">Step 1</text>
+<text x="114.0" y="334.0" font-size="11.5" fill="#52514e" text-anchor="start">The construct is the author's. 'Escalate' and 'sceptical' were defined by one person and never tested for agreement with anyone else.</text>
+<rect x="40" y="352" width="62" height="24" rx="4" fill="#FBEFEF" stroke="#e34948"/>
+<text x="71.0" y="368.0" font-size="11" fill="#e34948" text-anchor="middle" font-weight="bold">Step 3</text>
+<text x="114.0" y="368.0" font-size="11.5" fill="#52514e" text-anchor="start">One coder. No kappa anywhere in the portfolio. Every accuracy, recall and precision figure inherits this.</text>
+<rect x="40" y="386" width="62" height="24" rx="4" fill="#FBEFEF" stroke="#e34948"/>
+<text x="71.0" y="402.0" font-size="11" fill="#e34948" text-anchor="middle" font-weight="bold">Step 5</text>
+<text x="114.0" y="402.0" font-size="11.5" fill="#52514e" text-anchor="start">Three Washmen classifier patterns were added AFTER seeing them fail, so the tuning set is partly training data. The holdout exists for this reason.</text>
+<rect x="40" y="420" width="62" height="24" rx="4" fill="#FBEFEF" stroke="#e34948"/>
+<text x="71.0" y="436.0" font-size="11" fill="#e34948" text-anchor="middle" font-weight="bold">Step 7</text>
+<text x="114.0" y="436.0" font-size="11.5" fill="#52514e" text-anchor="start">Re-checking only the failures is how a tuning set quietly becomes a training set. The 78.3% to 63.6% drop on unseen data is the size of that effect.</text>
+<text x="40.0" y="540.0" font-size="11.5" fill="#8a8984" text-anchor="start">The Suppliers column is the finding. One person supplied every label, so the scores across all three projects are not four independent measurements.</text>
+<text x="40.0" y="556.0" font-size="11.5" fill="#8a8984" text-anchor="start">Counts are from the files: eval_set.csv 60, holdout_set.csv 33, label_stimuli.json 100, Dubai test_set.json 90.</text>
+</svg>
