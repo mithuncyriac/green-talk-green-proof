@@ -1,0 +1,132 @@
+{
+ "repeated_cells": 175,
+ "same_emitted_answer": 162,
+ "different_emitted_answer": 13,
+ "exact_agreement_pct": 92.57,
+ "expected_rating_identical": 160,
+ "expected_rating_different": 14,
+ "disagreement_examples": [
+  {
+   "cell": {
+    "kind": "helpfulness",
+    "ptype": "hand soap",
+    "task": "20",
+    "cond": "effort",
+    "persona": "plain",
+    "order": "",
+    "pass": "1"
+   },
+   "answers": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "cell": {
+    "kind": "helpfulness",
+    "ptype": "hand soap",
+    "task": "24",
+    "cond": "placebo",
+    "persona": "plain",
+    "order": "",
+    "pass": "1"
+   },
+   "answers": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "cell": {
+    "kind": "helpfulness",
+    "ptype": "laundry detergent",
+    "task": "4",
+    "cond": "placebo",
+    "persona": "plain",
+    "order": "",
+    "pass": "1"
+   },
+   "answers": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "cell": {
+    "kind": "helpfulness",
+    "ptype": "laundry detergent",
+    "task": "12",
+    "cond": "effort",
+    "persona": "plain",
+    "order": "",
+    "pass": "1"
+   },
+   "answers": [
+    "3",
+    "4"
+   ]
+  },
+  {
+   "cell": {
+    "kind": "helpfulness",
+    "ptype": "laundry detergent",
+    "task": "17",
+    "cond": "ai",
+    "persona": "plain",
+    "order": "",
+    "pass": "1"
+   },
+   "answers": [
+    "5",
+    "6"
+   ]
+  },
+  {
+   "cell": {
+    "kind": "helpfulness",
+    "ptype": "laundry detergent",
+    "task": "21",
+    "cond": "placebo",
+    "persona": "plain",
+    "order": "",
+    "pass": "1"
+   },
+   "answers": [
+    "6",
+    "7"
+   ]
+  },
+  {
+   "cell": {
+    "kind": "helpfulness",
+    "ptype": "laundry detergent",
+    "task": "24",
+    "cond": "ai",
+    "persona": "plain",
+    "order": "",
+    "pass": "1"
+   },
+   "answers": [
+    "6",
+    "?"
+   ]
+  },
+  {
+   "cell": {
+    "kind": "helpfulness",
+    "ptype": "laundry detergent",
+    "task": "24",
+    "cond": "effort",
+    "persona": "plain",
+    "order": "",
+    "pass": "1"
+   },
+   "answers": [
+    "6",
+    "?"
+   ]
+  }
+ ],
+ "source": "fanout_cerebras_gpt-oss-120b.csv",
+ "note": "Two fanout_run.py processes wrote this model's file concurrently on 27 Nov 2026. Every row is a real call; the overlap is an unplanned test-retest sample."
+}

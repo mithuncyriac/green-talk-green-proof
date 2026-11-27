@@ -454,7 +454,39 @@ def write_meta(prov, pcfg, short, model_id, client, written, already, plan,
     with open(dest, "w", encoding="utf-8") as fh:
         json.dump(meta, fh, indent=1)
 
+def claim_model(prov, short):
+    """Refuse to write a results file another process is already writing.
+
+    Added 27 Nov 2026 after exactly that happened. One run started 18:43
+    covering every provider and another started 20:23 scoped to one model; each
+    read the CSV at its own start, computed its own to-do list, and appended.
+    175 cells were run twice and the file reached 575 rows against a 400-cell
+    plan, with nothing raising an error. done_cells() cannot prevent this: it is
+    read once, at the start, and is stale from the first write onward.
+
+    A lock file is deliberately refused rather than stolen. A stale lock costs
+    one deletion; a race costs a corrupted results file that looks fine.
+    """
+    lock = os.path.join(OUT_DIR, ".lock_%s_%s" % (prov, short.replace(".", "_")))
+    if os.path.exists(lock):
+        try:
+            held = open(lock, encoding="utf-8").read().strip()
+        except IOError:
+            held = "unreadable"
+        print("   SKIP %s / %s: already claimed by %s" % (prov, short, held))
+        print("        If that process is gone, delete %s" % lock)
+        return None
+    with open(lock, "w", encoding="utf-8") as fh:
+        fh.write("pid %d, started %s" % (os.getpid(),
+                                         time.strftime("%Y-%m-%dT%H:%M:%S%z")))
+    return lock
+
+
 def run_model(prov, pcfg, short, model_id, plan, budget, args, client):
+    lock = claim_model(prov, short)
+    if lock is None:
+        return 0, "locked by another process"
+
     out = os.path.join(OUT_DIR, "fanout_%s_%s.csv" % (prov, short.replace(".", "_")))
     already = done_cells(out)
     fresh = not os.path.exists(out)
@@ -470,6 +502,8 @@ def run_model(prov, pcfg, short, model_id, plan, budget, args, client):
     if not todo:
         write_meta(prov, pcfg, short, model_id, client, 0, already, plan,
                    "complete", [], args)
+        if lock and os.path.exists(lock):
+            os.remove(lock)
         return 0, "complete"
 
     req_left, tok_left = budget.remaining(prov, pcfg)
@@ -542,6 +576,8 @@ def run_model(prov, pcfg, short, model_id, plan, budget, args, client):
 
     write_meta(prov, pcfg, short, model_id, client, written, already, plan,
                stop, lat, args)
+    if lock and os.path.exists(lock):
+        os.remove(lock)
     print("   %s: +%d rows (%d/%d total)" % (stop, written, meta["rows_total"], len(plan)),
           flush=True)
     return written, stop
