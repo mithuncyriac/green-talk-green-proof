@@ -45,7 +45,7 @@
 <line x1="530" y1="308" x2="930" y2="308" stroke="#e3e2dd"/>
 <rect x="40" y="384" width="960" height="58" rx="5" fill="#FEF9E7" stroke="#B7950B"/>
 <text x="54.0" y="404.0" font-size="13" fill="#7D6608" text-anchor="start" font-weight="bold">Corrected: these two runs straddle an engine upgrade, so this is not a determinism result.</text>
-<text x="54.0" y="421.0" font-size="11.5" fill="#7D6608" text-anchor="start">ollama.exe was replaced 9 Nov, between the runs; the weights were not. Run back to back on one binary: 0.25-0.75% of emitted ratings differed,</text>
-<text x="54.0" y="436.0" font-size="11.5" fill="#7D6608" text-anchor="start">but 83.8-100% of the underlying probability distributions did. Rarely crosses a rounding boundary. Rerun cost: qwen 6.9 min + llama 9.3 min, 16 minutes of one desktop GPU in total.</text>
+<text x="54.0" y="421.0" font-size="11.5" fill="#7D6608" text-anchor="start">ollama.exe was replaced 9 Nov, between the runs; the weights were not. The 3.3% is an upper bound containing both</text>
+<text x="54.0" y="436.0" font-size="11.5" fill="#7D6608" text-anchor="start">nondeterminism and software drift. Run label_run2.py --repeat to separate them. Rerun cost: qwen 5.8 min + llama 8.1 min, 14 minutes of one desktop GPU in total.</text>
 <text x="40" y="456" font-size="11" fill="#8a8984">1,960 prompts were matched one to one between the two runs. This is the check that separates "I ran a study" from "I ran a study and it held".</text>
 </svg>
