@@ -1,0 +1,155 @@
+{
+ "_README": [
+  "Provider config for fanout_run.py. Every provider speaks the OpenAI-compatible",
+  "/chat/completions shape, including local Ollama, so one code path covers all of them.",
+  "",
+  "rpm / rpd / tpd are the caps the RUNNER will respect. They are not promises from the",
+  "provider. Set them to what YOUR OWN account page shows, not to what a docs page or a",
+  "blog says. Groq's rate-limits page lists gpt-oss-120b at 30 RPM / 1000 RPD / 200K TPD",
+  "but also says those are base limits for the Developer plan and does not label a",
+  "free-tier table, so the numbers below are a conservative guess and MUST be replaced",
+  "from console.groq.com before a long run. Limits there apply per organisation.",
+  "",
+  "logprobs: 'yes' = send logprobs/top_logprobs. 'no' = do not send them at all.",
+  "'probe' = try once; if the provider rejects the parameter, fall back and record",
+  "score_mode=emitted_only for every row from that model. The fallback is recorded per",
+  "row, never assumed away: an expected-rating analysis can only pool models that",
+  "actually returned distributions.",
+  "",
+  "Set enabled=false to leave a provider out without deleting its config.",
+  "API keys are read from the named environment variable and never written to any output."
+ ],
+ "providers": {
+  "ollama": {
+   "enabled": true,
+   "base_url": "http://127.0.0.1:11434/v1",
+   "key_env": null,
+   "logprobs": "yes",
+   "rpm": 600,
+   "rpd": 1000000,
+   "tpd": 1000000000,
+   "supports_seed": true,
+   "note": "Local. The published pilot ran here. Free and unlimited, but 8 GB of VRAM caps it at 7B-8B.",
+   "models": {
+    "llama3.1-8b": "llama3.1:8b",
+    "qwen2.5-7b": "qwen2.5:7b"
+   }
+  },
+  "groq": {
+   "enabled": true,
+   "base_url": "https://api.groq.com/openai/v1",
+   "key_env": "GROQ_API_KEY",
+   "logprobs": "probe",
+   "rpm": 30,
+   "rpd": 1000,
+   "supports_seed": true,
+   "note": "rpd and tpm confirmed from this account's response headers on 27 Nov 2026. tpd RETIRED the same day: it was 200000 from Groq's docs table, appears in no response header, and as a hard wall it stopped gpt-oss-20b at 266 of 400 rows while the server still reported 783 of 1000 requests remaining. The headers report x-ratelimit-limit-tokens=8000 resetting in under a second, which is a per-MINUTE cap and is kept as tpm. rpm comes from the docs table and is still unverified. Key confirmed PERSISTENT at Windows User scope.",
+   "models": {
+    "gpt-oss-120b": "openai/gpt-oss-120b",
+    "gpt-oss-20b": "openai/gpt-oss-20b",
+    "qwen3.8-27b": "qwen/qwen3.8-27b"
+   },
+   "tpm": 8000,
+   "limits_read_from_headers": "2026-11-27T14:36:45Z",
+   "tpd_retired": 200000
+  },
+  "openrouter": {
+   "enabled": false,
+   "base_url": "https://openrouter.ai/api/v1",
+   "key_env": "OPENROUTER_API_KEY",
+   "logprobs": "probe",
+   "rpm": 20,
+   "rpd": 50,
+   "tpd": 200000,
+   "supports_seed": false,
+   "note": "50 requests a day on :free until a $10 credit purchase raises it. Pin exact :free ids at run time; availability changes weekly.",
+   "models": {
+    "ernie-5.5-flash-preview-free": "baidu/ernie-5.5-flash-preview:free",
+    "gemma-4-26b-a4b-it-free": "google/gemma-4-26b-a4b-it:free",
+    "gemma-4-31b-it-free": "google/gemma-4-31b-it:free"
+   }
+  },
+  "google": {
+   "enabled": false,
+   "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+   "key_env": "GEMINI_API_KEY",
+   "logprobs": "no",
+   "rpm": 10,
+   "rpd": 200,
+   "tpd": 200000,
+   "supports_seed": false,
+   "note": "Free-tier content is used to improve Google's products. Public Amazon review text only. Never a hypothesis file.",
+   "models": {
+    "gemini-2.5-flash": "gemini-2.5-flash",
+    "gemini-2.5-flash-lite": "gemini-2.5-flash-lite",
+    "gemini-3-flash-preview": "gemini-3-flash-preview"
+   }
+  },
+  "openai": {
+   "enabled": false,
+   "base_url": "https://api.openai.com/v1",
+   "key_env": "OPENAI_API_KEY",
+   "logprobs": "yes",
+   "rpm": 60,
+   "rpd": 100000,
+   "tpd": 2000000,
+   "supports_seed": true,
+   "note": "THIS ONE COSTS MONEY. A key is already set in this machine's environment. Leave enabled=false until you decide to spend it, and set a tpd you are willing to pay for.",
+   "models": {}
+  },
+  "cerebras": {
+   "enabled": true,
+   "base_url": "https://api.cerebras.ai/v1",
+   "key_env": "CEREBRAS_API_KEY",
+   "logprobs": "probe",
+   "rpm": 5,
+   "rpd": 2400,
+   "tpd": 1000000,
+   "supports_seed": false,
+   "verify_base_url": true,
+   "note": "Caps from this account's headers 27 Nov 2026. gpt-oss-120b is the tighter model: 5/min, 150/hour, 2400/day. EXPLORATORY provider for E1 only; the locked models run on Groq per deviation 02.",
+   "models": {
+    "gpt-oss-120b": "gpt-oss-120b",
+    "qwen-3.8-27b": "qwen-3.8-27b"
+   },
+   "rph": 150,
+   "tpm": 30000,
+   "tph": 1000000,
+   "limits_read_from_headers": "2026-11-27T14:36:57Z"
+  },
+  "mistral": {
+   "enabled": false,
+   "base_url": "https://api.mistral.ai/v1",
+   "key_env": "MISTRAL_API_KEY",
+   "logprobs": "probe",
+   "rpm": 10,
+   "rpd": 100,
+   "tpd": 100000,
+   "supports_seed": false,
+   "verify_base_url": true,
+   "note": "Base URL unverified. check_keys.py will say 404 if it is wrong. Caps are placeholders: read the real ones with fanout_limits.py.",
+   "models": {
+    "mistral-medium": "mistral-medium",
+    "mistral-medium-2604": "mistral-medium-2604",
+    "mistral-medium-3": "mistral-medium-3"
+   }
+  },
+  "huggingface": {
+   "enabled": false,
+   "base_url": "https://router.huggingface.co/v1",
+   "key_env": "HF_TOKEN",
+   "logprobs": "probe",
+   "rpm": 10,
+   "rpd": 100,
+   "tpd": 100000,
+   "supports_seed": false,
+   "verify_base_url": true,
+   "note": "Base URL unverified. check_keys.py will say 404 if it is wrong. Caps are placeholders: read the real ones with fanout_limits.py.",
+   "models": {
+    "gpt-oss-120b": "openai/gpt-oss-120b",
+    "gpt-oss-20b": "openai/gpt-oss-20b",
+    "llama-3.1-70b-instruct": "meta-llama/Llama-3.1-70B-Instruct"
+   }
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "prereg_sha256": "8f01ed3af2271d67c937d2b917767e79df5d99cb597366e0bcecd459d7a354f2",
+ "dataset": {
+  "repo": "risenlab/agentlogs",
+  "config": "agent_sessions",
+  "licence": "CC-BY-4.0",
+  "note": "agent_session_logs (63 GB) deliberately not used"
+ },
+ "n_sessions_loaded": 635886,
+ "n_excluded_null_state": 0,
+ "n_analysed": 635886,
+ "n_error_carrying": 47972,
+ "n_no_error": 587914,
+ "state_classification": [
+  {
+   "state": "completed",
+   "bucket": "terminal-success",
+   "n": 582289
+  },
+  {
+   "state": "cancelled",
+   "bucket": "terminal-failure",
+   "n": 25450
+  },
+  {
+   "state": "failed",
+   "bucket": "terminal-failure",
+   "n": 25064
+  },
+  {
+   "state": "timed_out",
+   "bucket": "terminal-failure",
+   "n": 2426
+  },
+  {
+   "state": "queued",
+   "bucket": "non-terminal",
+   "n": 456
+  },
+  {
+   "state": "waiting_for_user",
+   "bucket": "non-terminal",
+   "n": 189
+  },
+  {
+   "state": "in_progress",
+   "bucket": "non-terminal",
+   "n": 12
+  }
+ ],
+ "A5a_error_and_failure": {
+  "p": 0.999770699574752,
+  "ci": [
+   0.9995894076776077,
+   0.9998719545593395
+  ],
+  "holds": true
+ },
+ "A5b_error_and_success": {
+  "p": 0.0001250729592262153,
+  "ci": [
+   5.732249712993592e-05,
+   0.00027287702562319913
+  ],
+  "holds": false
+ },
+ "A5c_noerror_and_no_pr": {
+  "p": 0.09832220358759955,
+  "ci": [
+   0.09756371054695157,
+   0.09908594595158324
+  ],
+  "holds": false
+ },
+ "A5d_gap_from_injected_75": {
+  "gap_points": 74.98749270407738,
+  "holds": true
+ }
+}

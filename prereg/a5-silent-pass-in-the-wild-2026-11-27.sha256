@@ -1,0 +1,7 @@
+8f01ed3af2271d67c937d2b917767e79df5d99cb597366e0bcecd459d7a354f2 *prereg/a5-silent-pass-in-the-wild-2026-11-27.md
+2026-11-27T16:31:47+0400
+A5a loud failures dominate: >50% of error-carrying sessions in a terminal-failure state.
+A5b silent pass occurs in the wild: >5% of error-carrying sessions in a terminal-success state.
+A5c failure with no error record: >20% of no-error sessions produced no pull_request_artifact.
+A5d my injected 75% does NOT transfer: in-the-wild share differs from 75% by >20 points.
+State classification is from literal names only, written before any cross-tabulation.

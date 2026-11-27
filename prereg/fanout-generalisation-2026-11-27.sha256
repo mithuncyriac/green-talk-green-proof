@@ -1,0 +1,7 @@
+01cefad53ecec87fe383763dd87235481c1e8b7d6f080733d6eb23a96731ab0d *prereg/fanout-generalisation-2026-11-27.md
+2026-11-27T13:21:05+0400
+P1 null label inert: |placebo-none| < |ai-none| in >=80% of models.
+P2 effort channel transfers: effort-ai > 0 in EVERY model, significant in >=80%.
+P3 penalty does not transfer: sign(ai-none) NOT the same across all models.
+P4 scale does not rescue: no monotone trend in parameter count.
+P5 logprobs earn it: ev_rating spread > emitted-integer spread.

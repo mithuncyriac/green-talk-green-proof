@@ -1,0 +1,31 @@
+{
+ "provider": "ollama",
+ "model_short": "llama3.1-8b",
+ "model_id": "llama3.1:8b",
+ "logprob_mode_resolved": "yes",
+ "finished": "2026-11-26T20:24:48+0400",
+ "rows_this_session": 12,
+ "rows_total": 12,
+ "rows_planned": 12,
+ "stopped_because": "complete",
+ "caps_used": {
+  "rpm": 600,
+  "rpd": 1000000,
+  "tpd": 1000000000
+ },
+ "latency_s": {
+  "n": 12,
+  "median": 0.96,
+  "min": 0.82,
+  "max": 6.31
+ },
+ "stimuli_sha256": "5e159849e37330c6a9dd8171ace599b1211f25577aa3e85cc9fb1283f9fd980b",
+ "prompts_py_sha256": "48f8cc104078b058f0ededf61e8bc93a623151f7e319487126e4474f833c12cc",
+ "personas": [
+  "plain"
+ ],
+ "kinds": [
+  "helpfulness"
+ ],
+ "note": "Caps are what providers.json said, not what the provider promised. logprob_mode_resolved=no means every row from this model is emitted_only and cannot enter an expected-rating analysis."
+}

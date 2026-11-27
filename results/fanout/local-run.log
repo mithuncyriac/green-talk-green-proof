@@ -1,0 +1,46 @@
+PLAN  400 calls per model, ~71,855 estimated tokens per model
+      kinds=['helpfulness'] personas=['plain'] tasks=100
+
+== ollama / qwen2.5-7b ==  400 calls, 0 already done
+   today's allowance left: 1000000 requests, 1000000000 tokens
+   pre-warmed qwen2.5:7b with keep_alive=60m
+   25/400  (left today: 999975 req, 999995627 tok)
+   50/400  (left today: 999950 req, 999991725 tok)
+   75/400  (left today: 999925 req, 999986819 tok)
+   100/400  (left today: 999900 req, 999982569 tok)
+   125/400  (left today: 999875 req, 999978419 tok)
+   150/400  (left today: 999850 req, 999973874 tok)
+   175/400  (left today: 999825 req, 999969121 tok)
+   200/400  (left today: 999800 req, 999964599 tok)
+   225/400  (left today: 999775 req, 999960374 tok)
+   250/400  (left today: 999750 req, 999956194 tok)
+   275/400  (left today: 999725 req, 999951753 tok)
+   300/400  (left today: 999700 req, 999946525 tok)
+   325/400  (left today: 999675 req, 999941548 tok)
+   350/400  (left today: 999650 req, 999936384 tok)
+   375/400  (left today: 999625 req, 999932371 tok)
+   400/400  (left today: 999600 req, 999927875 tok)
+   complete: +400 rows (400/400 total)
+
+== ollama / llama3.1-8b ==  400 calls, 0 already done
+   today's allowance left: 999600 requests, 999927875 tokens
+   pre-warmed llama3.1:8b with keep_alive=60m
+   25/400  (left today: 999575 req, 999923860 tok)
+   50/400  (left today: 999550 req, 999920208 tok)
+   75/400  (left today: 999525 req, 999915559 tok)
+   100/400  (left today: 999500 req, 999911756 tok)
+   125/400  (left today: 999475 req, 999908056 tok)
+   150/400  (left today: 999450 req, 999903816 tok)
+   175/400  (left today: 999425 req, 999899312 tok)
+   200/400  (left today: 999400 req, 999894861 tok)
+   225/400  (left today: 999375 req, 999890992 tok)
+   250/400  (left today: 999350 req, 999887287 tok)
+   275/400  (left today: 999325 req, 999883174 tok)
+   300/400  (left today: 999300 req, 999878396 tok)
+   325/400  (left today: 999275 req, 999873735 tok)
+   350/400  (left today: 999250 req, 999868993 tok)
+   375/400  (left today: 999225 req, 999865459 tok)
+   400/400  (left today: 999200 req, 999861409 tok)
+   complete: +400 rows (400/400 total)
+
+done. rerun the same command any time -- completed cells are skipped.

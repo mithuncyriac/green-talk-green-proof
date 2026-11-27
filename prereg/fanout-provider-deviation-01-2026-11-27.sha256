@@ -1,0 +1,7 @@
+e52b6faba4323258b60c9586143a0a97daa0ed484d4f597d00bc52b880a1fb2e *prereg/fanout-provider-deviation-01-2026-11-27.md
+2026-11-27T18:34:49+0400
+Deviation from 52b788b3. No prediction in 01cefad5 changes.
+gpt-oss-120b: OpenRouter -> Cerebras. gpt-oss-20b: OpenRouter -> Groq. Both because OpenRouter returns 402.
+CONSEQUENCE: P4 is now CONFOUNDED. Provider and size vary together, so a scaling effect
+cannot be separated from a serving-stack effect. P4 will be reported as confounded, not tested.
+Written before any hosted call succeeded.

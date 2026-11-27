@@ -1,0 +1,7 @@
+94b463359f0b10b637da6662d5c413eb3d8b3bfb78fd113a3201ff78e6328ce1 *prereg/fanout-provider-deviation-02-2026-11-27.md
+2026-11-27T18:41:36+0400
+Supersedes deviation 01 (e52b6fab). No prediction in 01cefad5 changes.
+All three locked hosted models move to Groq: gpt-oss-120b, gpt-oss-20b, qwen3.8-27b.
+P4 is REPAIRED: one provider across all sizes, so scaling is no longer confounded with serving stack.
+Cause was mechanical: an 11-char truncated key returned 401; the full 56-char key authenticates.
+Cerebras becomes the exploratory replica for E1. Written before any hosted call for the study.

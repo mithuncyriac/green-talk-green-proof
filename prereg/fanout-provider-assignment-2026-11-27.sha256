@@ -1,0 +1,7 @@
+52b788b3739d22dba7b37ec04213c98474e527e55bb10d5ce467592938fb93ff *prereg/fanout-provider-assignment-2026-11-27.md
+2026-11-27T18:20:09+0400
+Operational assignment only. Changes no prediction in 01cefad5.
+Primary: gpt-oss-120b and gpt-oss-20b via OpenRouter; qwen3.8-27b via Cerebras; the two 7B/8B locally.
+Every other model on every provider is EXPLORATORY and never pooled into P1-P5.
+E1 (exploratory): the same gpt-oss-120b on OpenRouter, HuggingFace and Cerebras will differ;
+at least one pairwise gap in effort-minus-ai will exceed 0.05 on the expected-rating scale.

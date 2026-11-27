@@ -1,0 +1,401 @@
+model,kind,ptype,task,cond,order,answer,raw,pass,ev_rating,digit_mass_share,dist_json,provider,model_id,persona,score_mode,prompt_sha1,tok_in,tok_out,ts,cell
+gpt-oss-20b,helpfulness,shampoo,0,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,c958c023b2c4,210,86,1795791623,03dbc0251e9a9895
+gpt-oss-20b,helpfulness,shampoo,0,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,0407aa259b20,217,59,1795791623,6c201463df4611ff
+gpt-oss-20b,helpfulness,shampoo,0,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,4057d62fb472,229,83,1795791624,a17ee9e919ad2492
+gpt-oss-20b,helpfulness,shampoo,0,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,d720baf23f49,218,56,1795791624,925c98b106ae321e
+gpt-oss-20b,helpfulness,shampoo,1,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,36bcfbbf8d75,191,73,1795791624,745f8deb4c03ad4a
+gpt-oss-20b,helpfulness,shampoo,1,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,a1d3035c505d,198,78,1795791625,9b5df99296f21756
+gpt-oss-20b,helpfulness,shampoo,1,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,d79c2e962c30,210,78,1795791626,086f69b1ee471db6
+gpt-oss-20b,helpfulness,shampoo,1,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,d2dbdf18849a,199,78,1795791629,ce4cabe9515474ba
+gpt-oss-20b,helpfulness,shampoo,2,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b67e908d9e1d,191,63,1795791631,5da658171219f0bd
+gpt-oss-20b,helpfulness,shampoo,2,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,21b9f2840b92,198,83,1795791634,7d4f54beef47376c
+gpt-oss-20b,helpfulness,shampoo,2,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,0e91d368e855,210,67,1795791637,298e2d9b16341f8f
+gpt-oss-20b,helpfulness,shampoo,2,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,1b97333a3345,199,63,1795791640,7bef0c3f701d4c0b
+gpt-oss-20b,helpfulness,shampoo,3,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,7d8f7c3abaa7,185,83,1795791642,17d574605636f42a
+gpt-oss-20b,helpfulness,shampoo,3,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,263e7bfdba63,192,120,1795791642,8db033c1f39e2c79
+gpt-oss-20b,helpfulness,shampoo,3,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,2510aa193c6a,204,42,1795791644,f5f721485000bf9b
+gpt-oss-20b,helpfulness,shampoo,3,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,78f75be0b8af,193,117,1795791647,9373236270b31782
+gpt-oss-20b,helpfulness,shampoo,4,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,680fd9dfc60a,168,113,1795791649,374de70eec8f3df9
+gpt-oss-20b,helpfulness,shampoo,4,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,cb844a91e8b1,175,146,1795791652,ec1a2c3f37b2368a
+gpt-oss-20b,helpfulness,shampoo,4,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,4fad0c577245,187,111,1795791655,cc2a5feb1d026248
+gpt-oss-20b,helpfulness,shampoo,4,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,ed8952a28ede,176,69,1795791657,a6713cbde23b807a
+gpt-oss-20b,helpfulness,shampoo,5,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,a02210f8d535,257,51,1795791660,8f73a7b6ee292047
+gpt-oss-20b,helpfulness,shampoo,5,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,830285761440,264,59,1795791662,95e2106b1ee48c32
+gpt-oss-20b,helpfulness,shampoo,5,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,bcbc42f0be37,276,73,1795791668,8f11ab61e2227acd
+gpt-oss-20b,helpfulness,shampoo,5,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,d0769677a9fb,265,50,1795791672,9afdd7f45573e7ee
+gpt-oss-20b,helpfulness,shampoo,6,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,5eab5a6d65de,207,64,1795791674,9eeaf89f1f4ec9c7
+gpt-oss-20b,helpfulness,shampoo,6,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,18625c5868e4,214,70,1795791678,60a6044a85481362
+gpt-oss-20b,helpfulness,shampoo,6,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,d48f3d35ea8f,226,74,1795791680,b8c9a6071d40aa7c
+gpt-oss-20b,helpfulness,shampoo,6,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,27623e3c00a2,215,68,1795791683,07cd1d982112c323
+gpt-oss-20b,helpfulness,shampoo,7,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,668581018f7e,164,115,1795791683,171cd53d44b410a9
+gpt-oss-20b,helpfulness,shampoo,7,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b33f2289c036,171,113,1795791684,7c23fc0ddec7d58a
+gpt-oss-20b,helpfulness,shampoo,7,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,f47f0d3b63a2,183,111,1795791684,545e4e8acc0717e6
+gpt-oss-20b,helpfulness,shampoo,7,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,4b7debae4189,172,110,1795791685,0e6a048d40484829
+gpt-oss-20b,helpfulness,shampoo,8,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,26f2e15998e6,179,96,1795791686,36831b452b73a1a2
+gpt-oss-20b,helpfulness,shampoo,8,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,995e320fb2da,186,53,1795791686,a6e261871e1e95f1
+gpt-oss-20b,helpfulness,shampoo,8,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,7c3366978c8d,198,124,1795791687,f4e48cd0b08118a0
+gpt-oss-20b,helpfulness,shampoo,8,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,66c8297b8bf9,187,86,1795791689,f938a2191262e593
+gpt-oss-20b,helpfulness,shampoo,9,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,f11dc0a9250b,173,122,1795791691,907003254b7dd935
+gpt-oss-20b,helpfulness,shampoo,9,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,d9083a8db4a1,180,155,1795791695,61ed2305dfe7a71f
+gpt-oss-20b,helpfulness,shampoo,9,effort,,3,RATING: 3,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,cc5cf8688454,192,164,1795791700,62fbf01985f138b8
+gpt-oss-20b,helpfulness,shampoo,9,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,f193e024454c,181,174,1795791702,a3f8595ab27f8994
+gpt-oss-20b,helpfulness,shampoo,10,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,adb42c89334a,177,167,1795791703,d812bd268fa674aa
+gpt-oss-20b,helpfulness,shampoo,10,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,8eb8e35d3238,184,58,1795791705,65f21d34cb32646a
+gpt-oss-20b,helpfulness,shampoo,10,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,1c86d8590d38,196,171,1795791707,f72075363792b210
+gpt-oss-20b,helpfulness,shampoo,10,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,0bff01dae029,185,91,1795791710,622ca393f5eb5f80
+gpt-oss-20b,helpfulness,shampoo,11,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,5bcf2bc4cc80,172,158,1795791713,3c8aa919f29bc5a9
+gpt-oss-20b,helpfulness,shampoo,11,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,200a528d8b67,179,116,1795791715,d39ae43db5e98a65
+gpt-oss-20b,helpfulness,shampoo,11,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,ecce615151eb,191,106,1795791720,6ef20b64a1320c43
+gpt-oss-20b,helpfulness,shampoo,11,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,8a74643b4f07,180,124,1795791723,bc767aa5df20d7b7
+gpt-oss-20b,helpfulness,shampoo,12,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,10d606b840bb,233,85,1795791729,8080fa2b7d035b18
+gpt-oss-20b,helpfulness,shampoo,12,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,cbf41e963196,240,75,1795791732,4fcd443883a35c43
+gpt-oss-20b,helpfulness,shampoo,12,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,695cff819441,252,65,1795791734,f07d2ddea8472bb8
+gpt-oss-20b,helpfulness,shampoo,12,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,dbbe1c5e97eb,241,63,1795791738,5327725d6b1090a1
+gpt-oss-20b,helpfulness,shampoo,13,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,a61fd3176e7a,274,83,1795791741,598240e87efaacea
+gpt-oss-20b,helpfulness,shampoo,13,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,169eed4b1875,281,82,1795791743,ebb6d234e9890022
+gpt-oss-20b,helpfulness,shampoo,13,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b08d92b2bac9,293,70,1795791744,0b675d0e4f6a59da
+gpt-oss-20b,helpfulness,shampoo,13,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,1b943c5deb63,282,80,1795791745,a346ced9256f8b43
+gpt-oss-20b,helpfulness,shampoo,14,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,2b034f47bf4f,280,69,1795791745,c517a3898ade1c6b
+gpt-oss-20b,helpfulness,shampoo,14,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,641989025606,286,86,1795791746,aabe0f07bcadabe9
+gpt-oss-20b,helpfulness,shampoo,14,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,6de6862dcbd7,298,105,1795791747,380a7157f2baae0d
+gpt-oss-20b,helpfulness,shampoo,14,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,2377300b32fa,287,87,1795791750,e999844439475cf3
+gpt-oss-20b,helpfulness,shampoo,15,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,7cdcf5086b7e,199,87,1795791752,a061394ed89fcdd3
+gpt-oss-20b,helpfulness,shampoo,15,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,625ac7d876d9,206,51,1795791755,fb48a0435deff6bf
+gpt-oss-20b,helpfulness,shampoo,15,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,c363c1808cce,218,69,1795791761,f7cccf496ad9b00d
+gpt-oss-20b,helpfulness,shampoo,15,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,0c78675a0521,207,77,1795791763,291078ad14cfb329
+gpt-oss-20b,helpfulness,shampoo,16,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,dae98a4c0db5,179,95,1795791763,1132e8e91e98316a
+gpt-oss-20b,helpfulness,shampoo,16,ai,,3,RATING: 3,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,9607468c7f1b,186,79,1795791764,c7a58cc3ce226c44
+gpt-oss-20b,helpfulness,shampoo,16,effort,,3,RATING: 3,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,d6591cffe899,198,142,1795791765,31288368b446d9cd
+gpt-oss-20b,helpfulness,shampoo,16,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,ae7a3a9ff0e4,187,117,1795791768,856edface4786712
+gpt-oss-20b,helpfulness,shampoo,17,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,eb584d4e52b9,166,86,1795791770,65dbb5af7064e79f
+gpt-oss-20b,helpfulness,shampoo,17,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,d4405d7ddbaa,173,69,1795791773,b5336bcdd5dfac23
+gpt-oss-20b,helpfulness,shampoo,17,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,c866489bfac5,185,53,1795791776,87cc730eea4dfb2b
+gpt-oss-20b,helpfulness,shampoo,17,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b65ad4d5e718,174,48,1795791776,30ab9091b589d959
+gpt-oss-20b,helpfulness,shampoo,18,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,e45c8191ca4f,220,108,1795791781,29aa2af0cccacf5a
+gpt-oss-20b,helpfulness,shampoo,18,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,c2815631b4df,227,117,1795791783,2189f1f5d7a35a1a
+gpt-oss-20b,helpfulness,shampoo,18,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,498c75bf6b67,239,81,1795791793,cee60f789a234f82
+gpt-oss-20b,helpfulness,shampoo,18,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,0f83a5d86c68,228,70,1795791793,8239c1b98a526ecb
+gpt-oss-20b,helpfulness,shampoo,19,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b27bedd2cd1d,185,85,1795791795,9896290393c1816b
+gpt-oss-20b,helpfulness,shampoo,19,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,10d0f03d4c9e,192,73,1795791799,2c7e6ef0cf407ebf
+gpt-oss-20b,helpfulness,shampoo,19,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,0216d3526c76,204,79,1795791801,411b6bd1568a6f8f
+gpt-oss-20b,helpfulness,shampoo,19,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,3a959ecf1ca0,193,73,1795791804,f7d31077150cdbf9
+gpt-oss-20b,helpfulness,shampoo,20,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,a02ad208b46b,192,61,1795791805,8e7d610bd8a92a72
+gpt-oss-20b,helpfulness,shampoo,20,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,7a2cb55ddd99,199,71,1795791805,0dac8d8917ac39b7
+gpt-oss-20b,helpfulness,shampoo,20,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,72414126a663,211,57,1795791806,1722576f38af38db
+gpt-oss-20b,helpfulness,shampoo,20,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,c7753def7609,200,69,1795791807,a162ff4a3ba09b2b
+gpt-oss-20b,helpfulness,shampoo,21,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,309820be894b,211,129,1795791807,ec172bb704539b41
+gpt-oss-20b,helpfulness,shampoo,21,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,a5999df64491,218,118,1795791808,248e222b54b45757
+gpt-oss-20b,helpfulness,shampoo,21,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,c1bcb022a55f,230,76,1795791808,3fc4d785ee7de9d4
+gpt-oss-20b,helpfulness,shampoo,21,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,aea108115e77,219,108,1795791810,7e5660ddfc799a5c
+gpt-oss-20b,helpfulness,shampoo,22,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,e486310dfd20,247,95,1795791812,ccab0e43d78ebd28
+gpt-oss-20b,helpfulness,shampoo,22,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,7682b5018fb6,254,96,1795791821,f0419a4d0ba2da9f
+gpt-oss-20b,helpfulness,shampoo,22,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,3da65e81b0bb,266,88,1795791823,866d19cb359a4345
+gpt-oss-20b,helpfulness,shampoo,22,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,ac4c24184af5,255,151,1795791824,0d62ace1cb32453b
+gpt-oss-20b,helpfulness,shampoo,23,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,3c155678d96c,163,53,1795791824,bff3b9637284c500
+gpt-oss-20b,helpfulness,shampoo,23,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,381483555ced,170,50,1795791826,2749e490aa6b4921
+gpt-oss-20b,helpfulness,shampoo,23,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,13315dc26634,182,105,1795791828,57136d381cd1a990
+gpt-oss-20b,helpfulness,shampoo,23,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,0146a30c48c7,171,53,1795791831,4f67ce23d3c5f734
+gpt-oss-20b,helpfulness,shampoo,24,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b8992b24d420,166,121,1795791831,d76832f348018d4d
+gpt-oss-20b,helpfulness,shampoo,24,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,d1dda0afa004,173,114,1795791836,3e2d9df22589d89f
+gpt-oss-20b,helpfulness,shampoo,24,effort,,?,,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,21565534f234,185,200,1795791837,1dcacdb49d4b0f76
+gpt-oss-20b,helpfulness,shampoo,24,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,fa5860790ac9,174,120,1795791841,5db1549fe5422765
+gpt-oss-20b,helpfulness,hand soap,0,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,ca2846d2ba5e,190,77,1795791844,6c9b1502c8f40005
+gpt-oss-20b,helpfulness,hand soap,0,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,c9bd85a865ad,197,77,1795791853,8544908c29ec0c91
+gpt-oss-20b,helpfulness,hand soap,0,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,119655a2e3d6,209,55,1795791854,b488b4dc884d64e1
+gpt-oss-20b,helpfulness,hand soap,0,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,3c3b919caef2,198,74,1795791855,0103af17e91c3b70
+gpt-oss-20b,helpfulness,hand soap,1,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,21af1b36424c,190,59,1795791859,7140baeaaf71b25f
+gpt-oss-20b,helpfulness,hand soap,1,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,74e48975a5d3,197,51,1795791862,7ce8352254233de1
+gpt-oss-20b,helpfulness,hand soap,1,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,a94404935f97,209,59,1795791864,b459d5a4db6977f3
+gpt-oss-20b,helpfulness,hand soap,1,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,de21f78d79be,198,77,1795791866,0783c992e3298b95
+gpt-oss-20b,helpfulness,hand soap,2,none,,1,RATING: 1,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,17729a389a02,171,103,1795791866,6fa1bb476755303a
+gpt-oss-20b,helpfulness,hand soap,2,ai,,2,RATING: 2,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,3c386e1ba498,178,118,1795791867,a23b29fa9fd3582b
+gpt-oss-20b,helpfulness,hand soap,2,effort,,3,RATING: 3,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,ea6dd9632506,190,116,1795791867,6d2f7242804c5c73
+gpt-oss-20b,helpfulness,hand soap,2,placebo,,2,RATING: 2,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,85eac76bd8e8,179,120,1795791868,b4394b185bad7ec6
+gpt-oss-20b,helpfulness,hand soap,3,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,2faf901a7f65,173,87,1795791868,ea23ac802cbb18e5
+gpt-oss-20b,helpfulness,hand soap,3,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,956d4828dd90,180,58,1795791869,30cf3066cf64ddca
+gpt-oss-20b,helpfulness,hand soap,3,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,2200b96fcdce,192,64,1795791871,201fd80cebc74b28
+gpt-oss-20b,helpfulness,hand soap,3,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,6941186569c5,181,73,1795791874,6fdcd93008dea7e7
+gpt-oss-20b,helpfulness,hand soap,4,none,,3,RATING: 3,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,4b87cc0baeaa,187,116,1795791876,a954db66df2c4172
+gpt-oss-20b,helpfulness,hand soap,4,ai,,2,RATING: 2,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,59affc9937fd,194,82,1795791882,9085fc36e336eb87
+gpt-oss-20b,helpfulness,hand soap,4,effort,,2,RATING: 2,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,9f07aa1ab742,206,90,1795791884,e51e2d819d1f3bb7
+gpt-oss-20b,helpfulness,hand soap,4,placebo,,2,RATING: 2,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,235529ac99d9,195,76,1795791884,841a9cda08549952
+gpt-oss-20b,helpfulness,hand soap,5,none,,?,,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,3e6b835051af,223,200,1795791887,a31560616b486793
+gpt-oss-20b,helpfulness,hand soap,5,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,f8ddfe48dd00,230,90,1795791889,ffd5af05cd576a13
+gpt-oss-20b,helpfulness,hand soap,5,effort,,?,,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,8b4d7e2f3e33,242,200,1795791892,c99e898d4e86a82a
+gpt-oss-20b,helpfulness,hand soap,5,placebo,,?,,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,19225205caa3,231,200,1795791895,3fbcc0b8944ab53b
+gpt-oss-20b,helpfulness,hand soap,6,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,5977043290ae,257,101,1795791896,c7b73130ab6068d1
+gpt-oss-20b,helpfulness,hand soap,6,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,e1b058eafa32,264,111,1795791900,a57f7ae4c90d7c2b
+gpt-oss-20b,helpfulness,hand soap,6,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,71523dfb4d00,276,121,1795791904,7ac0b55c6535ca83
+gpt-oss-20b,helpfulness,hand soap,6,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,cadc650e2f60,265,103,1795791914,85f7f958c7236024
+gpt-oss-20b,helpfulness,hand soap,7,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,98de575175c5,269,58,1795791914,12ed130093b1ef24
+gpt-oss-20b,helpfulness,hand soap,7,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,176b8e69e454,276,49,1795791920,f75d669fa08d772b
+gpt-oss-20b,helpfulness,hand soap,7,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,633748ca1d50,288,46,1795791922,3c74c8c7af67a5af
+gpt-oss-20b,helpfulness,hand soap,7,placebo,,7,RATING: 7,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,906bcf018258,277,69,1795791924,01d62eb2b3193c16
+gpt-oss-20b,helpfulness,hand soap,8,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,af03906b12cd,209,88,1795791926,d8697bcc6df379da
+gpt-oss-20b,helpfulness,hand soap,8,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,46aa107a03ba,216,94,1795791926,d93679dd27932eed
+gpt-oss-20b,helpfulness,hand soap,8,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,64f8f24567e7,228,109,1795791928,07290489e49ef35f
+gpt-oss-20b,helpfulness,hand soap,8,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,5f330c94e93a,217,90,1795791928,043072a61ca1c144
+gpt-oss-20b,helpfulness,hand soap,9,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,f523e684074f,174,111,1795791931,944d28d46b3813a8
+gpt-oss-20b,helpfulness,hand soap,9,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,890e04947e46,181,59,1795791933,b0d7ae1e4e934673
+gpt-oss-20b,helpfulness,hand soap,9,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,5981f19a01c1,193,134,1795791936,a1b52e127049a9d7
+gpt-oss-20b,helpfulness,hand soap,9,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,3ec649099155,182,132,1795791938,1fe86cacead4f309
+gpt-oss-20b,helpfulness,hand soap,10,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,d5d97df1da63,183,81,1795791941,ef067db0ddd987cc
+gpt-oss-20b,helpfulness,hand soap,10,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,7918b4ff544b,190,136,1795791945,805c13772a25e4a6
+gpt-oss-20b,helpfulness,hand soap,10,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,89b83baeaab9,202,139,1795791947,516053fea4c1ff25
+gpt-oss-20b,helpfulness,hand soap,10,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,2a9e0ddf3ef3,191,83,1795791949,01f1a523d460afa2
+gpt-oss-20b,helpfulness,hand soap,11,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,e4a19ab45079,182,76,1795791952,42b5b069b7c4611b
+gpt-oss-20b,helpfulness,hand soap,11,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,f46798628002,189,97,1795791954,dc91b5b16a8f9c02
+gpt-oss-20b,helpfulness,hand soap,11,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,fb481ea6f268,201,95,1795791957,ebddb00b2915fbc7
+gpt-oss-20b,helpfulness,hand soap,11,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,5d35aeea5763,190,98,1795791959,26324329abf94c1c
+gpt-oss-20b,helpfulness,hand soap,12,none,,3,RATING: 3,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,250e0a3fc8f5,162,110,1795791961,a63fc051ffb891ac
+gpt-oss-20b,helpfulness,hand soap,12,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,92598f2cdd87,169,73,1795791963,d63c051398fab15a
+gpt-oss-20b,helpfulness,hand soap,12,effort,,3,RATING: 3,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,bff3b2111301,181,109,1795791966,a2f35a543c59a4de
+gpt-oss-20b,helpfulness,hand soap,12,placebo,,3,RATING: 3,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,c4fcb58257fc,170,110,1795791969,2d38585658b743b5
+gpt-oss-20b,helpfulness,hand soap,13,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b8f91488b2da,288,105,1795791971,1756791fdc472acf
+gpt-oss-20b,helpfulness,hand soap,13,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,5d4c92068c39,295,109,1795791974,5b1abd70df9c13c6
+gpt-oss-20b,helpfulness,hand soap,13,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,82793f6d0d32,307,135,1795791977,3e07e67ebcae24b9
+gpt-oss-20b,helpfulness,hand soap,13,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,0b57ccc75c77,296,80,1795791982,0d07628e7154e5ca
+gpt-oss-20b,helpfulness,hand soap,14,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,48f5cd5dfee1,186,100,1795791983,36307a4ce861689b
+gpt-oss-20b,helpfulness,hand soap,14,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,d92681c6de1a,193,70,1795791987,adbff83932c03f35
+gpt-oss-20b,helpfulness,hand soap,14,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,430efdb4466a,205,118,1795791989,2caf837d72c9ba7f
+gpt-oss-20b,helpfulness,hand soap,14,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,79cd0cd03d07,194,102,1795791992,eaf769d837611322
+gpt-oss-20b,helpfulness,hand soap,15,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,7b6201694ec7,164,147,1795791994,a4d71b16f04d6d93
+gpt-oss-20b,helpfulness,hand soap,15,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,16278a5a90cb,171,95,1795791997,79f604b2bd552849
+gpt-oss-20b,helpfulness,hand soap,15,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,86983853da4e,183,100,1795791999,20acb30fc76d7b53
+gpt-oss-20b,helpfulness,hand soap,15,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,9a8777e82ad5,172,129,1795792002,20dcc2ffc51abbe1
+gpt-oss-20b,helpfulness,hand soap,16,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,89e422495341,195,82,1795792004,a6c88954555a5773
+gpt-oss-20b,helpfulness,hand soap,16,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,bb04b7ce79c6,202,88,1795792007,8840cab0d171513a
+gpt-oss-20b,helpfulness,hand soap,16,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,8ccc9decf9a2,214,51,1795792009,da2e02a4d148e78a
+gpt-oss-20b,helpfulness,hand soap,16,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,0177949252f8,203,112,1795792011,7349e6eaad6785df
+gpt-oss-20b,helpfulness,hand soap,17,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,245b2f19b810,227,94,1795792014,9cec3304dfbceab1
+gpt-oss-20b,helpfulness,hand soap,17,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,ed00e436662a,234,67,1795792016,b86ef61f050ca06e
+gpt-oss-20b,helpfulness,hand soap,17,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,1adaa6c78c77,246,65,1795792019,3616ffca995eedcf
+gpt-oss-20b,helpfulness,hand soap,17,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,1ac160b2b2eb,235,72,1795792021,ef2c9e7b5ed21a7d
+gpt-oss-20b,helpfulness,hand soap,18,none,,2,RATING: 2,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,d4afd2f7b5d8,259,170,1795792024,5ec87a17edf884be
+gpt-oss-20b,helpfulness,hand soap,18,ai,,1,RATING: 1,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,327ee49cd057,266,90,1795792026,d53c10047c36e237
+gpt-oss-20b,helpfulness,hand soap,18,effort,,2,RATING: 2,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b3a7cc2f6dfb,278,176,1795792029,a3884f7e2d6b368c
+gpt-oss-20b,helpfulness,hand soap,18,placebo,,1,RATING: 1,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,2eb6ac338503,267,92,1795792032,1cac97c961048052
+gpt-oss-20b,helpfulness,hand soap,19,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,fd9e6e6478fe,193,89,1795792034,4baa7b445a21e32f
+gpt-oss-20b,helpfulness,hand soap,19,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,553b7efbe0dd,200,58,1795792037,5a57316135f2bd56
+gpt-oss-20b,helpfulness,hand soap,19,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,fd3dd583834b,212,63,1795792039,5a4cf591899ef6da
+gpt-oss-20b,helpfulness,hand soap,19,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,a3c8ebbc24a3,201,82,1795792042,763a390a47df1214
+gpt-oss-20b,helpfulness,hand soap,20,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,9754e6b2fdbb,177,72,1795792044,30ebcb16a09c032d
+gpt-oss-20b,helpfulness,hand soap,20,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,e603738d07f3,184,95,1795792047,1473cfc7799f6a55
+gpt-oss-20b,helpfulness,hand soap,20,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,bede6de24b7b,196,71,1795792049,77887d34affe67fa
+gpt-oss-20b,helpfulness,hand soap,20,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,fa68420e6b12,185,127,1795792052,736bbb3fe04fb974
+gpt-oss-20b,helpfulness,hand soap,21,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,2b8fbb6dab08,201,108,1795792054,4bc1dc54a094cec4
+gpt-oss-20b,helpfulness,hand soap,21,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,13ce820f2198,208,85,1795792057,5084246f67bf7d4d
+gpt-oss-20b,helpfulness,hand soap,21,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,af9f17a87d52,220,69,1795792059,41e8403dade99ef2
+gpt-oss-20b,helpfulness,hand soap,21,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,edf96cd024b6,209,82,1795792062,ee1997d67ee9b312
+gpt-oss-20b,helpfulness,hand soap,22,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,db8b2742b234,188,93,1795792064,04aa6414752d3473
+gpt-oss-20b,helpfulness,hand soap,22,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,8a1b9ea4b923,195,78,1795792067,d60625d1da250474
+gpt-oss-20b,helpfulness,hand soap,22,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,eeccb40ae529,207,93,1795792069,3e50caa24ec06e69
+gpt-oss-20b,helpfulness,hand soap,22,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,c4b945817926,196,78,1795792072,5baf1b887adfc25f
+gpt-oss-20b,helpfulness,hand soap,23,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,1f75657d8568,239,125,1795792075,09f71181f9307b2b
+gpt-oss-20b,helpfulness,hand soap,23,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,eb321ea12765,246,128,1795792077,6d24285f96905f56
+gpt-oss-20b,helpfulness,hand soap,23,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,40111fe97f50,258,138,1795792080,e7f1995345809af7
+gpt-oss-20b,helpfulness,hand soap,23,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,878faf0ce33e,247,97,1795792082,a9758076569d5c3a
+gpt-oss-20b,helpfulness,hand soap,24,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,9ca18276aa0d,227,94,1795792085,a99ed568571279e4
+gpt-oss-20b,helpfulness,hand soap,24,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,95241a7678b1,234,59,1795792087,e3bb09d5dea70f20
+gpt-oss-20b,helpfulness,hand soap,24,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,6f25b7ea3030,246,57,1795792090,1c15c39a21ea86d7
+gpt-oss-20b,helpfulness,hand soap,24,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,5a06699ab810,235,163,1795792092,703e2571641bcef5
+gpt-oss-20b,helpfulness,laundry detergent,0,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,25cb8d867918,160,65,1795792095,e0b1c5030d871029
+gpt-oss-20b,helpfulness,laundry detergent,0,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,2ecb4d81297b,167,127,1795792097,49350f96ff1c92f7
+gpt-oss-20b,helpfulness,laundry detergent,0,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,aa6a23153ddd,179,118,1795792100,814489b314b57512
+gpt-oss-20b,helpfulness,laundry detergent,0,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,92d5092b8413,168,82,1795792102,6d1ee9b9d2f025bc
+gpt-oss-20b,helpfulness,laundry detergent,1,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,6cb1e6fba3bd,184,84,1795792105,633b0ca23e8c3235
+gpt-oss-20b,helpfulness,laundry detergent,1,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,8648baeb2b50,191,78,1795792107,4fdc1126b88e3882
+gpt-oss-20b,helpfulness,laundry detergent,1,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,c16cbc6783b2,203,53,1795792110,b81884ef52cc13af
+gpt-oss-20b,helpfulness,laundry detergent,1,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,99f6fd0809f5,192,113,1795792112,2e02eaf469bb83d3
+gpt-oss-20b,helpfulness,laundry detergent,2,none,,2,RATING: 2,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,45dfc9721b6a,221,156,1795792115,f95a2e64cbe4898f
+gpt-oss-20b,helpfulness,laundry detergent,2,ai,,2,RATING: 2,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,dd441d604913,228,122,1795792117,5cd544c726ba2d00
+gpt-oss-20b,helpfulness,laundry detergent,2,effort,,?,,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,eaa67cc32d29,240,200,1795792120,6b53d5e819f27be8
+gpt-oss-20b,helpfulness,laundry detergent,2,placebo,,2,RATING: 2,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,f1a7a0ad2e6b,229,107,1795792212,fbcbc221889027ed
+gpt-oss-20b,helpfulness,laundry detergent,3,none,,7,RATING: 7,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,4f6bb64b9230,272,55,1795792213,a77bee127580e31c
+gpt-oss-20b,helpfulness,laundry detergent,3,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,5aaafdf377a3,279,73,1795792213,4d71f8ce39dc909b
+gpt-oss-20b,helpfulness,laundry detergent,3,effort,,7,RATING: 7,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,058d89b8ddad,291,60,1795792213,4d869955b89174ff
+gpt-oss-20b,helpfulness,laundry detergent,3,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,5f27020fc0b7,280,64,1795792214,969ebb3354e79590
+gpt-oss-20b,helpfulness,laundry detergent,4,none,,1,RATING: 1,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b1f3221f67b8,163,75,1795792214,61d70f0ed0b11982
+gpt-oss-20b,helpfulness,laundry detergent,4,ai,,1,RATING: 1,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,0291612e5290,170,70,1795792214,3d3aba7868824137
+gpt-oss-20b,helpfulness,laundry detergent,4,effort,,2,RATING: 2,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,58dc766562bc,182,81,1795792215,1de3f50920faa266
+gpt-oss-20b,helpfulness,laundry detergent,4,placebo,,1,RATING: 1,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,00edfb9deb65,171,81,1795792215,b13969c0d7a28da6
+gpt-oss-20b,helpfulness,laundry detergent,5,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,f54e965e0dd2,189,86,1795792216,14b46a12f3b82786
+gpt-oss-20b,helpfulness,laundry detergent,5,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,4bd65b99af5e,196,88,1795792216,b0ec7bdb45e4a850
+gpt-oss-20b,helpfulness,laundry detergent,5,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,62e68ad757dc,208,71,1795792217,21db96e86e9f3d91
+gpt-oss-20b,helpfulness,laundry detergent,5,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,105dc473e87a,197,86,1795792217,7c68f60e0e8375c3
+gpt-oss-20b,helpfulness,laundry detergent,6,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,c34813c07843,160,126,1795792218,bf53848f784e0b25
+gpt-oss-20b,helpfulness,laundry detergent,6,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,23cba436383d,167,68,1795792218,7a6d84c66540cbe3
+gpt-oss-20b,helpfulness,laundry detergent,6,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,745a32c5f2e3,179,168,1795792219,3aba6d6ae3b3c959
+gpt-oss-20b,helpfulness,laundry detergent,6,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,8daa0b493923,168,77,1795792219,9db66b14fe28a654
+gpt-oss-20b,helpfulness,laundry detergent,7,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,3536c465ab74,223,59,1795792219,b8bcb6ba0b543310
+gpt-oss-20b,helpfulness,laundry detergent,7,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,93c84689e3ae,230,59,1795792220,d26d206ea5256da4
+gpt-oss-20b,helpfulness,laundry detergent,7,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,6db362aad6da,242,80,1795792220,cb40105b99fa7973
+gpt-oss-20b,helpfulness,laundry detergent,7,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,0c6b9037867d,231,58,1795792221,a3233735deec21bf
+gpt-oss-20b,helpfulness,laundry detergent,8,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,f79a3f55b4c1,177,89,1795792221,38959de2cc0f53a3
+gpt-oss-20b,helpfulness,laundry detergent,8,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,ee9d7f0cf3bb,184,89,1795792222,95a392ae210dd031
+gpt-oss-20b,helpfulness,laundry detergent,8,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,ce4f0fd3a572,196,78,1795792222,0338b5563300e8ca
+gpt-oss-20b,helpfulness,laundry detergent,8,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,e2587d731949,185,101,1795792222,cff21a28ed4ea98c
+gpt-oss-20b,helpfulness,laundry detergent,9,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,58f7b5b6d69f,235,73,1795792223,cfb0c1cb4881f7aa
+gpt-oss-20b,helpfulness,laundry detergent,9,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,32e064164562,242,59,1795792223,fc1620ab157f1eab
+gpt-oss-20b,helpfulness,laundry detergent,9,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,196a1f0c5ae5,254,54,1795792273,2177af97b54358e8
+gpt-oss-20b,helpfulness,laundry detergent,9,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,28ecd089a9fc,243,52,1795792273,05984365bb39837a
+gpt-oss-20b,helpfulness,laundry detergent,10,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,1c29d1aab855,194,78,1795792274,b8488ebd9109fa16
+gpt-oss-20b,helpfulness,laundry detergent,10,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,97d31919d8b3,201,75,1795792274,0b9c35a4aa6069b3
+gpt-oss-20b,helpfulness,laundry detergent,10,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,dc862d75dc56,213,86,1795792274,89ef222d8fb20f63
+gpt-oss-20b,helpfulness,laundry detergent,10,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,44fbe249ff22,202,75,1795792275,852fd41476cfb380
+gpt-oss-20b,helpfulness,laundry detergent,11,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b9b0cdfdc653,184,72,1795792275,2ed080df60e26b39
+gpt-oss-20b,helpfulness,laundry detergent,11,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,facebcd646d5,191,82,1795792276,455a8757b33eb0ad
+gpt-oss-20b,helpfulness,laundry detergent,11,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,4635285a3375,203,65,1795792276,a1247a3a1fe7316d
+gpt-oss-20b,helpfulness,laundry detergent,11,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,f45ba025f545,192,77,1795792277,1f4c7f802f7f096f
+gpt-oss-20b,helpfulness,laundry detergent,12,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,f87dc97c0eab,159,66,1795792277,3fc6d18102c3e901
+gpt-oss-20b,helpfulness,laundry detergent,12,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,8664a7d02efc,166,76,1795792277,4bef5a27293dff42
+gpt-oss-20b,helpfulness,laundry detergent,12,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,8fbb46a13c6c,178,64,1795792278,f057d5824ebed2ea
+gpt-oss-20b,helpfulness,laundry detergent,12,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,ec84c52bc403,167,67,1795792278,27af9b3b3b1f3a1e
+gpt-oss-20b,helpfulness,laundry detergent,13,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,bd035cf31efd,227,91,1795792278,0e4b328249bd4cd8
+gpt-oss-20b,helpfulness,laundry detergent,13,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,9cd42ac30cd6,234,94,1795792279,e301cb0c550e6dd2
+gpt-oss-20b,helpfulness,laundry detergent,13,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,af516058ec6b,246,90,1795792279,3726bfd19bce9710
+gpt-oss-20b,helpfulness,laundry detergent,13,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,76b386c06bcd,235,82,1795792280,c4c70a0586c17209
+gpt-oss-20b,helpfulness,laundry detergent,14,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,069686ab4953,241,82,1795792280,dddb57edf61dd932
+gpt-oss-20b,helpfulness,laundry detergent,14,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,9b151e8a835c,248,85,1795792281,ee839497544d1851
+gpt-oss-20b,helpfulness,laundry detergent,14,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,73070bdea0bf,260,83,1795792281,75784668a539b6f0
+gpt-oss-20b,helpfulness,laundry detergent,14,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,32e5e9ad33db,249,100,1795792281,fabdb5c3f6ac70d9
+gpt-oss-20b,helpfulness,laundry detergent,15,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b5dc5d6e1ce6,167,114,1795792281,ddf451f7b33e793d
+gpt-oss-20b,helpfulness,laundry detergent,15,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,3d97f4cff7fa,174,91,1795792282,b2cf363912e0d3b2
+gpt-oss-20b,helpfulness,laundry detergent,15,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,8b7ada694286,186,154,1795792283,b069d6aa54120ecb
+gpt-oss-20b,helpfulness,laundry detergent,15,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,38005347f8f3,175,90,1795792283,4e45a8fc2909fb3a
+gpt-oss-20b,helpfulness,laundry detergent,16,none,,1,RATING: 1,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,544bb6f07879,217,132,1795792284,cee838a4a711c6ab
+gpt-oss-20b,helpfulness,laundry detergent,16,ai,,2,RATING: 2,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,5f344e1553e5,224,121,1795792333,14a0590a076b5f87
+gpt-oss-20b,helpfulness,laundry detergent,16,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,47cf277f02f6,236,185,1795796693,b5fe95b4363a79b9
+gpt-oss-20b,helpfulness,laundry detergent,16,placebo,,1,RATING: 1,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,392a5e08443c,225,168,1795796694,1f9d43e2f6aa42f8
+gpt-oss-20b,helpfulness,laundry detergent,17,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,08f7468dfee1,166,101,1795796694,227e2dcc8d0c4c29
+gpt-oss-20b,helpfulness,laundry detergent,17,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,e1c3bf388f52,173,68,1795796695,aab84accff8f357f
+gpt-oss-20b,helpfulness,laundry detergent,17,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,7a706f7ce729,185,104,1795796695,5141a41439c9cfd7
+gpt-oss-20b,helpfulness,laundry detergent,17,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,592f3246377b,174,68,1795796695,2d57ba6071ce7f7c
+gpt-oss-20b,helpfulness,laundry detergent,18,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,a48affd6b611,214,87,1795796696,c153fcf1c9177c92
+gpt-oss-20b,helpfulness,laundry detergent,18,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,670675b76c19,221,86,1795796696,92b341e65f4f57fe
+gpt-oss-20b,helpfulness,laundry detergent,18,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,10114b50efc5,233,76,1795796697,5ad98ce8c0f60700
+gpt-oss-20b,helpfulness,laundry detergent,18,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,71af1b50aab6,222,81,1795796697,2572546c59e57a2c
+gpt-oss-20b,helpfulness,laundry detergent,19,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,ec6b799d0d9a,174,104,1795796698,d687a35cc882d77e
+gpt-oss-20b,helpfulness,laundry detergent,19,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b2e176476cca,181,103,1795796698,1fadec7efb634255
+gpt-oss-20b,helpfulness,laundry detergent,19,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,efdf850d735c,193,146,1795796699,ce49a44d0ec81aa4
+gpt-oss-20b,helpfulness,laundry detergent,19,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,23e70a27e2f9,182,116,1795796699,985e3da993fc1f65
+gpt-oss-20b,helpfulness,laundry detergent,20,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,942d1afbfa12,250,114,1795796700,a4aede04d68eeb5c
+gpt-oss-20b,helpfulness,laundry detergent,20,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b955c85e80d0,257,117,1795796700,3a3729124222c87d
+gpt-oss-20b,helpfulness,laundry detergent,20,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,43ada50f45e2,269,77,1795796701,236880c322a892b3
+gpt-oss-20b,helpfulness,laundry detergent,20,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,bee76eeb1503,258,96,1795796701,ca8a8d69494a821b
+gpt-oss-20b,helpfulness,laundry detergent,21,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,cdb19569653f,266,65,1795796702,94ecd5cbcf225407
+gpt-oss-20b,helpfulness,laundry detergent,21,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,15d815b837ac,273,65,1795796702,61ef9bac5c5675e8
+gpt-oss-20b,helpfulness,laundry detergent,21,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,128369f0e82f,285,59,1795796703,14140d51fc44f370
+gpt-oss-20b,helpfulness,laundry detergent,21,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,dc74e8a13e0f,274,65,1795796704,90d6315ff97bfc49
+gpt-oss-20b,helpfulness,laundry detergent,22,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,78adb5414369,267,49,1795796704,e66b2725584d805e
+gpt-oss-20b,helpfulness,laundry detergent,22,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,1900b9009b56,274,48,1795796704,da1013a0b05ddcda
+gpt-oss-20b,helpfulness,laundry detergent,22,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,6bb964ee6538,286,46,1795796705,4ccf5de7b7fe62ef
+gpt-oss-20b,helpfulness,laundry detergent,22,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,50fe75b9357f,275,63,1795796754,9e9b8ad3b8eb25ce
+gpt-oss-20b,helpfulness,laundry detergent,23,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,8a729a63a666,234,119,1795796755,a752d8d43c7c78ca
+gpt-oss-20b,helpfulness,laundry detergent,23,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,a2abfdd10aae,241,130,1795796755,2b31a4323d856845
+gpt-oss-20b,helpfulness,laundry detergent,23,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,d4acdceda7de,253,121,1795796756,a7236b75926ecc0a
+gpt-oss-20b,helpfulness,laundry detergent,23,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,ad6508d2fe7a,242,65,1795796756,569dec544f22e472
+gpt-oss-20b,helpfulness,laundry detergent,24,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,1f67bed632fb,200,60,1795796756,4aed4d0a067bcef4
+gpt-oss-20b,helpfulness,laundry detergent,24,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,7dda211a5c66,207,60,1795796757,5c0aec9959f3a154
+gpt-oss-20b,helpfulness,laundry detergent,24,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,41974919589b,219,52,1795796757,812c909490ac116b
+gpt-oss-20b,helpfulness,laundry detergent,24,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,9dc5c5aa7052,208,78,1795796758,b7ac422e6c7db9b1
+gpt-oss-20b,helpfulness,toothbrush,0,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,2349eceff2df,224,109,1795796758,f8027acfeb105e4a
+gpt-oss-20b,helpfulness,toothbrush,0,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,ce23c4c0452f,231,105,1795796759,60d19978b7cee4ec
+gpt-oss-20b,helpfulness,toothbrush,0,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,5272fd2ad8ef,243,59,1795796759,54c1d6d791d4a226
+gpt-oss-20b,helpfulness,toothbrush,0,placebo,,?,,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,51dd3e60deee,232,200,1795796760,11db7723aaa6426d
+gpt-oss-20b,helpfulness,toothbrush,1,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,0005e8e5bd5c,175,88,1795796761,fe1aa35ed54c9d13
+gpt-oss-20b,helpfulness,toothbrush,1,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,0d8527269763,182,71,1795796761,bfc3b11342c73055
+gpt-oss-20b,helpfulness,toothbrush,1,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,edcd46332e59,194,200,1795796762,72514b3b10441215
+gpt-oss-20b,helpfulness,toothbrush,1,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,d8b108a1d477,183,94,1795796762,189849d6e84edc93
+gpt-oss-20b,helpfulness,toothbrush,2,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,a47057787113,203,109,1795796762,c75d138466edaeb7
+gpt-oss-20b,helpfulness,toothbrush,2,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,4b77f41b982b,210,125,1795796763,f932ec286dffd4e1
+gpt-oss-20b,helpfulness,toothbrush,2,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b3651df60454,222,101,1795796764,1ff5b4874a91f6cb
+gpt-oss-20b,helpfulness,toothbrush,2,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,dd9ee3f0a6c7,211,113,1795796764,a67b7bb76e12e284
+gpt-oss-20b,helpfulness,toothbrush,3,none,,7,RATING: 7,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,6ba2c580e4e5,270,96,1795796764,cd6571c86ee3ad19
+gpt-oss-20b,helpfulness,toothbrush,3,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,47474096347f,277,62,1795796765,f01b38d285bb4f14
+gpt-oss-20b,helpfulness,toothbrush,3,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,626c6389ed72,289,78,1795796765,4357f24eb7032c91
+gpt-oss-20b,helpfulness,toothbrush,3,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,4a47a8500d59,278,74,1795796815,74689c032c54e17f
+gpt-oss-20b,helpfulness,toothbrush,4,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,98a3a63f9eb5,176,96,1795796815,9c4d6c6917cf79cb
+gpt-oss-20b,helpfulness,toothbrush,4,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,fc1a05192936,183,72,1795796815,b817e2ffd523a4b7
+gpt-oss-20b,helpfulness,toothbrush,4,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,119875a84253,195,117,1795796816,acd91124b02ab208
+gpt-oss-20b,helpfulness,toothbrush,4,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b76e7ed46d5a,184,52,1795796816,60c921ce9938b71e
+gpt-oss-20b,helpfulness,toothbrush,5,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,95dbc1a7fc54,276,62,1795796817,bff5f84ee66a76b1
+gpt-oss-20b,helpfulness,toothbrush,5,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,cf1e48a9b56b,283,59,1795796817,4fc2c195b935ace0
+gpt-oss-20b,helpfulness,toothbrush,5,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,3a5d4d828f12,295,58,1795796818,0df968d2f38ecf65
+gpt-oss-20b,helpfulness,toothbrush,5,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,d62502854913,284,60,1795796818,3c121c5421a09407
+gpt-oss-20b,helpfulness,toothbrush,6,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,6867629fff76,268,92,1795796818,8b63cac480ae440f
+gpt-oss-20b,helpfulness,toothbrush,6,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,4657722449cd,275,61,1795796819,b0c185d131b1b2fc
+gpt-oss-20b,helpfulness,toothbrush,6,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,742836405bea,287,81,1795796820,2a86b124c0a8ebb5
+gpt-oss-20b,helpfulness,toothbrush,6,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,38c778e5de5a,276,61,1795796821,e412ead7a23a8304
+gpt-oss-20b,helpfulness,toothbrush,7,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,360c674261dd,169,107,1795796821,0befa1298c54359e
+gpt-oss-20b,helpfulness,toothbrush,7,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,09b04460f0e3,176,69,1795796822,19ed87228325e093
+gpt-oss-20b,helpfulness,toothbrush,7,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,d94d25daba58,188,83,1795796822,e61cbc283f11e0bf
+gpt-oss-20b,helpfulness,toothbrush,7,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,cb459180bbe1,177,67,1795796823,0885afd5b8b50a7a
+gpt-oss-20b,helpfulness,toothbrush,8,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b40d26be87f2,289,61,1795796823,6f3f10394e973b79
+gpt-oss-20b,helpfulness,toothbrush,8,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,0d95dc4c0e5a,296,44,1795796823,a889b2840f571199
+gpt-oss-20b,helpfulness,toothbrush,8,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,4d5b7b72f3d5,308,66,1795796824,bb7acbd8765ddcb9
+gpt-oss-20b,helpfulness,toothbrush,8,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,3ed3c10bfcbb,297,49,1795796824,740fccb0ae67e88f
+gpt-oss-20b,helpfulness,toothbrush,9,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,94a6575df3f2,234,76,1795796825,69d9724990d1d0a0
+gpt-oss-20b,helpfulness,toothbrush,9,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,a21006d67f59,241,78,1795796825,91b5fa14e242b36c
+gpt-oss-20b,helpfulness,toothbrush,9,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,e3b289a06132,253,97,1795796826,90804aa3611cdab2
+gpt-oss-20b,helpfulness,toothbrush,9,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,a5e319feb391,242,91,1795796826,6bc52b90300e1367
+gpt-oss-20b,helpfulness,toothbrush,10,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,2b97125f6a8d,169,162,1795796875,2881520833f5b163
+gpt-oss-20b,helpfulness,toothbrush,10,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,cc9b44c697cd,176,118,1795796876,f5d78ce03f3ab183
+gpt-oss-20b,helpfulness,toothbrush,10,effort,,?,R,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,fd902379cb14,188,200,1795796876,56fe3e05ccf7db7b
+gpt-oss-20b,helpfulness,toothbrush,10,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,542e46c54767,177,108,1795796877,f14fa31044944cb4
+gpt-oss-20b,helpfulness,toothbrush,11,none,,7,RATING: 7,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,e1231fff28c3,285,69,1795796877,eb505944653a50f7
+gpt-oss-20b,helpfulness,toothbrush,11,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b5178b7a0946,292,68,1795796878,129d9bf60196b394
+gpt-oss-20b,helpfulness,toothbrush,11,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,a4f7160bcf7a,304,66,1795796878,15d365be0781f581
+gpt-oss-20b,helpfulness,toothbrush,11,placebo,,7,RATING: 7,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,3caa79a02b56,293,68,1795796879,899836a4a74fa900
+gpt-oss-20b,helpfulness,toothbrush,12,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,a8f5d777bea1,169,191,1795796879,01a26f488c913e0d
+gpt-oss-20b,helpfulness,toothbrush,12,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,8a921a605948,176,176,1795796880,ba90966f70a3ecd6
+gpt-oss-20b,helpfulness,toothbrush,12,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,c6e0cdcabd3c,188,171,1795796881,8bad771c8201d6a0
+gpt-oss-20b,helpfulness,toothbrush,12,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,ae53bd3d25fd,177,127,1795796881,7bd4ae8203fbdb6c
+gpt-oss-20b,helpfulness,toothbrush,13,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,905f785ac90f,170,100,1795796882,214d5f74c9028067
+gpt-oss-20b,helpfulness,toothbrush,13,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,f08f0306a13d,177,81,1795796882,325e0536c3995771
+gpt-oss-20b,helpfulness,toothbrush,13,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,54db8fa93061,189,72,1795796883,57b1cbf049277527
+gpt-oss-20b,helpfulness,toothbrush,13,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,3a20652a3e4b,178,82,1795796883,66f40ce96d3dc402
+gpt-oss-20b,helpfulness,toothbrush,14,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,8114727600f7,195,143,1795796884,793cae2915f47292
+gpt-oss-20b,helpfulness,toothbrush,14,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,0ea41c3b2250,202,147,1795796884,29a05d85bac0bef3
+gpt-oss-20b,helpfulness,toothbrush,14,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,fb312970860e,214,94,1795796885,8f3c616a508e6e59
+gpt-oss-20b,helpfulness,toothbrush,14,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,c77d4b95f986,203,99,1795796885,1b7c5a0c49d3a702
+gpt-oss-20b,helpfulness,toothbrush,15,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,44ae22998d9e,206,80,1795796886,a2115cbd38cecfd3
+gpt-oss-20b,helpfulness,toothbrush,15,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,68ebc22b1b71,213,81,1795796886,003724c8d286f9e3
+gpt-oss-20b,helpfulness,toothbrush,15,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,79a5d4dfb6c2,225,74,1795796886,a3e0e1da0fabbd10
+gpt-oss-20b,helpfulness,toothbrush,15,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,952e6ac7c116,214,72,1795796887,4ac86d7d7da71d41
+gpt-oss-20b,helpfulness,toothbrush,16,none,,3,RATING: 3,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,036f34cf752c,192,188,1795796887,0ec14f6ad6821f42
+gpt-oss-20b,helpfulness,toothbrush,16,ai,,?,,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,6b189b9ebb7b,199,200,1795796936,c0bcc1d764d9f54d
+gpt-oss-20b,helpfulness,toothbrush,16,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,c053579b8444,211,106,1795796936,4a0141bd623f3410
+gpt-oss-20b,helpfulness,toothbrush,16,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,d9288640b987,200,171,1795796937,463bf6b9fcbef90f
+gpt-oss-20b,helpfulness,toothbrush,17,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,77c4fc5718ec,170,80,1795796938,c1dda8a9c9e93e1a
+gpt-oss-20b,helpfulness,toothbrush,17,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,9b395f84859c,177,125,1795796938,733d8dab8c031d05
+gpt-oss-20b,helpfulness,toothbrush,17,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,07f411412206,189,123,1795796939,963a6fa207280494
+gpt-oss-20b,helpfulness,toothbrush,17,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b2f3b523ad88,178,71,1795796939,b3c066eac2242d22
+gpt-oss-20b,helpfulness,toothbrush,18,none,,3,RATING: 3,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,8b63369d0074,174,98,1795796940,52e8d6d6336e9799
+gpt-oss-20b,helpfulness,toothbrush,18,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,31a9f274cdaf,181,95,1795796940,fa10572bd1552426
+gpt-oss-20b,helpfulness,toothbrush,18,effort,,2,RATING: 2,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,28ab67dc1f55,193,118,1795796941,19d21e589d961660
+gpt-oss-20b,helpfulness,toothbrush,18,placebo,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,b8dd5e7ae2f6,182,95,1795796941,c126ca9857783b81
+gpt-oss-20b,helpfulness,toothbrush,19,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,456713f60cff,251,75,1795796941,1dd9ae64d4108f76
+gpt-oss-20b,helpfulness,toothbrush,19,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,03b375b6ebf7,258,89,1795796942,c6afdd5eb022881a
+gpt-oss-20b,helpfulness,toothbrush,19,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,e557a1d9cdde,270,68,1795796943,9dca8737c02b5f62
+gpt-oss-20b,helpfulness,toothbrush,19,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,8b80c1715da4,259,66,1795796943,3ff113e6fef2a64c
+gpt-oss-20b,helpfulness,toothbrush,20,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,c8ab6fd38716,214,75,1795796943,3bfc5b8dda5727d0
+gpt-oss-20b,helpfulness,toothbrush,20,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,ca26bb9165de,221,56,1795796944,8b3ceb73cf827886
+gpt-oss-20b,helpfulness,toothbrush,20,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,e0465ba1a59b,233,64,1795796944,24fa2299a25232a0
+gpt-oss-20b,helpfulness,toothbrush,20,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,7cd74861ab16,222,64,1795796945,cbdf73affda1f5f3
+gpt-oss-20b,helpfulness,toothbrush,21,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,fa9c050894c5,198,110,1795796945,7278cc3ad1e87813
+gpt-oss-20b,helpfulness,toothbrush,21,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,f441edfcacd5,205,92,1795796946,d81d605a6331c82a
+gpt-oss-20b,helpfulness,toothbrush,21,effort,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,fe0dcf1223ba,217,164,1795796946,a421d709befb89e6
+gpt-oss-20b,helpfulness,toothbrush,21,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,d5432de7db05,206,122,1795796947,7cfc3c39ed28c7c8
+gpt-oss-20b,helpfulness,toothbrush,22,none,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,2c143d83fb9c,205,84,1795796948,ad3ebb6bf93e1143
+gpt-oss-20b,helpfulness,toothbrush,22,ai,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,208db0a73f05,212,50,1795796948,19cf28d379707e34
+gpt-oss-20b,helpfulness,toothbrush,22,effort,,?,,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,1f4c4ca79766,224,200,1795796949,987de7a75c118bdd
+gpt-oss-20b,helpfulness,toothbrush,22,placebo,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,f0db9c2c3951,213,72,1795796997,057a088401dc2292
+gpt-oss-20b,helpfulness,toothbrush,23,none,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,84d47d228df6,183,96,1795796997,7465af483bd31297
+gpt-oss-20b,helpfulness,toothbrush,23,ai,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,03989dbe5094,190,60,1795796998,d96ca37009d9845b
+gpt-oss-20b,helpfulness,toothbrush,23,effort,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,97c7a6ee354d,202,104,1795796998,00f75f5340af21c4
+gpt-oss-20b,helpfulness,toothbrush,23,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,1ee0faebbdce,191,103,1795796999,38df540a8e3ce7cc
+gpt-oss-20b,helpfulness,toothbrush,24,none,,4,RATING: 4,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,cf56ec8d706f,174,70,1795796999,54244adc20a7f435
+gpt-oss-20b,helpfulness,toothbrush,24,ai,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,06bc417db942,181,69,1795797000,cb95c621ff610e73
+gpt-oss-20b,helpfulness,toothbrush,24,effort,,6,RATING: 6,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,01ff0fcbc288,193,108,1795797000,2769af4c1d31bac7
+gpt-oss-20b,helpfulness,toothbrush,24,placebo,,5,RATING: 5,1,,,,groq,openai/gpt-oss-20b,plain,emitted_only,0f32c39326dd,182,65,1795797000,183e11603049f902

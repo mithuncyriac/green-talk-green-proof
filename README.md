@@ -150,9 +150,56 @@ python scripts/label_interaction.py results/04_label_audit_*.csv --boot 2000
 # 7. figures and process artefacts
 python scripts/build_findings.py
 python make_visuals.py
+
+# 8. the multi-model fan-out: the same study against hosted models, to answer "n=2 is not a finding"
+python scripts/test_prompt_parity.py                      # must pass first; see below
+python scripts/fanout_run.py --dry-run --kinds helpfulness
+python scripts/fanout_run.py --probe  --kinds helpfulness  # reachable? logprobs? format?
+python scripts/fanout_run.py --kinds helpfulness           # resumable; rerun to continue
 ```
 
 The stimuli files are not included, because they contain review text. `agent_build.py` and `label_build.py` rebuild them from the data with fixed random seeds.
+
+### Step 8: the fan-out, and why it is built the way it is
+
+Every reviewer of this project named the same limitation: two quantised 7B/8B models is n=2
+at the model level. This machine has **8,192 MiB of VRAM** and cannot hold anything larger,
+so the answer is not a better local model but the same study run against hosted ones through
+the OpenAI-compatible endpoint every provider now speaks — Ollama included, which means local
+and hosted runs go down one code path and stay comparable.
+
+Four properties it needs, because it runs for days unattended:
+
+- **Resumable.** Free tiers cap tokens per day. Every row carries a deterministic cell id; a
+  rerun of the same command skips completed cells. Ctrl-C loses at most the call in flight.
+- **Budgeted.** Requests/minute, requests/day and tokens/day are enforced against
+  `scripts/providers.json`, with daily counters persisted in `results/fanout/state.json`.
+  **Set those caps from your own account page, not from a docs page** — Groq's rate-limits
+  page lists `gpt-oss-120b` at 1,000 requests a day but also says those are base limits for
+  the Developer plan and does not label a free-tier table, so the shipped values are a
+  conservative guess and are marked as one.
+- **Honest about scoring.** The pilot scored an expected rating over the token logprob
+  distribution, not the emitted digit. Not every provider returns logprobs. Where they are
+  missing, `score_mode=emitted_only` is recorded **per row**, so an expected-rating analysis
+  can only pool the models that actually returned distributions. A missing distribution is
+  never silently treated as a present one.
+- **Byte-identical prompts.** `scripts/prompts.py` holds the prompt builders; the fan-out
+  imports them. `scripts/test_prompt_parity.py` lifts the originals out of `label_run2.py`
+  and `agent_run.py` with `ast` and fails if a single character has drifted, because hosted
+  results that are not comparable with the published pilot are worth nothing.
+
+**Measured cost per model** (`--dry-run` counts the real prompts, it does not estimate):
+helpfulness 400 calls / 71,855 tokens; dominance 80 / 83,946; choice 800 / **759,446**. The
+choice half costs 949 tokens a call against the rating half's 180, because a choice prompt
+carries two full listings. **So run `--kinds helpfulness` across every model first** — one
+day per model on a 200K/day cap, and it carries the hypotheses the fan-out exists to test.
+
+**One local gotcha, already paid for once.** The `/v1` endpoint has no `keep_alive`, and when
+keep_alive stopped holding on 25 November every call paid a 42.5 s model load against 2.1 s of
+evaluation, turning 13 minutes into about 19 hours. The runner now pre-warms via the native
+endpoint and warns if the median call time says the model is being reloaded. Measured after
+the fix: **0.96 s median**, down from 49.2 s. `run_meta_*.json` records the latency
+distribution, so a timing claim from it is checkable.
 
 ## Data and terms
 
