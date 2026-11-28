@@ -65,7 +65,9 @@ def main():
                          "mean": mean, "lo": mean - 1.96 * se, "hi": mean + 1.96 * se,
                          "p": p, "eq": p < .05})
 
-    W, H = 1180, 150 + len(rows) * 74 + 150
+    # +166, not +150: the footnote block is four lines now that the bound
+    # sentence is split in two, and the fourth was landing on the third.
+    W, H = 1180, 150 + len(rows) * 74 + 166
     L, R = 330, W - 215
     span = 0.12
 
@@ -109,9 +111,13 @@ def main():
 
     note = ("A non-significant difference is not evidence of equivalence. This is the test that "
             "is: two one-sided tests against a bound fixed before looking.")
-    note2 = ("The bound matters. Five points is a quarter of the ~20-point lift the models show "
-             "for having any green claim at all, so equivalence within 5 points means the "
-             "substantiation is worth little next to the claim.")
+    # Split in two. As one line it is about 200 characters, roughly 1230px at
+    # 12.3px on a 1180px canvas, so it reached the right frame edge and the last
+    # words sat on it. Found 28 Nov 2026 by check_figures.py.
+    note2 = ("The bound matters. Five points is a quarter of the ~20-point lift the models "
+             "show for having any green claim at all,")
+    note2b = ("so equivalence within 5 points means the substantiation is worth little next "
+              "to the claim.")
     out = ['<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 %d %d" '
            'font-family="%s">' % (W, H, W, H, FONT),
            '<rect width="%d" height="%d" fill="%s"/>' % (W, H, SURFACE),
@@ -120,8 +126,9 @@ def main():
            txt(40, 58, "Same product, same price, same star rating. Only the wording of one "
                        "extra review changes.", 13, INK2),
            "\n".join(b),
-           txt(40, H - 46, note, 11.5, MUTED),
-           txt(40, H - 30, note2, 11.5, MUTED),
+           txt(40, H - 62, note, 11.5, MUTED),
+           txt(40, H - 46, note2, 11.5, MUTED),
+           txt(40, H - 30, note2b, 11.5, MUTED),
            txt(40, H - 14, "Paired by task, both display orders. Generated from "
                            "results/03_agent_audit_*.csv.", 11.5, MUTED),
            "</svg>"]

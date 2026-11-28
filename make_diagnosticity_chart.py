@@ -46,7 +46,9 @@ def main():
     if not series:
         raise SystemExit("no diagnosticity results found")
 
-    W, H = 1060, 560
+    # 590, not 560. The footnote sat 8px under the callout box and touched it.
+    # Found 28 Nov 2026 by looking at the rendered PNG. Added 28 Nov 2026.
+    W, H = 1060, 590
     L, R, TOP, BOT = 230, W - 230, 150, 400
     vals = [v for _, pts in series.values() for v in pts if v is not None]
     lo, hi = min(vals + [0]) - 0.4, max(vals) + 0.4
@@ -73,6 +75,27 @@ def main():
             b.append(txt(X(i), BOT + 28 + j * 15, line, 11.5,
                          C[7] if bold else INK2, "middle", bold=bold))
 
+    # Label positions are worked out across BOTH series before any is drawn, so two
+    # that land on the same x cannot print on top of each other. At "accurate about
+    # half" Qwen's +0.62 and Llama's +0.21 are 14px apart and both offset upward by
+    # 14, which put one exactly over the other. Found by looking at the PNG.
+    names = list(series)
+    lab_y = {}
+    for i in range(len(ORDER)):
+        here = [(n, series[n][1][i]) for n in names if series[n][1][i] is not None]
+        for n, v in here:
+            lab_y[(n, i)] = Y(v) - 14 if v >= 0 else Y(v) + 24
+        if len(here) == 2:
+            (n1, v1), (n2, v2) = here
+            lo_n, lo_v = (n1, v1) if v1 < v2 else (n2, v2)
+            hi_n, hi_v = (n2, v2) if v1 < v2 else (n1, v1)
+            # The clash is not label against label, it is the lower label against
+            # the HIGHER SERIES' marker and line. At "accurate about half" Llama's
+            # +0.21 label landed 8px from Qwen's data point and printed through
+            # the blue line. Compare against the point, not the other label.
+            if abs(lab_y[(lo_n, i)] - Y(hi_v)) < 18:
+                lab_y[(lo_n, i)] = Y(lo_v) + 24
+
     for name, (col, pts) in series.items():
         path = " ".join("%s %.1f %.1f" % ("M" if i == 0 else "L", X(i), Y(v))
                         for i, v in enumerate(pts) if v is not None)
@@ -81,7 +104,7 @@ def main():
             if v is None:
                 continue
             b.append('<circle cx="%.1f" cy="%.1f" r="6" fill="%s"/>' % (X(i), Y(v), col))
-            b.append(txt(X(i), Y(v) - 14 if v >= 0 else Y(v) + 24, "%+.2f" % v, 11.5,
+            b.append(txt(X(i), lab_y[(name, i)], "%+.2f" % v, 11.5,
                          col, "middle", bold=True))
         last = next(i for i in range(len(pts) - 1, -1, -1) if pts[i] is not None)
         b.append(txt(X(last) + 16, Y(pts[last]) + 4, name, 12.5, col, "start", bold=True))

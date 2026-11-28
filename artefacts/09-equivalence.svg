@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="596" viewBox="0 0 1180 596" font-family="Calibri,Segoe UI,sans-serif">
-<rect width="1180" height="596" fill="#fcfcfb"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="612" viewBox="0 0 1180 612" font-family="Calibri,Segoe UI,sans-serif">
+<rect width="1180" height="612" fill="#fcfcfb"/>
 <text x="40.0" y="36.0" font-size="21" fill="#1F3B57" text-anchor="start" font-weight="bold">Can the agent tell a substantiated claim from an empty one?</text>
 <text x="40.0" y="58.0" font-size="13" fill="#52514e" text-anchor="start">Same product, same price, same star rating. Only the wording of one extra review changes.</text>
 <rect x="515.2" y="120" width="264.6" height="316" fill="#1baf7a" opacity="0.10"/>
@@ -46,6 +46,7 @@
 <text x="912.1" y="456.0" font-size="11" fill="#8a8984" text-anchor="middle">+10 pp</text>
 <text x="330.0" y="478.0" font-size="11.5" fill="#52514e" text-anchor="start">difference in the chance of choosing the product, specific claim minus vague claim</text>
 <text x="40.0" y="550.0" font-size="11.5" fill="#8a8984" text-anchor="start">A non-significant difference is not evidence of equivalence. This is the test that is: two one-sided tests against a bound fixed before looking.</text>
-<text x="40.0" y="566.0" font-size="11.5" fill="#8a8984" text-anchor="start">The bound matters. Five points is a quarter of the ~20-point lift the models show for having any green claim at all, so equivalence within 5 points means the substantiation is worth little next to the claim.</text>
-<text x="40.0" y="582.0" font-size="11.5" fill="#8a8984" text-anchor="start">Paired by task, both display orders. Generated from results/03_agent_audit_*.csv.</text>
+<text x="40.0" y="566.0" font-size="11.5" fill="#8a8984" text-anchor="start">The bound matters. Five points is a quarter of the ~20-point lift the models show for having any green claim at all,</text>
+<text x="40.0" y="582.0" font-size="11.5" fill="#8a8984" text-anchor="start">so equivalence within 5 points means the substantiation is worth little next to the claim.</text>
+<text x="40.0" y="598.0" font-size="11.5" fill="#8a8984" text-anchor="start">Paired by task, both display orders. Generated from results/03_agent_audit_*.csv.</text>
 </svg>
