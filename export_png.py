@@ -3,7 +3,8 @@
 """
 Export every SVG in artefacts/ to artefacts/png/ at its own declared size.
 
-    python export_png.py                 # all of them
+    python export_png.py                 # all of them, at 2x
+    python export_png.py --scale=1       # at the SVG's own pixel size
     python export_png.py 09-equivalence  # one, by stem
 
 WHY A BROWSER AND NOT A LIBRARY
@@ -75,7 +76,12 @@ def png_size(path):
 
 def main():
     exe = browser()
-    wanted = sys.argv[1:]
+    argv = [a for a in sys.argv[1:] if not a.startswith("--scale")]
+    scale = 2
+    for a in sys.argv[1:]:
+        if a.startswith("--scale="):
+            scale = int(a.split("=", 1)[1])
+    wanted = argv
     svgs = sorted(glob.glob(os.path.join(ART, "*.svg")))
     if wanted:
         svgs = [p for p in svgs
@@ -86,6 +92,7 @@ def main():
         os.makedirs(OUT)
 
     print("renderer: %s\n" % exe)
+    print("rendering at %dx device scale\n" % scale)
     print("%-28s %-12s %-12s %s" % ("figure", "declared", "rendered", ""))
     print("-" * 66)
     bad = []
@@ -102,6 +109,7 @@ def main():
         rc = subprocess.call(
             [exe, "--headless", "--disable-gpu", "--hide-scrollbars",
              "--default-background-color=ffffff",
+             "--force-device-scale-factor=%d" % scale,
              "--window-size=%d,%d" % (w, h),
              "--screenshot=%s" % dest,
              "file:///" + src.replace("\\", "/")],
@@ -113,13 +121,23 @@ def main():
             continue
         gw, gh = png_size(dest)
         note = "ok"
-        if (gw, gh) != (w, h):
+        if (gw, gh) != (w * scale, h * scale):
             note = "SIZE MISMATCH"
             bad.append(stem)
         elif before is None:
             note = "new"
         elif before != (gw, gh):
-            note = "was %dx%d, cropped before" % before
+            # Say WHAT changed. The first version called any change a crop, which
+            # was wrong for the Washmen set: those had been exported at 1.33x, so
+            # they were larger, not cropped. A label that is wrong in one of two
+            # directions is worse than no label.
+            ow, oh = before
+            if ow < w * scale and oh < h * scale and ow * h != oh * w:
+                note = "was %dx%d, cropped before" % before
+            elif ow * h == oh * w:
+                note = "was %dx%d, %.2fx scale before" % (ow, oh, float(ow) / w)
+            else:
+                note = "was %dx%d" % before
         print("%-28s %-12s %-12s %s"
               % (stem, "%dx%d" % (w, h), "%dx%d" % (gw, gh), note))
 
