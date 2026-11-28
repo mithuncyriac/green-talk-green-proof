@@ -26,6 +26,19 @@ here instead:
   OVERFLOW   a text node whose estimated width runs past the canvas edge
   OVERLAP    two text nodes whose estimated boxes intersect
 
+VALIDATED BY PLANTING THE DEFECTS BACK
+
+A check that passes everything proves nothing until it can fail. On 28 Nov 2026
+three deliberately broken copies of 10-diagnosticity.svg were made and all three
+were caught by the rule meant for them:
+
+    +0.21 moved back onto Qwen's line    -> ON A MARK
+    a title shifted off the right edge   -> OVERFLOW 360px
+    a title duplicated 3px below itself  -> OVERLAP
+
+The first is the one that matters. It is the defect that passed every text-level
+check in this project and was found only by opening the PNG.
+
 WHAT IT CANNOT DO
 
 It estimates text width from character count and font size, because measuring
@@ -98,6 +111,84 @@ def overlap(a, b):
     return ix > max(12.0, 0.22 * narrower)
 
 
+
+# --- geometry -------------------------------------------------------------
+# Text landing on a drawn LINE is the defect that got through every earlier
+# check: in 10-diagnosticity, Llama's +0.21 printed across Qwen's blue line and
+# only opening the PNG showed it. Lines are not text nodes, so the text-only
+# pass could never see it.
+#
+# Grid lines must not be flagged or every chart lights up. The rule here is
+# that a data mark is THICK (stroke-width >= 2) or a plotted point (a circle of
+# r >= 4), while grid lines in these figures are 1px. That is a property of how
+# make_visuals.py draws, not a universal truth, and it is the reason this check
+# belongs beside those scripts rather than anywhere else.
+LINE = re.compile(r"<line\s([^>]*)/>")
+CIRCLE = re.compile(r"<circle\s([^>]*)/>")
+POLY = re.compile(r'<polyline[^>]*points="([^"]*)"([^>]*)/>')
+PATH = re.compile(r'<path[^>]*d="([^"]*)"([^>]*)/>')
+NUM = re.compile(r"-?\d+\.?\d*")
+
+
+def _w(attrs):
+    m = re.search(r'stroke-width="([\d.]+)"', attrs)
+    return float(m.group(1)) if m else (1.0 if "stroke=" in attrs else 0.0)
+
+
+def marks(svg):
+    """Segments and points thick enough to be data rather than grid."""
+    out = []
+    for m in LINE.finditer(svg):
+        a = m.group(1)
+        if _w(a) < 2:
+            continue
+        at = dict(ATTR.findall(a))
+        try:
+            out.append(("seg", float(at["x1"]), float(at["y1"]),
+                        float(at["x2"]), float(at["y2"])))
+        except KeyError:
+            pass
+    for m in CIRCLE.finditer(svg):
+        at = dict(ATTR.findall(m.group(1)))
+        try:
+            r = float(at.get("r", 0))
+            if r >= 4:
+                out.append(("dot", float(at["cx"]), float(at["cy"]), r, 0))
+        except KeyError:
+            pass
+    for m in POLY.finditer(svg):
+        if _w(m.group(2)) < 2:
+            continue
+        n = [float(v) for v in NUM.findall(m.group(1))]
+        for i in range(0, len(n) - 3, 2):
+            out.append(("seg", n[i], n[i + 1], n[i + 2], n[i + 3]))
+    for m in PATH.finditer(svg):
+        if _w(m.group(2)) < 2:
+            continue
+        n = [float(v) for v in NUM.findall(m.group(1))]
+        for i in range(0, len(n) - 3, 2):
+            out.append(("seg", n[i], n[i + 1], n[i + 2], n[i + 3]))
+    return out
+
+
+def hits(box, mk):
+    """Does this text box sit on a data mark? Sampled, not solved."""
+    x0, y0, x1, y1 = box[0], box[1], box[2], box[3]
+    if mk[0] == "dot":
+        cx, cy, r = mk[1], mk[2], mk[3]
+        nx = min(max(cx, x0), x1)
+        ny = min(max(cy, y0), y1)
+        return (nx - cx) ** 2 + (ny - cy) ** 2 <= r * r
+    ax, ay, bx, by = mk[1], mk[2], mk[3], mk[4]
+    steps = max(2, int(max(abs(bx - ax), abs(by - ay)) / 3))
+    for i in range(steps + 1):
+        t = i / float(steps)
+        px, py = ax + (bx - ax) * t, ay + (by - ay) * t
+        if x0 <= px <= x1 and y0 <= py <= y1:
+            return True
+    return False
+
+
 def check(path):
     svg = open(path, encoding="utf-8").read()
     m = SIZE.search(svg)
@@ -121,6 +212,17 @@ def check(path):
         for j in range(i + 1, len(bs)):
             if overlap(bs[i], bs[j]):
                 issues.append("OVERLAP   %r / %r" % (bs[i][4][:34], bs[j][4][:34]))
+    mk = marks(svg)
+    for b in bs:
+        # Shrink the box a little first: a label legitimately sits close to its
+        # own line, and only a real crossing is worth reporting.
+        tight = (b[0] + 3, b[1] + 2, b[2] - 3, b[3] - 2)
+        if tight[0] >= tight[2] or tight[1] >= tight[3]:
+            continue
+        for m in mk:
+            if hits(tight, m):
+                issues.append("ON A MARK %r sits on a data line or point" % b[4][:44])
+                break
     return issues
 
 
